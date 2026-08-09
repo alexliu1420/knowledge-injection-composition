@@ -115,6 +115,14 @@ Code: MIT. Documentation, manuscript and figures: CC BY 4.0. See [`LICENSE`](LIC
 
 See [`CITATION.md`](CITATION.md).
 
-## AI assistance disclosure
+## Authorship and tooling
 
-Large language model assistants were used during development of this repository, including code drafting, analysis, figure generation, and preparation of the draft manuscript. They also proposed experimental designs and interpretations, six of which were subsequently withdrawn after tests contradicted them. All scientific claims, analysis choices, citations, and conclusions were reviewed and verified by the author, who takes full responsibility for the content.
+One human author, working with Claude (Anthropic) as an execution tool. Stated as a split rather than a single sentence, because the division of labour bears on how the interpretive claims should be read.
+
+**The human author** set the research direction and the problem framing; chose which questions were worth asking and which lines to abandon; and set the methodological standards the work was held to - a strong baseline before any intervention, matched compute and matched recall on every comparison, designs audited *before* long runs rather than after, novelty checked before writing, and negative results documented rather than quietly dropped. They made the resource and scoping decisions, decided when to stop diagnosing and attempt an intervention, and take full responsibility for every claim made here.
+
+**Claude** did the execution: literature search, all implementation (dataset construction from the knowledge graph, training, evaluation, analysis, figures), the statistics, and the drafting. Within that direction it also proposed specific experimental designs and interpretations - among them the four-arm token-matched comparison, the false-intermediate control, and the entity-quality test.
+
+**Why the distinction matters.** Claude proposed, and later withdrew, six interpretations over the course of the project. Each was overturned by a test - five by a follow-up experiment, one by a figure that contradicted its own caption. The standards that forced those tests to be run came from the author: insist on a control, audit the design before committing GPU time, check novelty before claiming it. **The claims that survive in the manuscript are the ones that came through that process, not the ones first proposed.** Two construction bugs were also caught by a pre-run audit rather than by the runs failing - an arm control that was 53.5% contaminated, and an evaluation subset covering three of six templates - either of which would have produced clean-looking but wrong numbers.
+
+Independent line-by-line review of the five analysis scripts behind the headline numbers has not yet been completed; the manuscript's *Authorship and tooling* section says so explicitly.

@@ -213,7 +213,7 @@ We therefore do not claim the group contrast generalises across templates. The d
 
 ### 5.7 Supporting results
 
-**Discriminative ≫ generative.** Base models answer relation questions at 0.83 discrimination and 0.03 generation across 16 relations × 60 items — a knowing-using gap one level below the main one, and the reason `anchor_margin` is a discriminative measure.
+**Discrimination far exceeds generation.** Base models answer relation questions at 0.83 discrimination and 0.03 generation across 16 relations × 60 items — a knowing-using gap one level below the main one, and the reason `anchor_margin` is a discriminative measure.
 
 **The anchored arm separates from the control during memorisation, and the control never separates.** Anchored composition rises +0.117 between epoch 10 and memorisation saturation at epoch 22, while the control moves −0.011 over the same window and is flat thereafter.
 
@@ -318,7 +318,7 @@ One human author, working with Claude (Anthropic) as an execution tool. The divi
 
 A dated log of who did what, and when, is in `CONTRIBUTIONS.md`.
 
-⚠ **Review status, stated accurately.** The human author reviewed the experimental design, the claims, and the interpretation throughout. **Independent line-by-line review of the five analysis scripts that produce the headline numbers** — `analyze_anchor_dose.py`, `analyze_arms.py`, `analyze_patching.py`, `test_false_bridge.py`, `analyze_policy.py` — **has not yet been completed.**
+**Review status, stated accurately.** The human author reviewed the experimental design, the claims, and the interpretation throughout. **Independent line-by-line review of the five analysis scripts that produce the headline numbers** — `analyze_anchor_dose.py`, `analyze_arms.py`, `analyze_patching.py`, `test_false_bridge.py`, `analyze_policy.py` — **has not yet been completed.**
 
 ---
 

@@ -152,10 +152,11 @@ def fig4() -> None:
     for rect, v in zip(b, vals):
         ax.text(rect.get_x() + rect.get_width() / 2, v + .022, f"{v:.3f}",
                 ha="center", fontsize=9, fontweight="bold")
-    ax.set_ylim(0, 1.15); ax.set_ylabel("composition")
-    ax.annotate("", xy=(3, 1.045), xytext=(2, 1.045),
+    # headroom for the annotation: at ylim 1.15 the arrow collided with the 1.000 label
+    ax.set_ylim(0, 1.34); ax.set_ylabel("composition")
+    ax.annotate("", xy=(3, 1.16), xytext=(2, 1.16),
                 arrowprops={"arrowstyle": "<->", "lw": 1.2, "color": "k"})
-    ax.text(2.5, 1.065, "residual cost", ha="center", fontsize=8)
+    ax.text(2.5, 1.185, "residual cost", ha="center", fontsize=8)
     ax.set_title("Storage is solved and retrieval capability is not the bottleneck", fontsize=9.5)
     save(fig, "fig4_decomposition")
 
@@ -239,7 +240,8 @@ def fig8() -> None:
     pol = J("results/policy.json")
     c = pol["curve"]
     ys = [p["yield"] for p in c]
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(7.2, 3.0), width_ratios=[1.25, 1])
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(7.6, 3.0), width_ratios=[1.3, 1])
+    fig.subplots_adjust(wspace=0.32)
     ax1.plot(ys, [p["gated"] for p in c], "o-", color=ANCH, lw=2, ms=4,
              label="gate on pre-treatment margin")
     ax1.axhline(pol["base_rate"], ls="--", color=NEUT, lw=1.4,
@@ -256,7 +258,7 @@ def fig8() -> None:
     ax2.bar(names, vals, color=[ANCH, ACC, CTRL], width=.6)
     for i, v in enumerate(vals):
         ax2.text(i, v + .002, f"{v:+.3f}", ha="center", fontsize=8.5, fontweight="bold")
-    ax2.set_ylabel("lift in composition over committing at random")
+    ax2.set_ylabel("lift over commit-at-random")
     ax2.set_ylim(0, max(vals) * 1.28)
     ax2.set_title("About half the pooled lift is\nbetween-template, which is free anyway", fontsize=9)
     save(fig, "fig8_policy")
@@ -299,7 +301,7 @@ def figA3() -> None:
         out.sort()
         return out[int(.025 * len(out))], out[int(.975 * len(out))]
 
-    fig, ax = plt.subplots(figsize=(6.0, 2.6))
+    fig, ax = plt.subplots(figsize=(6.2, 3.0))
     for s in SEEDS:
         ra = [("|".join(meta_a[t]["template_key"]), float(r["chain_strict"]))
               for t, r in anch[s].items() if t in meta_a]
@@ -309,6 +311,7 @@ def figA3() -> None:
         ax.plot([la, ha], [s + .12] * 2, lw=4, color=ANCH, solid_capstyle="butt")
         ax.plot([lc, hc], [s - .12] * 2, lw=4, color=CTRL, solid_capstyle="butt")
     ax.set_yticks(list(SEEDS)); ax.set_yticklabels([f"seed {s}" for s in SEEDS])
+    ax.set_ylim(-0.5, len(SEEDS) - 0.5)
     ax.set_xlabel("composition — 95% CI, template-level cluster bootstrap")
     ax.plot([], [], lw=4, color=ANCH, label="anchored")
     ax.plot([], [], lw=4, color=CTRL, label="matched control")

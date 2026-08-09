@@ -24,6 +24,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 SRC = HERE / "stored_not_integrated.md"
 PDF = HERE / "stored_not_integrated.pdf"
+HEADER = HERE / "_preamble.tex"
 
 TITLE = "Stored, Not Integrated: A Pre-Treatment Predictor and Three Controls for Knowledge Injection"
 AUTHOR = "Alex Liu"
@@ -79,6 +80,10 @@ def main() -> int:
         # keep figures near their text and never wider than the type block
         "-V", "graphics=true",
         "--highlight-style", "tango",
+        # LaTeX floats figures to wherever it finds room, which put Figure 5 above its
+        # own section heading and pushed a wide figure into the page furniture. Pin every
+        # figure where it appears in the source, and never let one exceed the type block.
+        "-H", str(HEADER),
     ]
     print("building", PDF.name)
     r = subprocess.run(cmd, capture_output=True, text=True)
