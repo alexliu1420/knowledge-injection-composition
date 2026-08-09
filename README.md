@@ -1,5 +1,7 @@
 # Stored, Not Integrated
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21865285.svg)](https://doi.org/10.5281/zenodo.21865285)
+
 Code, data and results for **"Stored, Not Integrated: A Pre-Treatment Predictor and Three Controls for Knowledge Injection."**
 
 Fine-tuning stores new facts almost perfectly and leaves them unusable. In this setting injected-fact recall is **1.000** while two-hop composition using the same fact is **0.22**. This repository asks what determines which side of that gap a fact lands on, and whether it can be known before the fact is injected.

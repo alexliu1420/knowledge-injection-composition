@@ -2,13 +2,13 @@
 
 Guidance on citing Alex Liu's "Stored, Not Integrated: A Pre-Treatment Predictor and Three Controls for Knowledge Injection."
 
-**For citing the latest version**, use the concept DOI: `<concept DOI>`.
+**For citing the latest version**, use the concept DOI: [10.5281/zenodo.21865285](https://doi.org/10.5281/zenodo.21865285). It always resolves to the most recent release.
 
 ## Version 0.1.0 — initial public release
 
 **Plain text**
 
-> Alex Liu. (2026). *Stored, Not Integrated: A Pre-Treatment Predictor and Three Controls for Knowledge Injection* (v0.1.0). Zenodo. `<DOI>`
+> Alex Liu. (2026). *Stored, Not Integrated: A Pre-Treatment Predictor and Three Controls for Knowledge Injection* (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.21865286
 
 **BibTeX**
 
@@ -21,8 +21,8 @@ Guidance on citing Alex Liu's "Stored, Not Integrated: A Pre-Treatment Predictor
   year      = 2026,
   publisher = {Zenodo},
   version   = {v0.1.0},
-  doi       = {<DOI>},
-  url       = {<repository URL>}
+  doi       = {10.5281/zenodo.21865286},
+  url       = {https://github.com/alexliu1420/knowledge-injection-composition}
 }
 ```
 

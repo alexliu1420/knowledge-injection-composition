@@ -4,10 +4,10 @@
 
 **Author:** Alex Liu
 **License:** CC BY 4.0
-**DOI:** to be assigned by Zenodo on publication
+**DOI:** [10.5281/zenodo.21865285](https://doi.org/10.5281/zenodo.21865285) (all versions) · [10.5281/zenodo.21865286](https://doi.org/10.5281/zenodo.21865286) (v0.1.0)
 **Keywords:** continual learning · knowledge injection · fine-tuning · multi-hop composition · knowledge editing · evaluation methodology · negative results
 
-**Cite as:** Alex Liu (2026). *Stored, Not Integrated: A Pre-Treatment Predictor and Three Controls for Knowledge Injection.* Zenodo. `<DOI>`
+**Cite as:** Alex Liu (2026). *Stored, Not Integrated: A Pre-Treatment Predictor and Three Controls for Knowledge Injection.* Zenodo. https://doi.org/10.5281/zenodo.21865285
 
 ---
 
