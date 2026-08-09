@@ -1,0 +1,23 @@
+{
+  "base": {
+    "n_items": 60,
+    "n_pairs": 2520,
+    "max_mean": 0.10994,
+    "max_median": 0.01354,
+    "max_p95": 0.8,
+    "pair_mean": -5e-05,
+    "pair_frac_positive": 0.4492
+  },
+  "injected": {
+    "n_items": 60,
+    "n_pairs": 2520,
+    "max_mean": 0.23347,
+    "max_median": 0.06845,
+    "max_p95": 0.91667,
+    "pair_mean": -0.02146,
+    "pair_frac_positive": 0.4135
+  },
+  "null_p95": 0.80375,
+  "frac_injected_above_null_p95": 0.1333,
+  "auc_injected_vs_base": 0.5982
+}

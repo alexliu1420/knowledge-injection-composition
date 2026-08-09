@@ -1,0 +1,14 @@
+# LoRA checkpoints — regenerable by training
+results/**/checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+
+# Source knowledge graph — third-party, not redistributed
+data/stark/
+
+# Environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

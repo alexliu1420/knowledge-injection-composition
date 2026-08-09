@@ -1,0 +1,37 @@
+{
+  "title": "Stored, Not Integrated: A Pre-Treatment Predictor and Three Controls for Knowledge Injection",
+  "description": "<p>Fine-tuning stores new facts almost perfectly and leaves them unusable: injected-fact recall is 1.000 while two-hop composition using the same fact is 0.22. This record contains the code, constructed datasets and results behind a measurement of what determines whether an injected fact becomes usable, and whether that can be predicted before injection.</p><p>Composition scales with a per-item measurement taken on the base model before injection (Spearman rho = +0.225, n = 1554, three seeds; positive within five of six templates), and the dependence is relational rather than entity familiarity. Training the model to generate the bridge entity (0.000 to 1.000) yields no gain over a control that trains an unrelated fact. Supplying the bridge in context raises composition from 0.220 to 0.498, but a false-bridge control shows approximately 73 percent of that gain does not depend on the bridge being correct. A commit/defer gate on the predictor raises composition among committed facts from 0.144 to 0.207, with a threshold that transfers across seeds. Two experiments returned negative results. A published self-patching recovery figure is measured against a baseline of zero where the appropriate null per-item maximum is +0.80.</p><p><strong>Licensing.</strong> Code is released under the MIT License. The manuscript, figures and written documentation are released under CC BY 4.0. The Zenodo licence field records MIT because it accepts a single value; see the LICENSE file in the repository for the full terms, including a note on the derived task data.</p>",
+  "upload_type": "software",
+  "license": "mit",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Liu, Alex"
+    }
+  ],
+  "keywords": [
+    "llm",
+    "large-language-models",
+    "knowledge-injection",
+    "knowledge-editing",
+    "continual-learning",
+    "fine-tuning",
+    "lora",
+    "peft",
+    "multi-hop-reasoning",
+    "compositional-generalization",
+    "model-editing",
+    "interpretability",
+    "reproducible-research",
+    "negative-results",
+    "qwen",
+    "primekg"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "arXiv:2607.08393",
+      "relation": "isSupplementTo",
+      "scheme": "arxiv"
+    }
+  ]
+}

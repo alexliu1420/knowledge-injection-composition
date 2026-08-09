@@ -1,0 +1,11 @@
+# Figures and analysis only (no GPU required)
+matplotlib>=3.8
+
+# Training, evaluation and dataset construction
+torch>=2.4
+transformers>=4.44
+peft>=0.12
+accelerate>=0.33
+
+# Activation patching sweep (src/patch_sweep.py)
+nnsight>=0.3

@@ -1,0 +1,804 @@
+{
+  "n_anchored": 223,
+  "n_kept": 114,
+  "d_facts": {
+    "cellular_component|interacts with|carrier|drug|0000": {
+      "prompt": "What disease has associated with relation with gene/protein MUC2?",
+      "answer": "salivary gland basal cell adenocarcinoma",
+      "rel": "associated with",
+      "tail_type": "disease",
+      "d_margin": 3.5474
+    },
+    "cellular_component|interacts with|carrier|drug|0006": {
+      "prompt": "What gene/protein has ppi relation with gene/protein FTH1?",
+      "answer": "SMARCB1",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.2245
+    },
+    "cellular_component|interacts with|carrier|drug|0017": {
+      "prompt": "What gene/protein has ppi relation with gene/protein APOB?",
+      "answer": "P2RY12",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.9939
+    },
+    "cellular_component|interacts with|carrier|drug|0023": {
+      "prompt": "What gene/protein has ppi relation with gene/protein BCL3?",
+      "answer": "ZNF595",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.5535
+    },
+    "cellular_component|interacts with|carrier|drug|0031": {
+      "prompt": "What anatomy has expression present relation with gene/protein COL27A1?",
+      "answer": "islet of Langerhans",
+      "rel": "expression present",
+      "tail_type": "anatomy",
+      "d_margin": 2.1811
+    },
+    "cellular_component|interacts with|carrier|drug|0032": {
+      "prompt": "What gene/protein has ppi relation with gene/protein BCOR?",
+      "answer": "TCF7L1",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 2.4373
+    },
+    "cellular_component|interacts with|carrier|drug|0034": {
+      "prompt": "What gene/protein has ppi relation with gene/protein COL2A1?",
+      "answer": "FGF7",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.723
+    },
+    "cellular_component|interacts with|carrier|drug|0035": {
+      "prompt": "What gene/protein has ppi relation with gene/protein COL13A1?",
+      "answer": "HSPG2",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 3.029
+    },
+    "cellular_component|interacts with|carrier|drug|0037": {
+      "prompt": "What gene/protein has ppi relation with gene/protein SF3B1?",
+      "answer": "PRPF40A",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.0901
+    },
+    "cellular_component|interacts with|carrier|drug|0039": {
+      "prompt": "What gene/protein has ppi relation with gene/protein SEC63?",
+      "answer": "ARFGAP1",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.6866
+    },
+    "cellular_component|interacts with|carrier|drug|0046": {
+      "prompt": "What gene/protein has ppi relation with gene/protein COL8A1?",
+      "answer": "KRT82",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.8844
+    },
+    "cellular_component|interacts with|carrier|drug|0048": {
+      "prompt": "What gene/protein has ppi relation with gene/protein SERPINA5?",
+      "answer": "PGRMC2",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.0315
+    },
+    "cellular_component|interacts with|carrier|drug|0052": {
+      "prompt": "What gene/protein has ppi relation with gene/protein PRPF18?",
+      "answer": "CCDC136",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.2176
+    },
+    "cellular_component|interacts with|carrier|drug|0058": {
+      "prompt": "What disease has associated with relation with gene/protein ABCA4?",
+      "answer": "breast cancer",
+      "rel": "associated with",
+      "tail_type": "disease",
+      "d_margin": 1.4705
+    },
+    "cellular_component|interacts with|carrier|drug|0059": {
+      "prompt": "What gene/protein has ppi relation with gene/protein TAF1B?",
+      "answer": "TAF1A",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 2.8528
+    },
+    "cellular_component|interacts with|carrier|drug|0061": {
+      "prompt": "What gene/protein has ppi relation with gene/protein TERT?",
+      "answer": "SLC7A11",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.9931
+    },
+    "cellular_component|interacts with|carrier|drug|0062": {
+      "prompt": "What disease has associated with relation with gene/protein COL15A1?",
+      "answer": "hepatocellular carcinoma",
+      "rel": "associated with",
+      "tail_type": "disease",
+      "d_margin": 0.0149
+    },
+    "cellular_component|interacts with|carrier|drug|0063": {
+      "prompt": "What gene/protein has ppi relation with gene/protein E2F1?",
+      "answer": "RNF138",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 2.8415
+    },
+    "cellular_component|interacts with|carrier|drug|0065": {
+      "prompt": "What gene/protein has ppi relation with gene/protein ITGA9?",
+      "answer": "ITGB1",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 3.7931
+    },
+    "cellular_component|interacts with|carrier|drug|0067": {
+      "prompt": "What gene/protein has ppi relation with gene/protein CROCC?",
+      "answer": "RNF152",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 2.6156
+    },
+    "cellular_component|interacts with|carrier|drug|0068": {
+      "prompt": "What gene/protein has ppi relation with gene/protein SLC11A2?",
+      "answer": "VPS35",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 2.0191
+    },
+    "cellular_component|interacts with|carrier|drug|0076": {
+      "prompt": "What gene/protein has ppi relation with gene/protein BRCA2?",
+      "answer": "RAD51C",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 4.0832
+    },
+    "cellular_component|interacts with|carrier|drug|0078": {
+      "prompt": "What gene/protein has ppi relation with gene/protein RAB25?",
+      "answer": "RAB11FIP1",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 2.3185
+    },
+    "cellular_component|interacts with|carrier|drug|0079": {
+      "prompt": "What gene/protein has ppi relation with gene/protein ARPC1B?",
+      "answer": "FOXP3",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.217
+    },
+    "cellular_component|interacts with|carrier|drug|0093": {
+      "prompt": "What disease has associated with relation with gene/protein SLC26A5?",
+      "answer": "Johanson-Blizzard syndrome",
+      "rel": "associated with",
+      "tail_type": "disease",
+      "d_margin": 1.0564
+    },
+    "cellular_component|interacts with|carrier|drug|0101": {
+      "prompt": "What gene/protein has ppi relation with gene/protein ITGB1?",
+      "answer": "VCAM1",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.8333
+    },
+    "cellular_component|interacts with|carrier|drug|0104": {
+      "prompt": "What gene/protein has ppi relation with gene/protein LAMP2?",
+      "answer": "LRRK2",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.6592
+    },
+    "cellular_component|interacts with|carrier|drug|0109": {
+      "prompt": "What gene/protein has ppi relation with gene/protein ST3GAL1?",
+      "answer": "SLC30A7",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.3802
+    },
+    "cellular_component|interacts with|carrier|drug|0115": {
+      "prompt": "What gene/protein has ppi relation with gene/protein NOC2L?",
+      "answer": "ZNF512",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.4742
+    },
+    "cellular_component|interacts with|carrier|drug|0116": {
+      "prompt": "What gene/protein has ppi relation with gene/protein PRPF4?",
+      "answer": "TUT1",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.6857
+    },
+    "cellular_component|interacts with|carrier|drug|0117": {
+      "prompt": "What gene/protein has ppi relation with gene/protein RPL38?",
+      "answer": "RPS19",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.9258
+    },
+    "molecular_function|interacts with|target|drug|0002": {
+      "prompt": "What gene/protein has ppi relation with gene/protein RAD51AP1?",
+      "answer": "PALB2",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.2094
+    },
+    "molecular_function|interacts with|target|drug|0007": {
+      "prompt": "What gene/protein has ppi relation with gene/protein HSPA1A?",
+      "answer": "SRRM2",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.2886
+    },
+    "molecular_function|interacts with|target|drug|0013": {
+      "prompt": "What gene/protein has ppi relation with gene/protein RNASET2?",
+      "answer": "SLC9A3R1",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.5149
+    },
+    "molecular_function|interacts with|target|drug|0018": {
+      "prompt": "What anatomy has expression present relation with gene/protein PSTK?",
+      "answer": "pituitary gland",
+      "rel": "expression present",
+      "tail_type": "anatomy",
+      "d_margin": 0.4161
+    },
+    "molecular_function|interacts with|target|drug|0023": {
+      "prompt": "What effect/phenotype has associated with relation with gene/protein GHRL?",
+      "answer": "Neurodegeneration",
+      "rel": "associated with",
+      "tail_type": "effect/phenotype",
+      "d_margin": 1.7673
+    },
+    "molecular_function|interacts with|target|drug|0026": {
+      "prompt": "What gene/protein has ppi relation with gene/protein SLC9A3R1?",
+      "answer": "PAG1",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.1379
+    },
+    "molecular_function|interacts with|target|drug|0031": {
+      "prompt": "What disease has associated with relation with gene/protein TSLP?",
+      "answer": "fibrolamellar hepatocellular carcinoma",
+      "rel": "associated with",
+      "tail_type": "disease",
+      "d_margin": 0.4785
+    },
+    "molecular_function|interacts with|target|drug|0038": {
+      "prompt": "What gene/protein has ppi relation with gene/protein SLC19A1?",
+      "answer": "EMC2",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.6239
+    },
+    "molecular_function|interacts with|target|drug|0041": {
+      "prompt": "What gene/protein has ppi relation with gene/protein CDC42EP3?",
+      "answer": "LRRK2",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 2.1878
+    },
+    "molecular_function|interacts with|target|drug|0043": {
+      "prompt": "What gene/protein has ppi relation with gene/protein IL20?",
+      "answer": "IL20RB",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 2.7669
+    },
+    "molecular_function|interacts with|target|drug|0059": {
+      "prompt": "What gene/protein has ppi relation with gene/protein RPS3?",
+      "answer": "RPS15",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.9324
+    },
+    "molecular_function|interacts with|target|drug|0063": {
+      "prompt": "What anatomy has expression present relation with gene/protein CYP4A22?",
+      "answer": "liver",
+      "rel": "expression present",
+      "tail_type": "anatomy",
+      "d_margin": 4.1757
+    },
+    "molecular_function|interacts with|target|drug|0064": {
+      "prompt": "What gene/protein has ppi relation with gene/protein KIF18A?",
+      "answer": "KIF18B",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 3.3713
+    },
+    "molecular_function|interacts with|target|drug|0070": {
+      "prompt": "What gene/protein has ppi relation with gene/protein ATP13A3?",
+      "answer": "TPRA1",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.345
+    },
+    "molecular_function|interacts with|target|drug|0074": {
+      "prompt": "What gene/protein has ppi relation with gene/protein CPSF6?",
+      "answer": "TBC1D2",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.0174
+    },
+    "molecular_function|interacts with|target|drug|0075": {
+      "prompt": "What gene/protein has ppi relation with gene/protein EP300?",
+      "answer": "PROX1",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.1634
+    },
+    "molecular_function|interacts with|target|drug|0077": {
+      "prompt": "What gene/protein has ppi relation with gene/protein ATG7?",
+      "answer": "MAP1LC3A",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.4235
+    },
+    "molecular_function|interacts with|target|drug|0078": {
+      "prompt": "What gene/protein has ppi relation with gene/protein IFNL1?",
+      "answer": "IFNL2",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.5351
+    },
+    "molecular_function|interacts with|target|drug|0081": {
+      "prompt": "What disease has associated with relation with gene/protein CXCL13?",
+      "answer": "malignant mesothelioma (disease)",
+      "rel": "associated with",
+      "tail_type": "disease",
+      "d_margin": 2.3124
+    },
+    "molecular_function|interacts with|target|drug|0087": {
+      "prompt": "What gene/protein has ppi relation with gene/protein SIRT4?",
+      "answer": "SIRT3",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.0775
+    },
+    "molecular_function|interacts with|target|drug|0088": {
+      "prompt": "What gene/protein has ppi relation with gene/protein LIMCH1?",
+      "answer": "MYO18A",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 2.272
+    },
+    "molecular_function|interacts with|target|drug|0090": {
+      "prompt": "What gene/protein has ppi relation with gene/protein DHCR24?",
+      "answer": "PGRMC1",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 2.0004
+    },
+    "molecular_function|interacts with|target|drug|0091": {
+      "prompt": "What anatomy has expression present relation with gene/protein SLC50A1?",
+      "answer": "pituitary gland",
+      "rel": "expression present",
+      "tail_type": "anatomy",
+      "d_margin": 0.3632
+    },
+    "molecular_function|interacts with|target|drug|0092": {
+      "prompt": "What gene/protein has ppi relation with gene/protein DGUOK?",
+      "answer": "SLC12A5",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.4298
+    },
+    "molecular_function|interacts with|target|drug|0110": {
+      "prompt": "What disease has associated with relation with gene/protein IL27?",
+      "answer": "type 1 diabetes mellitus",
+      "rel": "associated with",
+      "tail_type": "disease",
+      "d_margin": 1.2417
+    },
+    "molecular_function|interacts with|target|drug|0115": {
+      "prompt": "What gene/protein has ppi relation with gene/protein UGP2?",
+      "answer": "ISG15",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.5442
+    },
+    "disease|indication|contraindication|disease|0007": {
+      "prompt": "What gene/protein has enzyme relation with drug Midostaurin?",
+      "answer": "CYP2D6",
+      "rel": "enzyme",
+      "tail_type": "gene/protein",
+      "d_margin": 0.128
+    },
+    "disease|indication|contraindication|disease|0009": {
+      "prompt": "What gene/protein has target relation with drug Denosumab?",
+      "answer": "TNFSF11",
+      "rel": "target",
+      "tail_type": "gene/protein",
+      "d_margin": 2.5912
+    },
+    "disease|indication|contraindication|disease|0010": {
+      "prompt": "What drug has synergistic interaction relation with drug Adalimumab?",
+      "answer": "Obinutuzumab",
+      "rel": "synergistic interaction",
+      "tail_type": "drug",
+      "d_margin": 1.3241
+    },
+    "disease|indication|contraindication|disease|0012": {
+      "prompt": "What gene/protein has enzyme relation with drug Lenvatinib?",
+      "answer": "CYP3A4",
+      "rel": "enzyme",
+      "tail_type": "gene/protein",
+      "d_margin": 0.5875
+    },
+    "disease|indication|contraindication|disease|0013": {
+      "prompt": "What drug has synergistic interaction relation with drug Pancrelipase?",
+      "answer": "Ferric ammonium citrate",
+      "rel": "synergistic interaction",
+      "tail_type": "drug",
+      "d_margin": 2.0097
+    },
+    "disease|indication|contraindication|disease|0021": {
+      "prompt": "What gene/protein has enzyme relation with drug Acenocoumarol?",
+      "answer": "CYP2C9",
+      "rel": "enzyme",
+      "tail_type": "gene/protein",
+      "d_margin": 1.2944
+    },
+    "disease|indication|contraindication|disease|0026": {
+      "prompt": "What gene/protein has target relation with drug Cetuximab?",
+      "answer": "EGFR",
+      "rel": "target",
+      "tail_type": "gene/protein",
+      "d_margin": 2.144
+    },
+    "disease|indication|contraindication|disease|0032": {
+      "prompt": "What gene/protein has target relation with drug Ruxolitinib?",
+      "answer": "JAK2",
+      "rel": "target",
+      "tail_type": "gene/protein",
+      "d_margin": 2.321
+    },
+    "disease|indication|contraindication|disease|0033": {
+      "prompt": "What gene/protein has target relation with drug Solriamfetol?",
+      "answer": "SLC6A3",
+      "rel": "target",
+      "tail_type": "gene/protein",
+      "d_margin": 1.1657
+    },
+    "disease|indication|contraindication|disease|0038": {
+      "prompt": "What gene/protein has target relation with drug Filgrastim?",
+      "answer": "CSF3R",
+      "rel": "target",
+      "tail_type": "gene/protein",
+      "d_margin": 0.2106
+    },
+    "disease|indication|contraindication|disease|0041": {
+      "prompt": "What gene/protein has target relation with drug Alfacalcidol?",
+      "answer": "CYP27B1",
+      "rel": "target",
+      "tail_type": "gene/protein",
+      "d_margin": 1.9489
+    },
+    "disease|indication|contraindication|disease|0042": {
+      "prompt": "What gene/protein has enzyme relation with drug Triclabendazole?",
+      "answer": "CYP3A4",
+      "rel": "enzyme",
+      "tail_type": "gene/protein",
+      "d_margin": 0.425
+    },
+    "disease|indication|contraindication|disease|0049": {
+      "prompt": "What gene/protein has enzyme relation with drug Osilodrostat?",
+      "answer": "CYP3A4",
+      "rel": "enzyme",
+      "tail_type": "gene/protein",
+      "d_margin": 0.4344
+    },
+    "disease|indication|contraindication|disease|0052": {
+      "prompt": "What drug has synergistic interaction relation with drug Nivolumab?",
+      "answer": "Obinutuzumab",
+      "rel": "synergistic interaction",
+      "tail_type": "drug",
+      "d_margin": 0.7441
+    },
+    "disease|indication|contraindication|disease|0053": {
+      "prompt": "What gene/protein has target relation with drug Canakinumab?",
+      "answer": "IL1B",
+      "rel": "target",
+      "tail_type": "gene/protein",
+      "d_margin": 5.282
+    },
+    "disease|indication|contraindication|disease|0054": {
+      "prompt": "What gene/protein has enzyme relation with drug Cyclophosphamide?",
+      "answer": "CYP3A4",
+      "rel": "enzyme",
+      "tail_type": "gene/protein",
+      "d_margin": 0.5063
+    },
+    "disease|indication|contraindication|disease|0057": {
+      "prompt": "What drug has synergistic interaction relation with drug Ocrelizumab?",
+      "answer": "Ibrutinib",
+      "rel": "synergistic interaction",
+      "tail_type": "drug",
+      "d_margin": 2.4447
+    },
+    "disease|indication|contraindication|disease|0060": {
+      "prompt": "What gene/protein has enzyme relation with drug Lefamulin?",
+      "answer": "CYP3A4",
+      "rel": "enzyme",
+      "tail_type": "gene/protein",
+      "d_margin": 0.6337
+    },
+    "disease|indication|contraindication|disease|0075": {
+      "prompt": "What gene/protein has target relation with drug Carbenoxolone?",
+      "answer": "HSD11B1",
+      "rel": "target",
+      "tail_type": "gene/protein",
+      "d_margin": 2.1852
+    },
+    "disease|indication|contraindication|disease|0077": {
+      "prompt": "What gene/protein has target relation with drug Olaparib?",
+      "answer": "PARP1",
+      "rel": "target",
+      "tail_type": "gene/protein",
+      "d_margin": 3.6799
+    },
+    "disease|indication|contraindication|disease|0080": {
+      "prompt": "What drug has synergistic interaction relation with drug Asfotase alfa?",
+      "answer": "Obinutuzumab",
+      "rel": "synergistic interaction",
+      "tail_type": "drug",
+      "d_margin": 0.3801
+    },
+    "disease|indication|contraindication|disease|0090": {
+      "prompt": "What gene/protein has target relation with drug Tasimelteon?",
+      "answer": "MTNR1B",
+      "rel": "target",
+      "tail_type": "gene/protein",
+      "d_margin": 1.2643
+    },
+    "disease|indication|contraindication|disease|0091": {
+      "prompt": "What drug has synergistic interaction relation with drug Eculizumab?",
+      "answer": "Ibrutinib",
+      "rel": "synergistic interaction",
+      "tail_type": "drug",
+      "d_margin": 0.7025
+    },
+    "disease|indication|contraindication|disease|0093": {
+      "prompt": "What gene/protein has enzyme relation with drug Letermovir?",
+      "answer": "CYP3A4",
+      "rel": "enzyme",
+      "tail_type": "gene/protein",
+      "d_margin": 0.4844
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0005": {
+      "prompt": "What gene/protein has associated with relation with disease bile duct carcinoma?",
+      "answer": "ERBB2",
+      "rel": "associated with",
+      "tail_type": "gene/protein",
+      "d_margin": 1.4671
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0009": {
+      "prompt": "What drug has contraindication relation with disease peptic ulcer disease?",
+      "answer": "Guaifenesin",
+      "rel": "contraindication",
+      "tail_type": "drug",
+      "d_margin": 1.0134
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0024": {
+      "prompt": "What drug has indication relation with disease neurosyphilis?",
+      "answer": "Benzylpenicillin",
+      "rel": "indication",
+      "tail_type": "drug",
+      "d_margin": 1.789
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0029": {
+      "prompt": "What gene/protein has associated with relation with disease hereditary ataxia?",
+      "answer": "TTPA",
+      "rel": "associated with",
+      "tail_type": "gene/protein",
+      "d_margin": 0.2928
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0030": {
+      "prompt": "What gene/protein has associated with relation with disease syndromic agammaglobulinemia?",
+      "answer": "CD79A",
+      "rel": "associated with",
+      "tail_type": "gene/protein",
+      "d_margin": 2.0973
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0033": {
+      "prompt": "What drug has indication relation with disease opiate dependence?",
+      "answer": "Buprenorphine",
+      "rel": "indication",
+      "tail_type": "drug",
+      "d_margin": 2.7944
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0036": {
+      "prompt": "What drug has indication relation with disease syphilis?",
+      "answer": "Oxytetracycline",
+      "rel": "indication",
+      "tail_type": "drug",
+      "d_margin": 2.0531
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0044": {
+      "prompt": "What drug has indication relation with disease spotted fever?",
+      "answer": "Chloramphenicol",
+      "rel": "indication",
+      "tail_type": "drug",
+      "d_margin": 2.725
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0050": {
+      "prompt": "What drug has contraindication relation with disease thyroid gland disease?",
+      "answer": "Potassium Iodide",
+      "rel": "contraindication",
+      "tail_type": "drug",
+      "d_margin": 1.3608
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0051": {
+      "prompt": "What drug has contraindication relation with disease leiomyoma?",
+      "answer": "Medroxyprogesterone acetate",
+      "rel": "contraindication",
+      "tail_type": "drug",
+      "d_margin": 1.9107
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0052": {
+      "prompt": "What drug has contraindication relation with disease cardiomyopathy?",
+      "answer": "Itraconazole",
+      "rel": "contraindication",
+      "tail_type": "drug",
+      "d_margin": 1.3521
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0060": {
+      "prompt": "What drug has contraindication relation with disease liver disease?",
+      "answer": "Fosinopril",
+      "rel": "contraindication",
+      "tail_type": "drug",
+      "d_margin": 0.4028
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0061": {
+      "prompt": "What gene/protein has associated with relation with disease spastic cerebral palsy?",
+      "answer": "POMC",
+      "rel": "associated with",
+      "tail_type": "gene/protein",
+      "d_margin": 0.8775
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0065": {
+      "prompt": "What gene/protein has associated with relation with disease osteochondrodysplasia?",
+      "answer": "COL2A1",
+      "rel": "associated with",
+      "tail_type": "gene/protein",
+      "d_margin": 2.6703
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0068": {
+      "prompt": "What drug has contraindication relation with disease hereditary hemochromatosis?",
+      "answer": "Ferrous sulfate anhydrous",
+      "rel": "contraindication",
+      "tail_type": "drug",
+      "d_margin": 0.4355
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0071": {
+      "prompt": "What exposure has linked to relation with disease urinary system disease?",
+      "answer": "Chlorine",
+      "rel": "linked to",
+      "tail_type": "exposure",
+      "d_margin": 1.6549
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0075": {
+      "prompt": "What gene/protein has associated with relation with disease reflex epilepsy?",
+      "answer": "CYP27A1",
+      "rel": "associated with",
+      "tail_type": "gene/protein",
+      "d_margin": 1.4661
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0083": {
+      "prompt": "What drug has indication relation with disease yaws?",
+      "answer": "Azithromycin",
+      "rel": "indication",
+      "tail_type": "drug",
+      "d_margin": 0.2165
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0086": {
+      "prompt": "What gene/protein has associated with relation with disease neural tube defect?",
+      "answer": "CYP1A2",
+      "rel": "associated with",
+      "tail_type": "gene/protein",
+      "d_margin": 3.0655
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0101": {
+      "prompt": "What drug has contraindication relation with disease proctitis?",
+      "answer": "Indomethacin",
+      "rel": "contraindication",
+      "tail_type": "drug",
+      "d_margin": 1.0841
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0103": {
+      "prompt": "What drug has contraindication relation with disease photosensitivity disease?",
+      "answer": "Imiquimod",
+      "rel": "contraindication",
+      "tail_type": "drug",
+      "d_margin": 0.419
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0108": {
+      "prompt": "What exposure has linked to relation with disease poisoning?",
+      "answer": "Pesticides",
+      "rel": "linked to",
+      "tail_type": "exposure",
+      "d_margin": 0.6348
+    },
+    "disease|parent-child|phenotype present|effect/phenotype|0113": {
+      "prompt": "What drug has contraindication relation with disease hypertension?",
+      "answer": "Phenazopyridine",
+      "rel": "contraindication",
+      "tail_type": "drug",
+      "d_margin": 0.1366
+    },
+    "gene/protein|transporter|side effect|effect/phenotype|0016": {
+      "prompt": "What disease has indication relation with drug Ombitasvir?",
+      "answer": "chronic hepatitis C virus infection",
+      "rel": "indication",
+      "tail_type": "disease",
+      "d_margin": 3.0412
+    },
+    "gene/protein|transporter|side effect|effect/phenotype|0017": {
+      "prompt": "What drug has synergistic interaction relation with drug Polatuzumab vedotin?",
+      "answer": "Obinutuzumab",
+      "rel": "synergistic interaction",
+      "tail_type": "drug",
+      "d_margin": 1.3234
+    },
+    "gene/protein|transporter|side effect|effect/phenotype|0018": {
+      "prompt": "What gene/protein has target relation with drug Taurine?",
+      "answer": "GABBR1",
+      "rel": "target",
+      "tail_type": "gene/protein",
+      "d_margin": 0.6181
+    },
+    "drug|transporter|interacts with|exposure|0000": {
+      "prompt": "What gene/protein has ppi relation with gene/protein ABCG2?",
+      "answer": "CHMP4B",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 1.2568
+    },
+    "drug|transporter|interacts with|exposure|0008": {
+      "prompt": "What disease has associated with relation with gene/protein SLC22A1?",
+      "answer": "colorectal cancer",
+      "rel": "associated with",
+      "tail_type": "disease",
+      "d_margin": 0.676
+    },
+    "drug|transporter|interacts with|exposure|0009": {
+      "prompt": "What gene/protein has ppi relation with gene/protein SLC22A8?",
+      "answer": "NEDD4L",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 2.7518
+    },
+    "drug|transporter|interacts with|exposure|0014": {
+      "prompt": "What gene/protein has ppi relation with gene/protein SLC16A1?",
+      "answer": "THSD7A",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 3.0404
+    },
+    "drug|transporter|interacts with|exposure|0031": {
+      "prompt": "What gene/protein has ppi relation with gene/protein SLC6A4?",
+      "answer": "MORC3",
+      "rel": "ppi",
+      "tail_type": "gene/protein",
+      "d_margin": 0.6914
+    },
+    "drug|transporter|interacts with|exposure|0034": {
+      "prompt": "What anatomy has expression present relation with gene/protein SLC28A3?",
+      "answer": "pituitary gland",
+      "rel": "expression present",
+      "tail_type": "anatomy",
+      "d_margin": 0.1913
+    },
+    "drug|transporter|interacts with|exposure|0037": {
+      "prompt": "What disease has associated with relation with gene/protein SLC22A4?",
+      "answer": "rheumatoid arthritis",
+      "rel": "associated with",
+      "tail_type": "disease",
+      "d_margin": 3.5693
+    }
+  }
+}

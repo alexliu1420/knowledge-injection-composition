@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalise line endings in the repository to LF regardless of the OS committing.
+* text=auto eol=lf
+
+# Binary — never touch
+*.png binary
+*.pt binary
+*.bin binary
+*.safetensors binary

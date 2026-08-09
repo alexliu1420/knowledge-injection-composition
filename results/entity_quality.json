@@ -1,0 +1,5182 @@
+[
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0000",
+    "e2": "MUC2",
+    "type": "gene/protein",
+    "margin": 2.7243,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.815308570861816,
+    "fam_ctr": 1.8760462983566413
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0006",
+    "e2": "FTH1",
+    "type": "gene/protein",
+    "margin": 2.888,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.406687093277772,
+    "fam_ctr": 0.2846677759406857
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0011",
+    "e2": "SLC9A1",
+    "type": "gene/protein",
+    "margin": 0.8573,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.40931030549109,
+    "fam_ctr": 2.282044563727368
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0012",
+    "e2": "COL14A1",
+    "type": "gene/protein",
+    "margin": 3.9122,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.548920407603146,
+    "fam_ctr": 2.142434461615312
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0017",
+    "e2": "APOB",
+    "type": "gene/protein",
+    "margin": 3.9277,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.224367737770081,
+    "fam_ctr": 0.4669871314483771
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0023",
+    "e2": "BCL3",
+    "type": "gene/protein",
+    "margin": 3.1531,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -8.037232081095377,
+    "fam_ctr": -1.3458772118769193
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0026",
+    "e2": "MYBPC3",
+    "type": "gene/protein",
+    "margin": 0.3042,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.606223392067477,
+    "fam_ctr": 2.0851314771509806
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0031",
+    "e2": "COL27A1",
+    "type": "gene/protein",
+    "margin": 2.9638,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.926550395227968,
+    "fam_ctr": 1.7648044739904893
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0032",
+    "e2": "BCOR",
+    "type": "gene/protein",
+    "margin": 2.7348,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -8.482691049575806,
+    "fam_ctr": -1.791336180357348
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0034",
+    "e2": "COL2A1",
+    "type": "gene/protein",
+    "margin": 3.2139,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -4.256056682082999,
+    "fam_ctr": 2.4352981871354586
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0035",
+    "e2": "COL13A1",
+    "type": "gene/protein",
+    "margin": 1.1886,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -4.52430836521089,
+    "fam_ctr": 2.1670465040075673
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0036",
+    "e2": "RAD17",
+    "type": "gene/protein",
+    "margin": 3.8617,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -7.506467183430989,
+    "fam_ctr": -0.8151123142125316
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0037",
+    "e2": "SF3B1",
+    "type": "gene/protein",
+    "margin": 1.3673,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.8090298399329185,
+    "fam_ctr": 1.8823250292855391
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0038",
+    "e2": "RAD18",
+    "type": "gene/protein",
+    "margin": 1.622,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -7.381467183430989,
+    "fam_ctr": -0.6901123142125316
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0039",
+    "e2": "SEC63",
+    "type": "gene/protein",
+    "margin": 0.2154,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -8.111613353093466,
+    "fam_ctr": -1.420258483875008
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0046",
+    "e2": "COL8A1",
+    "type": "gene/protein",
+    "margin": 2.9006,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -5.237993259856012,
+    "fam_ctr": 1.453361609362446
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0047",
+    "e2": "KHDRBS1",
+    "type": "gene/protein",
+    "margin": 0.9913,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.2315152660012245,
+    "fam_ctr": 2.459839603217233
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0048",
+    "e2": "SERPINA5",
+    "type": "gene/protein",
+    "margin": 0.7256,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.588510453701019,
+    "fam_ctr": 2.1028444155174384
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0049",
+    "e2": "KIAA1210",
+    "type": "gene/protein",
+    "margin": 1.4061,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -3.2221858416284834,
+    "fam_ctr": 3.4691690275899743
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0052",
+    "e2": "PRPF18",
+    "type": "gene/protein",
+    "margin": 1.5476,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.007123231887817,
+    "fam_ctr": 0.6842316373306403
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0053",
+    "e2": "LAMP1",
+    "type": "gene/protein",
+    "margin": 0.6418,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.4837095737457275,
+    "fam_ctr": 2.20764529547273
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0058",
+    "e2": "ABCA4",
+    "type": "gene/protein",
+    "margin": 0.8452,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.889677286148071,
+    "fam_ctr": 0.8016775830703864
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0059",
+    "e2": "TAF1B",
+    "type": "gene/protein",
+    "margin": 1.0057,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.327344715595245,
+    "fam_ctr": 1.3640101536232123
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0061",
+    "e2": "TERT",
+    "type": "gene/protein",
+    "margin": 1.6909,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.566465139389038,
+    "fam_ctr": 0.1248897298294196
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0062",
+    "e2": "COL15A1",
+    "type": "gene/protein",
+    "margin": 4.2186,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.54747275733389,
+    "fam_ctr": 2.143882111884568
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0063",
+    "e2": "E2F1",
+    "type": "gene/protein",
+    "margin": 4.7506,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -4.156200657133013,
+    "fam_ctr": 2.5351542120854447
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0065",
+    "e2": "ITGA9",
+    "type": "gene/protein",
+    "margin": 1.006,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.297143896420796,
+    "fam_ctr": 0.39421097279766126
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0066",
+    "e2": "PACSIN1",
+    "type": "gene/protein",
+    "margin": 0.7053,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.487686060369015,
+    "fam_ctr": 1.203668808849443
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0067",
+    "e2": "CROCC",
+    "type": "gene/protein",
+    "margin": 0.1684,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.988031546274821,
+    "fam_ctr": -0.2966766770563636
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0068",
+    "e2": "SLC11A2",
+    "type": "gene/protein",
+    "margin": 1.1107,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -3.945129559491761,
+    "fam_ctr": 2.7462253097266967
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0070",
+    "e2": "EMILIN1",
+    "type": "gene/protein",
+    "margin": 3.7554,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -5.011995494365692,
+    "fam_ctr": 1.6793593748527655
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0076",
+    "e2": "BRCA2",
+    "type": "gene/protein",
+    "margin": 3.0811,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.204577528017883,
+    "fam_ctr": 1.4867773412005745
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0077",
+    "e2": "MLH1",
+    "type": "gene/protein",
+    "margin": 1.4335,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.466929122456349,
+    "fam_ctr": 1.2244257467621082
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0078",
+    "e2": "RAB25",
+    "type": "gene/protein",
+    "margin": 1.1565,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -3.9547780752182007,
+    "fam_ctr": 2.736576794000257
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0079",
+    "e2": "ARPC1B",
+    "type": "gene/protein",
+    "margin": 0.8775,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.395312370732427,
+    "fam_ctr": 2.296042498486031
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0084",
+    "e2": "COL3A1",
+    "type": "gene/protein",
+    "margin": 2.3314,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.720441473509709,
+    "fam_ctr": 1.9709133957087488
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0086",
+    "e2": "PCNA",
+    "type": "gene/protein",
+    "margin": 2.5348,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -7.670971512794495,
+    "fam_ctr": -0.979616643576037
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0087",
+    "e2": "DYNLL2",
+    "type": "gene/protein",
+    "margin": 0.8959,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.594113826751709,
+    "fam_ctr": 1.0972410424667487
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0088",
+    "e2": "NSFL1C",
+    "type": "gene/protein",
+    "margin": 1.2512,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -8.972896873950958,
+    "fam_ctr": -2.2815420047325006
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0090",
+    "e2": "XPO5",
+    "type": "gene/protein",
+    "margin": 1.1868,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.053289413452148,
+    "fam_ctr": -0.36193454423369076
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0093",
+    "e2": "SLC26A5",
+    "type": "gene/protein",
+    "margin": 2.6453,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -3.536670919197301,
+    "fam_ctr": 3.1546839500211568
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0101",
+    "e2": "ITGB1",
+    "type": "gene/protein",
+    "margin": 0.4484,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.6741117636362715,
+    "fam_ctr": -0.9827568944178138
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0103",
+    "e2": "KLC2",
+    "type": "gene/protein",
+    "margin": 2.6494,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.637944380442302,
+    "fam_ctr": 0.05341048877615595
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0104",
+    "e2": "LAMP2",
+    "type": "gene/protein",
+    "margin": 1.7238,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.1425637404123945,
+    "fam_ctr": 1.5487911288060632
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0107",
+    "e2": "SUMO4",
+    "type": "gene/protein",
+    "margin": 2.3612,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -8.568108222136894,
+    "fam_ctr": -1.8767533529184366
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0109",
+    "e2": "ST3GAL1",
+    "type": "gene/protein",
+    "margin": 1.2015,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.695748206786812,
+    "fam_ctr": 1.995606662431646
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0113",
+    "e2": "HSP90AB1",
+    "type": "gene/protein",
+    "margin": 2.6392,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -3.392377392296112,
+    "fam_ctr": 3.298977476922346
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0115",
+    "e2": "NOC2L",
+    "type": "gene/protein",
+    "margin": 2.612,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -3.8052144274115562,
+    "fam_ctr": 2.8861404418069014
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0116",
+    "e2": "PRPF4",
+    "type": "gene/protein",
+    "margin": 0.4858,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.677817026774089,
+    "fam_ctr": 0.013537842444368842
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0117",
+    "e2": "RPL38",
+    "type": "gene/protein",
+    "margin": 2.7834,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.14280503988266,
+    "fam_ctr": 2.5485498293357978
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0000",
+    "e2": "ACOD1",
+    "type": "gene/protein",
+    "margin": 0.4083,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.478604018688202,
+    "fam_ctr": 0.21275085053025578
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0002",
+    "e2": "RAD51AP1",
+    "type": "gene/protein",
+    "margin": 1.1099,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -4.848626417666674,
+    "fam_ctr": 1.8427284515517837
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0005",
+    "e2": "PACC1",
+    "type": "gene/protein",
+    "margin": 1.693,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -8.9877237478892,
+    "fam_ctr": -2.2963688786707426
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0007",
+    "e2": "HSPA1A",
+    "type": "gene/protein",
+    "margin": 1.7683,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -4.032320639118552,
+    "fam_ctr": 2.6590342300999055
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0013",
+    "e2": "RNASET2",
+    "type": "gene/protein",
+    "margin": 1.1295,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.128655365357797,
+    "fam_ctr": 1.562699503860661
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0014",
+    "e2": "SIAE",
+    "type": "gene/protein",
+    "margin": 4.1011,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -9.262880643208822,
+    "fam_ctr": -2.5715257739903645
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0016",
+    "e2": "PMVK",
+    "type": "gene/protein",
+    "margin": 2.6841,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -10.789327383041382,
+    "fam_ctr": -4.097972513822924
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0018",
+    "e2": "PSTK",
+    "type": "gene/protein",
+    "margin": 0.9998,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -8.687630812327066,
+    "fam_ctr": -1.9962759431086088
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0023",
+    "e2": "GHRL",
+    "type": "gene/protein",
+    "margin": 2.1564,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 1.0,
+    "fam_type": -7.91268515586853,
+    "fam_ctr": -1.2213302866500726
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0024",
+    "e2": "PPT2",
+    "type": "gene/protein",
+    "margin": 1.4667,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.091963132222493,
+    "fam_ctr": -0.4006082630040355
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0026",
+    "e2": "SLC9A3R1",
+    "type": "gene/protein",
+    "margin": 1.9593,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -3.3471936588840827,
+    "fam_ctr": 3.344161210334375
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0027",
+    "e2": "PRDX3",
+    "type": "gene/protein",
+    "margin": 2.2891,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.093692620595296,
+    "fam_ctr": -0.40233775137683825
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0029",
+    "e2": "SLC47A1",
+    "type": "gene/protein",
+    "margin": 1.4045,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -4.068071115926917,
+    "fam_ctr": 2.623283753291541
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0031",
+    "e2": "TSLP",
+    "type": "gene/protein",
+    "margin": 0.1544,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.298102028667927,
+    "fam_ctr": 0.3932528405505309
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0038",
+    "e2": "SLC19A1",
+    "type": "gene/protein",
+    "margin": 1.8279,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -3.7798666046001017,
+    "fam_ctr": 2.911488264618356
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0041",
+    "e2": "CDC42EP3",
+    "type": "gene/protein",
+    "margin": 0.1821,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -4.77216408252716,
+    "fam_ctr": 1.9191907866912974
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0043",
+    "e2": "IL20",
+    "type": "gene/protein",
+    "margin": 3.4712,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 1.0,
+    "fam_type": -8.696777820587158,
+    "fam_ctr": -2.0054229513687005
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0050",
+    "e2": "DCTD",
+    "type": "gene/protein",
+    "margin": 1.4724,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -9.077509562174479,
+    "fam_ctr": -2.386154692956021
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0053",
+    "e2": "SLC25A11",
+    "type": "gene/protein",
+    "margin": 0.0317,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -3.393755308352411,
+    "fam_ctr": 3.297599560866047
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0054",
+    "e2": "MRGPRX2",
+    "type": "gene/protein",
+    "margin": 2.1251,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 1.0,
+    "fam_type": -3.6565220564603806,
+    "fam_ctr": 3.034832812758077
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0056",
+    "e2": "IL22RA2",
+    "type": "gene/protein",
+    "margin": 4.7896,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 1.0,
+    "fam_type": -5.895848214626312,
+    "fam_ctr": 0.7955066545921454
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0059",
+    "e2": "RPS3",
+    "type": "gene/protein",
+    "margin": 0.1416,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -4.997405449549357,
+    "fam_ctr": 1.6939494196691003
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0060",
+    "e2": "SLC5A7",
+    "type": "gene/protein",
+    "margin": 1.6472,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -4.324592807888985,
+    "fam_ctr": 2.3667620613294726
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0063",
+    "e2": "CYP4A22",
+    "type": "gene/protein",
+    "margin": 3.1043,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -4.045279781023662,
+    "fam_ctr": 2.646075088194796
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0064",
+    "e2": "KIF18A",
+    "type": "gene/protein",
+    "margin": 1.1577,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -3.8204267263412475,
+    "fam_ctr": 2.87092814287721
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0070",
+    "e2": "ATP13A3",
+    "type": "gene/protein",
+    "margin": 1.1208,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -4.3991204055491835,
+    "fam_ctr": 2.292234463669274
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0072",
+    "e2": "IL9R",
+    "type": "gene/protein",
+    "margin": 5.3445,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 1.0,
+    "fam_type": -9.051137447357178,
+    "fam_ctr": -2.35978257813872
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0074",
+    "e2": "CPSF6",
+    "type": "gene/protein",
+    "margin": 0.8485,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -4.8781425058841705,
+    "fam_ctr": 1.8132123633342871
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0075",
+    "e2": "EP300",
+    "type": "gene/protein",
+    "margin": 2.1272,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -3.382957533322042,
+    "fam_ctr": 3.308397335896416
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0077",
+    "e2": "ATG7",
+    "type": "gene/protein",
+    "margin": 1.0311,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 1.0,
+    "fam_type": -8.795853614807129,
+    "fam_ctr": -2.1044987455886712
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0078",
+    "e2": "IFNL1",
+    "type": "gene/protein",
+    "margin": 1.0523,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.993340651194255,
+    "fam_ctr": 0.6980142180242028
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0080",
+    "e2": "INHBB",
+    "type": "gene/protein",
+    "margin": 1.8028,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -8.179596900939941,
+    "fam_ctr": -1.4882420317214837
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0081",
+    "e2": "CXCL13",
+    "type": "gene/protein",
+    "margin": 2.7394,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.080715237185359,
+    "fam_ctr": 1.6106396320330987
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0083",
+    "e2": "SLC25A17",
+    "type": "gene/protein",
+    "margin": 3.4632,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -3.5600499512095536,
+    "fam_ctr": 3.131304918008904
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0084",
+    "e2": "MANBA",
+    "type": "gene/protein",
+    "margin": 1.4629,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -11.595590114593506,
+    "fam_ctr": -4.904235245375048
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0085",
+    "e2": "CHST1",
+    "type": "gene/protein",
+    "margin": 0.7841,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.346862196922302,
+    "fam_ctr": -0.6555073277038446
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0087",
+    "e2": "SIRT4",
+    "type": "gene/protein",
+    "margin": 1.874,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.7776540120442705,
+    "fam_ctr": -1.0862991428258129
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0088",
+    "e2": "LIMCH1",
+    "type": "gene/protein",
+    "margin": 4.3598,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.47122448682785,
+    "fam_ctr": 0.22013038239060734
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0090",
+    "e2": "DHCR24",
+    "type": "gene/protein",
+    "margin": 1.3563,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -4.0227330679190345,
+    "fam_ctr": 2.668621801299423
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0091",
+    "e2": "SLC50A1",
+    "type": "gene/protein",
+    "margin": 1.7763,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -4.822292910267909,
+    "fam_ctr": 1.8690619589505486
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0092",
+    "e2": "DGUOK",
+    "type": "gene/protein",
+    "margin": 1.4883,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 1.0,
+    "fam_type": -7.6681121823688345,
+    "fam_ctr": -0.9767573131503768
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0094",
+    "e2": "TDP2",
+    "type": "gene/protein",
+    "margin": 0.3081,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.602358341217041,
+    "fam_ctr": -0.9110034719985833
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0095",
+    "e2": "HCCS",
+    "type": "gene/protein",
+    "margin": 3.9413,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.063652356465657,
+    "fam_ctr": 0.6277025127528004
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0096",
+    "e2": "GPIHBP1",
+    "type": "gene/protein",
+    "margin": 1.5442,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.208467656932771,
+    "fam_ctr": 1.4828872122856867
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0108",
+    "e2": "SLC39A8",
+    "type": "gene/protein",
+    "margin": 2.0152,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -3.6965858940190324,
+    "fam_ctr": 2.9947689751994253
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0110",
+    "e2": "IL27",
+    "type": "gene/protein",
+    "margin": 4.2753,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 1.0,
+    "fam_type": -7.311361153920491,
+    "fam_ctr": -0.6200062847020336
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0111",
+    "e2": "KISS1",
+    "type": "gene/protein",
+    "margin": 3.0616,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.60578191280365,
+    "fam_ctr": 1.0855729564148078
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0112",
+    "e2": "RAB3A",
+    "type": "gene/protein",
+    "margin": 1.3692,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -3.9017606377601624,
+    "fam_ctr": 2.7895942314582953
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0114",
+    "e2": "IQGAP3",
+    "type": "gene/protein",
+    "margin": 1.8036,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.964129084721208,
+    "fam_ctr": 0.7272257844972501
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0115",
+    "e2": "UGP2",
+    "type": "gene/protein",
+    "margin": 0.5508,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -8.444073716799418,
+    "fam_ctr": -1.7527188475809599
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0003",
+    "e2": "Ibrutinib",
+    "type": "drug",
+    "margin": 2.9147,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.2083433832158335,
+    "fam_ctr": 1.9706037423320746
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0007",
+    "e2": "Midostaurin",
+    "type": "drug",
+    "margin": 1.0618,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -6.274499541512341,
+    "fam_ctr": -0.0955524159644332
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0009",
+    "e2": "Denosumab",
+    "type": "drug",
+    "margin": 0.5395,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.518477596669982,
+    "fam_ctr": 0.6604695288779263
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0010",
+    "e2": "Adalimumab",
+    "type": "drug",
+    "margin": 1.2067,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.519991613429738,
+    "fam_ctr": 1.6589555121181698
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0012",
+    "e2": "Lenvatinib",
+    "type": "drug",
+    "margin": 0.3458,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.138798331301587,
+    "fam_ctr": 1.0401487942463215
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0013",
+    "e2": "Pancrelipase",
+    "type": "drug",
+    "margin": 1.9225,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.4570230494719,
+    "fam_ctr": 0.7219240760760082
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0015",
+    "e2": "Diethylcarbamazine",
+    "type": "drug",
+    "margin": 3.8291,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.293877157941461,
+    "fam_ctr": 0.8850699676064471
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0016",
+    "e2": "Pramiracetam",
+    "type": "drug",
+    "margin": 2.1437,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.3173536300277195,
+    "fam_ctr": 1.8615934955201885
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0020",
+    "e2": "Lactose",
+    "type": "drug",
+    "margin": 2.5011,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.965694228808085,
+    "fam_ctr": 0.21325289673982262
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0021",
+    "e2": "Acenocoumarol",
+    "type": "drug",
+    "margin": 2.2526,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.434039026265964,
+    "fam_ctr": 1.7449080992819441
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0022",
+    "e2": "Tandospirone",
+    "type": "drug",
+    "margin": 0.1182,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.764396816166117,
+    "fam_ctr": 1.4145503093817906
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0025",
+    "e2": "Sebelipase alfa",
+    "type": "drug",
+    "margin": 1.0072,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.046810137301994,
+    "fam_ctr": 1.1321369882459145
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0026",
+    "e2": "Cetuximab",
+    "type": "drug",
+    "margin": 2.2238,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -3.078862522149575,
+    "fam_ctr": 3.100084603398333
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0027",
+    "e2": "Tolnaftate",
+    "type": "drug",
+    "margin": 0.86,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.071721314266324,
+    "fam_ctr": 1.1072258112815838
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0029",
+    "e2": "Bevacizumab",
+    "type": "drug",
+    "margin": 1.4999,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.446721451595113,
+    "fam_ctr": 1.7322256739527955
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0032",
+    "e2": "Ruxolitinib",
+    "type": "drug",
+    "margin": 2.7804,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -3.9596732068344864,
+    "fam_ctr": 2.2192739187134216
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0033",
+    "e2": "Solriamfetol",
+    "type": "drug",
+    "margin": 1.1977,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.280666000170943,
+    "fam_ctr": 1.8982811253769647
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0038",
+    "e2": "Filgrastim",
+    "type": "drug",
+    "margin": 1.9426,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.452053382726717,
+    "fam_ctr": 1.7268937428211908
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0039",
+    "e2": "Selumetinib",
+    "type": "drug",
+    "margin": 0.206,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.195365361307632,
+    "fam_ctr": 1.9835817642402764
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0040",
+    "e2": "Nusinersen",
+    "type": "drug",
+    "margin": 1.6284,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.117892114809365,
+    "fam_ctr": 1.061055010738543
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0041",
+    "e2": "Alfacalcidol",
+    "type": "drug",
+    "margin": 1.3222,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -3.612871208184515,
+    "fam_ctr": 2.566075917363393
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0042",
+    "e2": "Triclabendazole",
+    "type": "drug",
+    "margin": 0.7213,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.520806104131043,
+    "fam_ctr": 1.6581410214168653
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0044",
+    "e2": "Teprotumumab",
+    "type": "drug",
+    "margin": 1.0412,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.388301756984826,
+    "fam_ctr": 1.7906453685630819
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0049",
+    "e2": "Osilodrostat",
+    "type": "drug",
+    "margin": 0.1886,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.493645325303078,
+    "fam_ctr": 0.6853018002448303
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0052",
+    "e2": "Nivolumab",
+    "type": "drug",
+    "margin": 0.4492,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -6.488802470208611,
+    "fam_ctr": -0.3098553446607033
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0053",
+    "e2": "Canakinumab",
+    "type": "drug",
+    "margin": 0.1218,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.565072411325673,
+    "fam_ctr": 0.6138747142222352
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0054",
+    "e2": "Cyclophosphamide",
+    "type": "drug",
+    "margin": 2.4976,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -2.3216550533955647,
+    "fam_ctr": 3.8572920721523434
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0057",
+    "e2": "Ocrelizumab",
+    "type": "drug",
+    "margin": 2.1639,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.5627095800785655,
+    "fam_ctr": 1.6162375454693425
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0060",
+    "e2": "Lefamulin",
+    "type": "drug",
+    "margin": 0.257,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.800238434225321,
+    "fam_ctr": 0.3787086913225872
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0066",
+    "e2": "Cerliponase alfa",
+    "type": "drug",
+    "margin": 0.0745,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -3.682145238454853,
+    "fam_ctr": 2.496801887093055
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0068",
+    "e2": "Alipogene tiparvovec",
+    "type": "drug",
+    "margin": 0.5716,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -2.9649390306003625,
+    "fam_ctr": 3.2140080949475456
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0070",
+    "e2": "Gluconolactone",
+    "type": "drug",
+    "margin": 0.1034,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.757625744565303,
+    "fam_ctr": 1.4213213809826053
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0072",
+    "e2": "Ramucirumab",
+    "type": "drug",
+    "margin": 0.2096,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.411634499626234,
+    "fam_ctr": 0.767312625921674
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0075",
+    "e2": "Carbenoxolone",
+    "type": "drug",
+    "margin": 1.0469,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.955024540420072,
+    "fam_ctr": 1.223922585127836
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0077",
+    "e2": "Olaparib",
+    "type": "drug",
+    "margin": 1.235,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.834433686162811,
+    "fam_ctr": 1.3445134393850973
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0080",
+    "e2": "Asfotase alfa",
+    "type": "drug",
+    "margin": 0.5163,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -3.916818893242938,
+    "fam_ctr": 2.26212823230497
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0086",
+    "e2": "Racecadotril",
+    "type": "drug",
+    "margin": 0.3432,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -6.475434910273179,
+    "fam_ctr": -0.2964877847252714
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0088",
+    "e2": "Tafamidis",
+    "type": "drug",
+    "margin": 0.6331,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.759467090130784,
+    "fam_ctr": 0.4194800354171244
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0090",
+    "e2": "Tasimelteon",
+    "type": "drug",
+    "margin": 2.7202,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -3.460286415492495,
+    "fam_ctr": 2.718660710055413
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0091",
+    "e2": "Eculizumab",
+    "type": "drug",
+    "margin": 1.2205,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.695547506635194,
+    "fam_ctr": 1.4833996189127143
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0093",
+    "e2": "Letermovir",
+    "type": "drug",
+    "margin": 0.5375,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -6.424031666247174,
+    "fam_ctr": -0.2450845406992661
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0001",
+    "e2": "pediatric fibrosarcoma",
+    "type": "disease",
+    "margin": 1.1509,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -3.999334132686878,
+    "fam_ctr": 1.3171572883814808
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0003",
+    "e2": "heavy chain disease",
+    "type": "disease",
+    "margin": 0.763,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -8.371401063166559,
+    "fam_ctr": -3.0549096420982
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0004",
+    "e2": "melanotic neurilemmoma",
+    "type": "disease",
+    "margin": 0.2083,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.133999610186687,
+    "fam_ctr": 1.1824918108816718
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0005",
+    "e2": "bile duct carcinoma",
+    "type": "disease",
+    "margin": 1.4171,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -4.773633106611669,
+    "fam_ctr": 0.5428583144566899
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0009",
+    "e2": "peptic ulcer disease",
+    "type": "disease",
+    "margin": 2.3498,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -2.7137338872998953,
+    "fam_ctr": 2.6027575337684636
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0011",
+    "e2": "sequela of COVID-19",
+    "type": "disease",
+    "margin": 2.2276,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -4.562858374691132,
+    "fam_ctr": 0.7536330463772272
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0015",
+    "e2": "cyclosporiasis",
+    "type": "disease",
+    "margin": 2.7464,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -3.818727084994316,
+    "fam_ctr": 1.497764336074043
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0018",
+    "e2": "central sleep apnea syndrome",
+    "type": "disease",
+    "margin": 0.733,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.932587076630443,
+    "fam_ctr": -1.6160956555620842
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0020",
+    "e2": "monosomy",
+    "type": "disease",
+    "margin": 0.9154,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.686353894571464,
+    "fam_ctr": -1.3698624735031046
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0024",
+    "e2": "neurosyphilis",
+    "type": "disease",
+    "margin": 4.7696,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -2.756932276324369,
+    "fam_ctr": 2.55955914474399
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0025",
+    "e2": "congenital heart malformation",
+    "type": "disease",
+    "margin": 1.248,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.029950961332967,
+    "fam_ctr": 1.2865404597353916
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0029",
+    "e2": "hereditary ataxia",
+    "type": "disease",
+    "margin": 0.0322,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.843850374594331,
+    "fam_ctr": 1.472641046474028
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0030",
+    "e2": "syndromic agammaglobulinemia",
+    "type": "disease",
+    "margin": 2.0886,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -2.7080050145566927,
+    "fam_ctr": 2.608486406511666
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0031",
+    "e2": "apraxia",
+    "type": "disease",
+    "margin": 0.0387,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -7.496514672277651,
+    "fam_ctr": -2.180023251209292
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0032",
+    "e2": "Paramyxoviridae infectious disease",
+    "type": "disease",
+    "margin": 0.4783,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.1489724814982765,
+    "fam_ctr": 1.1675189395700825
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0033",
+    "e2": "opiate dependence",
+    "type": "disease",
+    "margin": 1.2822,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -7.5466132164001465,
+    "fam_ctr": -2.2301217953317876
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0034",
+    "e2": "serous adenocarcinoma",
+    "type": "disease",
+    "margin": 1.2871,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -2.2888528144981786,
+    "fam_ctr": 3.0276386065701804
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0036",
+    "e2": "syphilis",
+    "type": "disease",
+    "margin": 3.068,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -3.6558527782229553,
+    "fam_ctr": 1.6606386428454036
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0037",
+    "e2": "stomach disease",
+    "type": "disease",
+    "margin": 0.27,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.883227584348788,
+    "fam_ctr": 1.4332638367195711
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0041",
+    "e2": "dental caries",
+    "type": "disease",
+    "margin": 1.0765,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.8318680635875353,
+    "fam_ctr": 1.4846233574808236
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0044",
+    "e2": "spotted fever",
+    "type": "disease",
+    "margin": 2.9737,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -5.647471281389396,
+    "fam_ctr": -0.33097986032103677
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0047",
+    "e2": "brain ischemia",
+    "type": "disease",
+    "margin": 0.3253,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -5.848439426471789,
+    "fam_ctr": -0.5319480054034305
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0049",
+    "e2": "reproductive system disease",
+    "type": "disease",
+    "margin": 1.0536,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.6259173303842545,
+    "fam_ctr": 1.6905740906841045
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0050",
+    "e2": "thyroid gland disease",
+    "type": "disease",
+    "margin": 2.0601,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.529661851673154,
+    "fam_ctr": -0.21317043060479524
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0051",
+    "e2": "leiomyoma",
+    "type": "disease",
+    "margin": 1.1916,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -8.265734451357275,
+    "fam_ctr": -2.9492430302889163
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0052",
+    "e2": "cardiomyopathy",
+    "type": "disease",
+    "margin": 0.8006,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -2.7371093600522727,
+    "fam_ctr": 2.5793820610160862
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0055",
+    "e2": "strabismus",
+    "type": "disease",
+    "margin": 3.0178,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.789997694599151,
+    "fam_ctr": 1.5264937264692078
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0057",
+    "e2": "acute otitis media",
+    "type": "disease",
+    "margin": 2.2597,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -4.697738898103125,
+    "fam_ctr": 0.6187525229652335
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0058",
+    "e2": "genetic macular dystrophy",
+    "type": "disease",
+    "margin": 1.2156,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.98433671235883,
+    "fam_ctr": 1.332154708709529
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0059",
+    "e2": "panuveitis (disease)",
+    "type": "disease",
+    "margin": 0.0848,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.279844369839078,
+    "fam_ctr": 0.03664705122928069
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0060",
+    "e2": "liver disease",
+    "type": "disease",
+    "margin": 1.2308,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.805108904838562,
+    "fam_ctr": 1.511382516229797
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0061",
+    "e2": "spastic cerebral palsy",
+    "type": "disease",
+    "margin": 2.8063,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.8874012473475887,
+    "fam_ctr": 1.4290901737207702
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0062",
+    "e2": "malignant peripheral nerve sheath tumor",
+    "type": "disease",
+    "margin": 2.0587,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -2.2302756673725526,
+    "fam_ctr": 3.0862157536958064
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0064",
+    "e2": "paraphilic disorder",
+    "type": "disease",
+    "margin": 0.2921,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.5595556102693084,
+    "fam_ctr": -0.24306418920094952
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0065",
+    "e2": "osteochondrodysplasia",
+    "type": "disease",
+    "margin": 3.1418,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.7325589655035096,
+    "fam_ctr": 1.5839324555648493
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0066",
+    "e2": "bladder adenocarcinoma",
+    "type": "disease",
+    "margin": 2.0983,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -4.009412540589437,
+    "fam_ctr": 1.3070788804789215
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0067",
+    "e2": "mast cell leukemia",
+    "type": "disease",
+    "margin": 1.6124,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -7.445968230565389,
+    "fam_ctr": -2.1294768094970298
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0068",
+    "e2": "hereditary hemochromatosis",
+    "type": "disease",
+    "margin": 3.8034,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -2.4107159764971584,
+    "fam_ctr": 2.9057754445712005
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0070",
+    "e2": "iridocorneal endothelial syndrome",
+    "type": "disease",
+    "margin": 1.9516,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.4746051936090225,
+    "fam_ctr": 1.8418862274593364
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0071",
+    "e2": "urinary system disease",
+    "type": "disease",
+    "margin": 1.4248,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -5.333553206874058,
+    "fam_ctr": -0.017061785805698726
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0072",
+    "e2": "neurodegenerative disease",
+    "type": "disease",
+    "margin": 2.8903,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -1.3158044566693359,
+    "fam_ctr": 4.000686964399023
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0074",
+    "e2": "idiopathic inflammatory myopathy",
+    "type": "disease",
+    "margin": 1.0269,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -2.7585786141455175,
+    "fam_ctr": 2.5579128069228414
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0075",
+    "e2": "reflex epilepsy",
+    "type": "disease",
+    "margin": 0.7838,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -7.223920504252116,
+    "fam_ctr": -1.9074290831837573
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0076",
+    "e2": "IgG4-related disease",
+    "type": "disease",
+    "margin": 3.3506,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -2.597510749784609,
+    "fam_ctr": 2.71898067128375
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0078",
+    "e2": "breast papillary carcinoma",
+    "type": "disease",
+    "margin": 0.0434,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -6.143686762265861,
+    "fam_ctr": -0.8271953411975019
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0079",
+    "e2": "symptomatic heart failure",
+    "type": "disease",
+    "margin": 0.1234,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -6.032246071100235,
+    "fam_ctr": -0.7157546500318759
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0083",
+    "e2": "yaws",
+    "type": "disease",
+    "margin": 0.5403,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -8.87886381149292,
+    "fam_ctr": -3.562372390424561
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0086",
+    "e2": "neural tube defect",
+    "type": "disease",
+    "margin": 1.2912,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.0721170119941235,
+    "fam_ctr": 2.2443744090742355
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0087",
+    "e2": "scleritis",
+    "type": "disease",
+    "margin": 2.1109,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.427263613790274,
+    "fam_ctr": 0.8892278072780853
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0088",
+    "e2": "oligosaccharidosis",
+    "type": "disease",
+    "margin": 0.1316,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.0593033244464705,
+    "fam_ctr": 1.2571880966218885
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0090",
+    "e2": "gonococcal seminal vesiculitis",
+    "type": "disease",
+    "margin": 1.0511,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.204421711011997,
+    "fam_ctr": 1.1120697100563621
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0094",
+    "e2": "cutaneous myiasis",
+    "type": "disease",
+    "margin": 0.5458,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.804815008654259,
+    "fam_ctr": 0.5116764124140998
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0095",
+    "e2": "coccidiosis",
+    "type": "disease",
+    "margin": 3.2292,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.950478002283489,
+    "fam_ctr": 0.3660134187848696
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0096",
+    "e2": "corneal edema",
+    "type": "disease",
+    "margin": 1.3545,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -4.25614076463753,
+    "fam_ctr": 1.0603506564308285
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0097",
+    "e2": "plasma cell neoplasm",
+    "type": "disease",
+    "margin": 1.0406,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.567684084371043,
+    "fam_ctr": 1.748807336697316
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0099",
+    "e2": "hemangioendothelioma",
+    "type": "disease",
+    "margin": 3.5962,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -2.9528593153476583,
+    "fam_ctr": 2.3636321057207006
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0100",
+    "e2": "syndromic craniosynostosis",
+    "type": "disease",
+    "margin": 1.9692,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -2.705819298969194,
+    "fam_ctr": 2.610672122099165
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0101",
+    "e2": "proctitis",
+    "type": "disease",
+    "margin": 0.7689,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -5.277611467987299,
+    "fam_ctr": 0.03887995308105996
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0103",
+    "e2": "photosensitivity disease",
+    "type": "disease",
+    "margin": 1.1816,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -7.223081946372986,
+    "fam_ctr": -1.906590525304627
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0104",
+    "e2": "specific developmental disorder",
+    "type": "disease",
+    "margin": 1.5611,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -7.834313809871674,
+    "fam_ctr": -2.5178223888033147
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0106",
+    "e2": "toxemia of pregnancy",
+    "type": "disease",
+    "margin": 1.8662,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.578446102142334,
+    "fam_ctr": 1.7380453189260248
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0107",
+    "e2": "cholecystitis",
+    "type": "disease",
+    "margin": 2.9019,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -5.549221642781049,
+    "fam_ctr": -0.2327302217126901
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0108",
+    "e2": "poisoning",
+    "type": "disease",
+    "margin": 2.0535,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.441958690683047,
+    "fam_ctr": 1.874532730385312
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0110",
+    "e2": "adenoviridae infectious disease",
+    "type": "disease",
+    "margin": 1.251,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.06751112639904,
+    "fam_ctr": 0.2489802946693187
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0113",
+    "e2": "hypertension",
+    "type": "disease",
+    "margin": 1.8892,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -3.0574105557364724,
+    "fam_ctr": 2.2590808653318866
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0114",
+    "e2": "benign neoplasm of adrenal gland",
+    "type": "disease",
+    "margin": 1.3188,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.8736324789533683,
+    "fam_ctr": 1.4428589421149907
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0118",
+    "e2": "nasal cavity neoplasm",
+    "type": "disease",
+    "margin": 1.9054,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.999775418858917,
+    "fam_ctr": 1.316716002209442
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0009",
+    "e2": "Ferrous sulfate anhydrous",
+    "type": "drug",
+    "margin": 0.4017,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.054159939469173,
+    "fam_ctr": 2.124787186078735
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0013",
+    "e2": "Fingolimod",
+    "type": "drug",
+    "margin": 1.0234,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.865873086452484,
+    "fam_ctr": 2.313074039095424
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0016",
+    "e2": "Ombitasvir",
+    "type": "drug",
+    "margin": 0.2715,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.609199496102519,
+    "fam_ctr": 0.5697476294453887
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0017",
+    "e2": "Polatuzumab vedotin",
+    "type": "drug",
+    "margin": 3.2639,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.5427145467183436,
+    "fam_ctr": 2.6362325788295644
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0018",
+    "e2": "Taurine",
+    "type": "drug",
+    "margin": 0.4331,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -7.962717365473509,
+    "fam_ctr": -1.7837702399256008
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0000",
+    "e2": "ABCG2",
+    "type": "gene/protein",
+    "margin": 0.1076,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -4.247817888855934,
+    "fam_ctr": 2.4435369803625235
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0001",
+    "e2": "ABCB1",
+    "type": "gene/protein",
+    "margin": 1.0413,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -4.1627583627899485,
+    "fam_ctr": 2.528596506428509
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0008",
+    "e2": "SLC22A1",
+    "type": "gene/protein",
+    "margin": 0.9818,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.2286867147001126,
+    "fam_ctr": 3.462668154518345
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0009",
+    "e2": "SLC22A8",
+    "type": "gene/protein",
+    "margin": 0.114,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.8719158813667796,
+    "fam_ctr": 2.819438987851678
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0014",
+    "e2": "SLC16A1",
+    "type": "gene/protein",
+    "margin": 0.1886,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.3946993673841157,
+    "fam_ctr": 3.296655501834342
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0022",
+    "e2": "SLC22A2",
+    "type": "gene/protein",
+    "margin": 0.7957,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.671395048033446,
+    "fam_ctr": 3.0199598211850116
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0031",
+    "e2": "SLC6A4",
+    "type": "gene/protein",
+    "margin": 0.0977,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -4.015741887502372,
+    "fam_ctr": 2.6756129817160854
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0034",
+    "e2": "SLC28A3",
+    "type": "gene/protein",
+    "margin": 0.647,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.8941221740096807,
+    "fam_ctr": 2.797232695208777
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0037",
+    "e2": "SLC22A4",
+    "type": "gene/protein",
+    "margin": 0.1562,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.655770048033446,
+    "fam_ctr": 3.0355848211850116
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0039",
+    "e2": "SLC22A11",
+    "type": "gene/protein",
+    "margin": 0.0795,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -4.052020574387695,
+    "fam_ctr": 2.6393342948307623
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0001",
+    "e2": "NEU4",
+    "type": "gene/protein",
+    "margin": -5.8959,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.370617111523946,
+    "fam_ctr": -0.6792622423054882
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0002",
+    "e2": "GRM6",
+    "type": "gene/protein",
+    "margin": -4.595,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.594549973805745,
+    "fam_ctr": -0.9031951045872875
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0003",
+    "e2": "SYNPO2",
+    "type": "gene/protein",
+    "margin": -1.847,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.277028605341911,
+    "fam_ctr": -0.5856737361234536
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0004",
+    "e2": "PHOSPHO1",
+    "type": "gene/protein",
+    "margin": -2.2727,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.67580911925761,
+    "fam_ctr": 2.0155457499608476
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0005",
+    "e2": "DNAH11",
+    "type": "gene/protein",
+    "margin": -0.7988,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.020048797130585,
+    "fam_ctr": -0.32869392791212704
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0007",
+    "e2": "MARCHF6",
+    "type": "gene/protein",
+    "margin": -4.5424,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.99634051322937,
+    "fam_ctr": -1.3049856440109124
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0008",
+    "e2": "BACE1",
+    "type": "gene/protein",
+    "margin": -0.2162,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.85749717305104,
+    "fam_ctr": 0.833857696167418
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0009",
+    "e2": "WRAP73",
+    "type": "gene/protein",
+    "margin": -0.1059,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -5.901899695396423,
+    "fam_ctr": 0.7894551738220343
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0010",
+    "e2": "SCIMP",
+    "type": "gene/protein",
+    "margin": -4.5955,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -12.132418155670166,
+    "fam_ctr": -5.441063286451708
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0013",
+    "e2": "AQP1",
+    "type": "gene/protein",
+    "margin": -1.6835,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.757583677768707,
+    "fam_ctr": -0.0662288085502496
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0014",
+    "e2": "INHBA",
+    "type": "gene/protein",
+    "margin": -0.7057,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.576732317606608,
+    "fam_ctr": -0.8853774483881507
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0015",
+    "e2": "INHA",
+    "type": "gene/protein",
+    "margin": -2.5437,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -10.25937557220459,
+    "fam_ctr": -3.568020702986132
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0016",
+    "e2": "MAPT",
+    "type": "gene/protein",
+    "margin": -2.4375,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -10.932901859283447,
+    "fam_ctr": -4.24154699006499
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0018",
+    "e2": "SNX5",
+    "type": "gene/protein",
+    "margin": -2.0424,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.597031911214192,
+    "fam_ctr": 0.09432295800426527
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0019",
+    "e2": "PEX3",
+    "type": "gene/protein",
+    "margin": -1.5184,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -8.94100840886434,
+    "fam_ctr": -2.249653539645882
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0020",
+    "e2": "MAPK6",
+    "type": "gene/protein",
+    "margin": -3.103,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.973966588576634,
+    "fam_ctr": -0.28261171935817675
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0021",
+    "e2": "FSHB",
+    "type": "gene/protein",
+    "margin": -0.4646,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -8.8672576546669,
+    "fam_ctr": -2.175902785448443
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0022",
+    "e2": "MT-ND4",
+    "type": "gene/protein",
+    "margin": -0.4518,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.361758887767792,
+    "fam_ctr": 1.329595981450666
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0024",
+    "e2": "DNAH9",
+    "type": "gene/protein",
+    "margin": -2.49,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -8.979706764221191,
+    "fam_ctr": -2.2883518950027337
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0025",
+    "e2": "PASD1",
+    "type": "gene/protein",
+    "margin": -2.3274,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.507360756397247,
+    "fam_ctr": 0.18399411282121036
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0027",
+    "e2": "PKHD1L1",
+    "type": "gene/protein",
+    "margin": -2.8415,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.4854938913777005,
+    "fam_ctr": -0.7941390221592428
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0028",
+    "e2": "LIN52",
+    "type": "gene/protein",
+    "margin": -2.4747,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.134153515100479,
+    "fam_ctr": -0.44279864588202145
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0029",
+    "e2": "WBP2NL",
+    "type": "gene/protein",
+    "margin": -5.521,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -9.264249831438065,
+    "fam_ctr": -2.572894962219607
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0030",
+    "e2": "DNM3",
+    "type": "gene/protein",
+    "margin": -1.7963,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.433120290438334,
+    "fam_ctr": -0.7417654212198768
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0033",
+    "e2": "EPN2",
+    "type": "gene/protein",
+    "margin": -4.324,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.790816783905029,
+    "fam_ctr": -1.0994619146865716
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0040",
+    "e2": "PHB2",
+    "type": "gene/protein",
+    "margin": -0.1746,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.228356758753459,
+    "fam_ctr": -0.5370018895350013
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0041",
+    "e2": "TEPSIN",
+    "type": "gene/protein",
+    "margin": -6.2446,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -10.47582228978475,
+    "fam_ctr": -3.7844674205662923
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0042",
+    "e2": "MIR503",
+    "type": "gene/protein",
+    "margin": -1.5617,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.277869439125061,
+    "fam_ctr": 2.413485430093397
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0043",
+    "e2": "NUCB1",
+    "type": "gene/protein",
+    "margin": -4.5532,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.49668429295222,
+    "fam_ctr": -0.8053294237337623
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0044",
+    "e2": "ARPC3",
+    "type": "gene/protein",
+    "margin": -0.3156,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.266094207763672,
+    "fam_ctr": -0.5747393385452142
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0045",
+    "e2": "CAB39",
+    "type": "gene/protein",
+    "margin": -1.5251,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.827272713184357,
+    "fam_ctr": 1.864082156034101
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0050",
+    "e2": "SSBP1",
+    "type": "gene/protein",
+    "margin": -1.6493,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.2607782781124115,
+    "fam_ctr": -0.5694234088939538
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0051",
+    "e2": "SNU13",
+    "type": "gene/protein",
+    "margin": -0.8016,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -8.279676496982574,
+    "fam_ctr": -1.5883216277641168
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0054",
+    "e2": "MAP2",
+    "type": "gene/protein",
+    "margin": -0.6349,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -9.835245609283447,
+    "fam_ctr": -3.1438907400649896
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0055",
+    "e2": "DRAP1",
+    "type": "gene/protein",
+    "margin": -2.8317,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -8.157296220461527,
+    "fam_ctr": -1.4659413512430692
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0056",
+    "e2": "VAMP8",
+    "type": "gene/protein",
+    "margin": -1.4014,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.2962752978007,
+    "fam_ctr": -0.6049204285822425
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0057",
+    "e2": "CFAP206",
+    "type": "gene/protein",
+    "margin": -1.5842,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.378918719291687,
+    "fam_ctr": -0.6875638500732295
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0060",
+    "e2": "CYFIP1",
+    "type": "gene/protein",
+    "margin": -1.119,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.553460436873138,
+    "fam_ctr": 1.1378944323453197
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0064",
+    "e2": "WDPCP",
+    "type": "gene/protein",
+    "margin": -0.3064,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.286791170636813,
+    "fam_ctr": -0.5954363014183555
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0069",
+    "e2": "HNRNPU",
+    "type": "gene/protein",
+    "margin": -1.2861,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.175156623125076,
+    "fam_ctr": 2.5161982460933814
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0071",
+    "e2": "GYS2",
+    "type": "gene/protein",
+    "margin": -0.3689,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.880382418632507,
+    "fam_ctr": -1.1890275494140496
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0072",
+    "e2": "MYO7A",
+    "type": "gene/protein",
+    "margin": -0.2977,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.586189085152,
+    "fam_ctr": 2.1051657840664575
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0073",
+    "e2": "MSH4",
+    "type": "gene/protein",
+    "margin": -0.2275,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.962003568808238,
+    "fam_ctr": 0.7293513004102197
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0074",
+    "e2": "UNC5A",
+    "type": "gene/protein",
+    "margin": -0.3417,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -8.231213569641113,
+    "fam_ctr": -1.5398587004226556
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0075",
+    "e2": "ABCA3",
+    "type": "gene/protein",
+    "margin": -0.7155,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.379260698954265,
+    "fam_ctr": 0.31209417026419306
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0080",
+    "e2": "JCHAIN",
+    "type": "gene/protein",
+    "margin": -3.0392,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -10.73416256904602,
+    "fam_ctr": -4.042807699827563
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0081",
+    "e2": "DHRS7C",
+    "type": "gene/protein",
+    "margin": -5.159,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -8.96361792087555,
+    "fam_ctr": -2.2722630516570916
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0082",
+    "e2": "GNRH1",
+    "type": "gene/protein",
+    "margin": -1.2179,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -8.035199244817099,
+    "fam_ctr": -1.343844375598641
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0083",
+    "e2": "SGO2",
+    "type": "gene/protein",
+    "margin": -4.9007,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -9.474519650141398,
+    "fam_ctr": -2.78316478092294
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0085",
+    "e2": "ERN1",
+    "type": "gene/protein",
+    "margin": -1.0514,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.938036262989044,
+    "fam_ctr": -0.2466813937705865
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0089",
+    "e2": "VAC14",
+    "type": "gene/protein",
+    "margin": -1.8655,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.929542049765587,
+    "fam_ctr": 1.7618128194528708
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0091",
+    "e2": "CD34",
+    "type": "gene/protein",
+    "margin": -0.9553,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.264446338017781,
+    "fam_ctr": 1.4269085312006764
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0092",
+    "e2": "ATP2A2",
+    "type": "gene/protein",
+    "margin": -0.1896,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.992491380963474,
+    "fam_ctr": 1.6988634882549833
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0094",
+    "e2": "ASTN2",
+    "type": "gene/protein",
+    "margin": -2.3146,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.427960087855657,
+    "fam_ctr": -0.736605218637199
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0095",
+    "e2": "MERTK",
+    "type": "gene/protein",
+    "margin": -0.3465,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.8885529699424906,
+    "fam_ctr": 0.8028018992759671
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0096",
+    "e2": "AP5Z1",
+    "type": "gene/protein",
+    "margin": -2.0045,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -7.416256994009018,
+    "fam_ctr": -0.7249021247905603
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0097",
+    "e2": "SIN3B",
+    "type": "gene/protein",
+    "margin": -1.3706,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.96879568696022,
+    "fam_ctr": -0.27744081774176266
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0098",
+    "e2": "LAS1L",
+    "type": "gene/protein",
+    "margin": -0.3399,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 1.0,
+    "fam_type": -10.9515962600708,
+    "fam_ctr": -4.260241390852343
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0099",
+    "e2": "LIG3",
+    "type": "gene/protein",
+    "margin": -1.4613,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.71315336227417,
+    "fam_ctr": -0.021798493055712242
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0100",
+    "e2": "TPPP",
+    "type": "gene/protein",
+    "margin": -5.1038,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -12.842759132385254,
+    "fam_ctr": -6.151404263166796
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0102",
+    "e2": "FBXO7",
+    "type": "gene/protein",
+    "margin": -1.7171,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.936968103051186,
+    "fam_ctr": 0.7543867661672721
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0105",
+    "e2": "ISY1",
+    "type": "gene/protein",
+    "margin": -3.2387,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -9.02514100074768,
+    "fam_ctr": -2.333786131529223
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0106",
+    "e2": "PIK3R4",
+    "type": "gene/protein",
+    "margin": -0.8835,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.587586024589837,
+    "fam_ctr": 1.103768844628621
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0108",
+    "e2": "WDR77",
+    "type": "gene/protein",
+    "margin": -2.2849,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -6.446284353733063,
+    "fam_ctr": 0.24507051548539494
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0110",
+    "e2": "SYCP1",
+    "type": "gene/protein",
+    "margin": -2.2523,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.720357060432434,
+    "fam_ctr": -1.0290021912139764
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0111",
+    "e2": "FRG1",
+    "type": "gene/protein",
+    "margin": -1.6033,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.684110542138417,
+    "fam_ctr": 1.0072443270800404
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0112",
+    "e2": "MAPK8IP1",
+    "type": "gene/protein",
+    "margin": -0.076,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -5.234309561550617,
+    "fam_ctr": 1.4570453076678405
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0114",
+    "e2": "SEC61G",
+    "type": "gene/protein",
+    "margin": -0.3821,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -7.573029339313507,
+    "fam_ctr": -0.8816744700950494
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0118",
+    "e2": "SLC3A2",
+    "type": "gene/protein",
+    "margin": -0.0372,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -4.547003807127476,
+    "fam_ctr": 2.1443510620909816
+  },
+  {
+    "task_id": "cellular_component|interacts with|carrier|drug|0119",
+    "e2": "OVGP1",
+    "type": "gene/protein",
+    "margin": -1.9437,
+    "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+    "correct": 0.0,
+    "fam_type": -8.089153672258059,
+    "fam_ctr": -1.397798803039601
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0001",
+    "e2": "ABCB6",
+    "type": "gene/protein",
+    "margin": -0.2884,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.016925017038981,
+    "fam_ctr": 0.6744298521794763
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0003",
+    "e2": "CLSTN1",
+    "type": "gene/protein",
+    "margin": -1.0457,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.5280179074034095,
+    "fam_ctr": 1.1633369618150482
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0004",
+    "e2": "AGMO",
+    "type": "gene/protein",
+    "margin": -1.5228,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -11.192320346832275,
+    "fam_ctr": -4.500965477613818
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0006",
+    "e2": "EFNA5",
+    "type": "gene/protein",
+    "margin": -0.71,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.532824556032817,
+    "fam_ctr": 1.1585303131856408
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0008",
+    "e2": "NAT8L",
+    "type": "gene/protein",
+    "margin": -3.6848,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.907865405082703,
+    "fam_ctr": 0.783489464135755
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0009",
+    "e2": "OSBP",
+    "type": "gene/protein",
+    "margin": -6.3851,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -9.153559684753418,
+    "fam_ctr": -2.4622048155349603
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0010",
+    "e2": "MAS1",
+    "type": "gene/protein",
+    "margin": -2.8978,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -10.111685037612915,
+    "fam_ctr": -3.4203301683944574
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0011",
+    "e2": "THTPA",
+    "type": "gene/protein",
+    "margin": -4.3937,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -10.165481567382812,
+    "fam_ctr": -3.474126698164355
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0012",
+    "e2": "RBKS",
+    "type": "gene/protein",
+    "margin": -0.9909,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -13.470993518829346,
+    "fam_ctr": -6.779638649610888
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0015",
+    "e2": "DMBT1",
+    "type": "gene/protein",
+    "margin": -4.0159,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.732166604138911,
+    "fam_ctr": 0.9591882650795469
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0017",
+    "e2": "MDC1",
+    "type": "gene/protein",
+    "margin": -1.3947,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.886363983154297,
+    "fam_ctr": 0.8049908860641608
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0019",
+    "e2": "FUOM",
+    "type": "gene/protein",
+    "margin": -10.0892,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -14.403605937957764,
+    "fam_ctr": -7.712251068739306
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0020",
+    "e2": "DERA",
+    "type": "gene/protein",
+    "margin": -3.72,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -12.27660083770752,
+    "fam_ctr": -5.585245968489062
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0021",
+    "e2": "ETHE1",
+    "type": "gene/protein",
+    "margin": -0.2692,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -10.35309387743473,
+    "fam_ctr": -3.661739008216273
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0022",
+    "e2": "CHDH",
+    "type": "gene/protein",
+    "margin": -0.0179,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -10.757508754730225,
+    "fam_ctr": -4.066153885511767
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0025",
+    "e2": "GCHFR",
+    "type": "gene/protein",
+    "margin": -5.294,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -9.614080746968588,
+    "fam_ctr": -2.92272587775013
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0028",
+    "e2": "ATE1",
+    "type": "gene/protein",
+    "margin": -5.1024,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -12.913100123405457,
+    "fam_ctr": -6.221745254186999
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0030",
+    "e2": "ACER3",
+    "type": "gene/protein",
+    "margin": -2.3765,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.418846130371094,
+    "fam_ctr": 0.27250873884736393
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0032",
+    "e2": "PXDN",
+    "type": "gene/protein",
+    "margin": -4.4803,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -11.330826759338379,
+    "fam_ctr": -4.639471890119921
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0033",
+    "e2": "DBR1",
+    "type": "gene/protein",
+    "margin": -2.3139,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.18440318107605,
+    "fam_ctr": 0.5069516881424079
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0034",
+    "e2": "HEXD",
+    "type": "gene/protein",
+    "margin": -3.9523,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -11.30656623840332,
+    "fam_ctr": -4.615211369184863
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0035",
+    "e2": "TANK",
+    "type": "gene/protein",
+    "margin": -1.304,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.738340139389038,
+    "fam_ctr": -1.0469852701705804
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0036",
+    "e2": "HKDC1",
+    "type": "gene/protein",
+    "margin": -0.5199,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.901839507122834,
+    "fam_ctr": -1.2104846379043765
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0037",
+    "e2": "NOCT",
+    "type": "gene/protein",
+    "margin": -5.2793,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -9.5491361618042,
+    "fam_ctr": -2.8577812925857415
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0039",
+    "e2": "ABCA2",
+    "type": "gene/protein",
+    "margin": -0.4467,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.556344032287598,
+    "fam_ctr": 0.13501083693086002
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0040",
+    "e2": "NUDT16",
+    "type": "gene/protein",
+    "margin": -2.0292,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.386926531791687,
+    "fam_ctr": 1.3044283374267707
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0042",
+    "e2": "DPYS",
+    "type": "gene/protein",
+    "margin": -4.469,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -11.44202470779419,
+    "fam_ctr": -4.750669838575732
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0044",
+    "e2": "HYKK",
+    "type": "gene/protein",
+    "margin": -3.6538,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -12.057229042053223,
+    "fam_ctr": -5.365874172834765
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0045",
+    "e2": "TENT4A",
+    "type": "gene/protein",
+    "margin": -2.5116,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -10.112606048583984,
+    "fam_ctr": -3.4212511793655267
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0046",
+    "e2": "UBA6",
+    "type": "gene/protein",
+    "margin": -1.2088,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.131707668304443,
+    "fam_ctr": -0.4403527990859857
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0047",
+    "e2": "DCTPP1",
+    "type": "gene/protein",
+    "margin": -3.3081,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -8.72974944114685,
+    "fam_ctr": -2.038394571928393
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0048",
+    "e2": "PLTP",
+    "type": "gene/protein",
+    "margin": -2.8478,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -10.348083734512329,
+    "fam_ctr": -3.6567288652938714
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0049",
+    "e2": "PTAR1",
+    "type": "gene/protein",
+    "margin": -3.3154,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -11.147541046142578,
+    "fam_ctr": -4.4561861769241204
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0051",
+    "e2": "PPP1R8",
+    "type": "gene/protein",
+    "margin": -0.3081,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.7362788543105125,
+    "fam_ctr": -0.04492398509205486
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0052",
+    "e2": "SAMHD1",
+    "type": "gene/protein",
+    "margin": -1.9449,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 1.0,
+    "fam_type": -7.88065013345719,
+    "fam_ctr": -1.1892952642387327
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0055",
+    "e2": "TENT2",
+    "type": "gene/protein",
+    "margin": -3.0845,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -10.455047448476156,
+    "fam_ctr": -3.7636925792576985
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0057",
+    "e2": "GDPGP1",
+    "type": "gene/protein",
+    "margin": -1.4574,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.8623219430446625,
+    "fam_ctr": -1.1709670738262048
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0058",
+    "e2": "REEP2",
+    "type": "gene/protein",
+    "margin": -0.8951,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -8.041065692901611,
+    "fam_ctr": -1.3497108236831536
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0061",
+    "e2": "LACC1",
+    "type": "gene/protein",
+    "margin": -5.1553,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -8.096123615900675,
+    "fam_ctr": -1.4047687466822172
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0062",
+    "e2": "TEX261",
+    "type": "gene/protein",
+    "margin": -3.5115,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.5089720487594604,
+    "fam_ctr": -0.8176171795410028
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0065",
+    "e2": "POLR1C",
+    "type": "gene/protein",
+    "margin": -0.4173,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -4.382883816957474,
+    "fam_ctr": 2.308471052260984
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0066",
+    "e2": "ACOX3",
+    "type": "gene/protein",
+    "margin": -0.0742,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.709719340006511,
+    "fam_ctr": -1.018364470788053
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0067",
+    "e2": "NOX5",
+    "type": "gene/protein",
+    "margin": -3.0498,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.36419415473938,
+    "fam_ctr": 0.3271607144790778
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0068",
+    "e2": "ARMT1",
+    "type": "gene/protein",
+    "margin": -5.0956,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -8.01207168896993,
+    "fam_ctr": -1.320716819751473
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0069",
+    "e2": "THAP4",
+    "type": "gene/protein",
+    "margin": -3.6712,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.753430048624675,
+    "fam_ctr": -0.062075179406217096
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0071",
+    "e2": "UHRF1BP1L",
+    "type": "gene/protein",
+    "margin": -1.9953,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.163702967842775,
+    "fam_ctr": 1.527651901375683
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0073",
+    "e2": "DPH6",
+    "type": "gene/protein",
+    "margin": -4.0316,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -10.730455239613852,
+    "fam_ctr": -4.039100370395394
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0076",
+    "e2": "PLD6",
+    "type": "gene/protein",
+    "margin": -0.4085,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.297546148300171,
+    "fam_ctr": -0.6061912790817132
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0079",
+    "e2": "RNH1",
+    "type": "gene/protein",
+    "margin": -0.5298,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -10.227817376454672,
+    "fam_ctr": -3.536462507236214
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0082",
+    "e2": "UBA5",
+    "type": "gene/protein",
+    "margin": -2.0167,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.277541001637776,
+    "fam_ctr": -0.5861861324193187
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0086",
+    "e2": "PARP9",
+    "type": "gene/protein",
+    "margin": -4.6773,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -8.986029128233591,
+    "fam_ctr": -2.2946742590151334
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0089",
+    "e2": "SDCBP",
+    "type": "gene/protein",
+    "margin": -2.7053,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.904410700003306,
+    "fam_ctr": -1.2130558307848487
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0093",
+    "e2": "SMTNL1",
+    "type": "gene/protein",
+    "margin": -1.2028,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -9.817254811525345,
+    "fam_ctr": -3.125899942306887
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0097",
+    "e2": "ALG5",
+    "type": "gene/protein",
+    "margin": -0.1925,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.719319502512614,
+    "fam_ctr": -0.02796463329415655
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0098",
+    "e2": "CARNS1",
+    "type": "gene/protein",
+    "margin": -2.7462,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -8.26988943417867,
+    "fam_ctr": -1.5785345649602132
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0099",
+    "e2": "ADCY10",
+    "type": "gene/protein",
+    "margin": -0.8729,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -3.853472277522087,
+    "fam_ctr": 2.8378825916963706
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0100",
+    "e2": "SPTBN2",
+    "type": "gene/protein",
+    "margin": -3.0221,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.611615180969238,
+    "fam_ctr": -0.9202603117507806
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0101",
+    "e2": "GBA2",
+    "type": "gene/protein",
+    "margin": -1.7526,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -8.717042922973633,
+    "fam_ctr": -2.025688053755175
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0102",
+    "e2": "DHDDS",
+    "type": "gene/protein",
+    "margin": -4.6565,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -11.393176078796387,
+    "fam_ctr": -4.701821209577929
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0103",
+    "e2": "PPP1CB",
+    "type": "gene/protein",
+    "margin": -2.7568,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -7.590167204538981,
+    "fam_ctr": -0.8988123353205237
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0104",
+    "e2": "UPB1",
+    "type": "gene/protein",
+    "margin": -2.4619,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.909206708272298,
+    "fam_ctr": -0.2178518390538402
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0105",
+    "e2": "MOGS",
+    "type": "gene/protein",
+    "margin": -8.4768,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -10.57500696182251,
+    "fam_ctr": -3.883652092604052
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0106",
+    "e2": "PYGL",
+    "type": "gene/protein",
+    "margin": -4.8915,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -11.704306244850159,
+    "fam_ctr": -5.012951375631701
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0107",
+    "e2": "CERK",
+    "type": "gene/protein",
+    "margin": -0.7902,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -5.458463331063588,
+    "fam_ctr": 1.2328915381548695
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0109",
+    "e2": "ILVBL",
+    "type": "gene/protein",
+    "margin": -3.401,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -11.614840507507324,
+    "fam_ctr": -4.9234856382888665
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0113",
+    "e2": "CRLS1",
+    "type": "gene/protein",
+    "margin": -0.9306,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.560409843921661,
+    "fam_ctr": 0.1309450252967963
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0116",
+    "e2": "NOTUM",
+    "type": "gene/protein",
+    "margin": -9.439,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -13.17422103881836,
+    "fam_ctr": -6.482866169599902
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0117",
+    "e2": "PEPD",
+    "type": "gene/protein",
+    "margin": -1.6662,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -9.866136074066162,
+    "fam_ctr": -3.1747812048477044
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0118",
+    "e2": "SLC9B2",
+    "type": "gene/protein",
+    "margin": -1.0041,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.1930681183934215,
+    "fam_ctr": 0.49828675082503615
+  },
+  {
+    "task_id": "molecular_function|interacts with|target|drug|0119",
+    "e2": "ACTN4",
+    "type": "gene/protein",
+    "margin": -2.4495,
+    "template": "molecular_function|interacts with|gene/protein|target|drug",
+    "correct": 0.0,
+    "fam_type": -6.055758714675903,
+    "fam_ctr": 0.6355961545425544
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0000",
+    "e2": "Givosiran",
+    "type": "drug",
+    "margin": -0.9989,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -9.907534008224806,
+    "fam_ctr": -3.7285868826768978
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0001",
+    "e2": "Clortermine",
+    "type": "drug",
+    "margin": -2.3381,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -7.626467203488573,
+    "fam_ctr": -1.4475200779406654
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0002",
+    "e2": "Limaprost",
+    "type": "drug",
+    "margin": -5.1599,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -10.904370466868082,
+    "fam_ctr": -4.725423341320174
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0004",
+    "e2": "Tecovirimat",
+    "type": "drug",
+    "margin": -0.2674,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 1.0,
+    "fam_type": -4.451030474179424,
+    "fam_ctr": 1.727916651368484
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0005",
+    "e2": "Idebenone",
+    "type": "drug",
+    "margin": -1.6446,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -9.87836734453837,
+    "fam_ctr": -3.699420218990462
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0006",
+    "e2": "Somatotropin",
+    "type": "drug",
+    "margin": -0.4763,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.55497446450172,
+    "fam_ctr": 1.6239726610461878
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0008",
+    "e2": "Bleomycin",
+    "type": "drug",
+    "margin": -1.3359,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 1.0,
+    "fam_type": -4.721963846124709,
+    "fam_ctr": 1.4569832794231994
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0011",
+    "e2": "Fendiline",
+    "type": "drug",
+    "margin": -5.2236,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 1.0,
+    "fam_type": -11.757814725240072,
+    "fam_ctr": -5.578867599692164
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0014",
+    "e2": "Beta-D-Glucose",
+    "type": "drug",
+    "margin": -2.7428,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 1.0,
+    "fam_type": -6.800967318564654,
+    "fam_ctr": -0.6220201930167457
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0017",
+    "e2": "Trioxsalen",
+    "type": "drug",
+    "margin": -1.9311,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -6.292443048208952,
+    "fam_ctr": -0.11349592266104391
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0018",
+    "e2": "Acemetacin",
+    "type": "drug",
+    "margin": -2.591,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -8.889295423403382,
+    "fam_ctr": -2.7103482978554743
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0019",
+    "e2": "Natamycin",
+    "type": "drug",
+    "margin": -0.8798,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 1.0,
+    "fam_type": -7.053969045480092,
+    "fam_ctr": -0.875021919932184
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0023",
+    "e2": "Pexidartinib",
+    "type": "drug",
+    "margin": -0.4976,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.306851140235085,
+    "fam_ctr": 0.8720959853128232
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0024",
+    "e2": "Sivelestat",
+    "type": "drug",
+    "margin": -0.9205,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -7.03626195283141,
+    "fam_ctr": -0.8573148272835018
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0028",
+    "e2": "Anakinra",
+    "type": "drug",
+    "margin": -3.2982,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -6.213901734600465,
+    "fam_ctr": -0.03495460905255676
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0030",
+    "e2": "Trimethaphan",
+    "type": "drug",
+    "margin": -2.2824,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -8.240741125191562,
+    "fam_ctr": -2.061793999643654
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0031",
+    "e2": "Posaconazole",
+    "type": "drug",
+    "margin": -0.043,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -7.568015910374622,
+    "fam_ctr": -1.3890687848267138
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0034",
+    "e2": "Vitamin E",
+    "type": "drug",
+    "margin": -1.1793,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.999202052752177,
+    "fam_ctr": 0.17974507279573082
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0035",
+    "e2": "Distigmine",
+    "type": "drug",
+    "margin": -7.0636,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -10.623849471410116,
+    "fam_ctr": -4.444902345862208
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0036",
+    "e2": "Brexanolone",
+    "type": "drug",
+    "margin": -0.7216,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -7.177199168654624,
+    "fam_ctr": -0.9982520431067163
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0037",
+    "e2": "Laronidase",
+    "type": "drug",
+    "margin": -1.8274,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.77042468264699,
+    "fam_ctr": 0.4085224429009182
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0043",
+    "e2": "Benzoin",
+    "type": "drug",
+    "margin": -3.9121,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -7.553681765993436,
+    "fam_ctr": -1.3747346404455278
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0045",
+    "e2": "Monoxerutin",
+    "type": "drug",
+    "margin": -4.4917,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -8.607128882408142,
+    "fam_ctr": -2.4281817568602344
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0046",
+    "e2": "Deferiprone",
+    "type": "drug",
+    "margin": -1.4184,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -6.523476000875235,
+    "fam_ctr": -0.34452887532732657
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0047",
+    "e2": "Crofelemer",
+    "type": "drug",
+    "margin": -0.1824,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -6.733500583097339,
+    "fam_ctr": -0.5545534575494306
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0048",
+    "e2": "Epalrestat",
+    "type": "drug",
+    "margin": -2.7311,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -7.6775373625569046,
+    "fam_ctr": -1.4985902370089965
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0050",
+    "e2": "Pegademase",
+    "type": "drug",
+    "margin": -3.3344,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -7.691516280174255,
+    "fam_ctr": -1.5125691546263473
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0051",
+    "e2": "Migalastat",
+    "type": "drug",
+    "margin": -0.995,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.280858135223388,
+    "fam_ctr": 0.8980889903245197
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0055",
+    "e2": "Trepibutone",
+    "type": "drug",
+    "margin": -6.8092,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -9.74004406929016,
+    "fam_ctr": -3.5610969437422524
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0056",
+    "e2": "Maxacalcitol",
+    "type": "drug",
+    "margin": -1.6296,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -7.965992129407823,
+    "fam_ctr": -1.787045003859915
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0058",
+    "e2": "Acefylline",
+    "type": "drug",
+    "margin": -4.4479,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -6.969663005322218,
+    "fam_ctr": -0.7907158797743099
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0059",
+    "e2": "Metreleptin",
+    "type": "drug",
+    "margin": -1.4665,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.845230941474438,
+    "fam_ctr": 0.33371618407347015
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0061",
+    "e2": "Tazemetostat",
+    "type": "drug",
+    "margin": -0.6948,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.841588607430458,
+    "fam_ctr": 0.3373585181174503
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0062",
+    "e2": "Caplacizumab",
+    "type": "drug",
+    "margin": -0.6143,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.016440398269333,
+    "fam_ctr": 1.1625067272785747
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0063",
+    "e2": "Prussian blue",
+    "type": "drug",
+    "margin": -0.1098,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -8.699544956286749,
+    "fam_ctr": -2.520597830738841
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0064",
+    "e2": "Alirocumab",
+    "type": "drug",
+    "margin": -0.6165,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.5141438323189504,
+    "fam_ctr": 1.6648032932289576
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0065",
+    "e2": "Hexamidine",
+    "type": "drug",
+    "margin": -2.4517,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -8.076030770937601,
+    "fam_ctr": -1.897083645389693
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0067",
+    "e2": "Dibotermin alfa",
+    "type": "drug",
+    "margin": -4.5232,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -8.932783593734106,
+    "fam_ctr": -2.753836468186198
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0069",
+    "e2": "Defibrotide",
+    "type": "drug",
+    "margin": -0.657,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.387651882017963,
+    "fam_ctr": 0.7912952435299454
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0071",
+    "e2": "Uridine triacetate",
+    "type": "drug",
+    "margin": -0.9225,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -4.916472996376494,
+    "fam_ctr": 1.262474129171414
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0073",
+    "e2": "Omoconazole",
+    "type": "drug",
+    "margin": -0.3077,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -7.323419958353043,
+    "fam_ctr": -1.1444728328051346
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0074",
+    "e2": "Afamelanotide",
+    "type": "drug",
+    "margin": -1.6877,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -6.130810765782371,
+    "fam_ctr": 0.048136359765536874
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0076",
+    "e2": "Emapalumab",
+    "type": "drug",
+    "margin": -1.5868,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.543688069283962,
+    "fam_ctr": 0.635259056263946
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0078",
+    "e2": "Garenoxacin",
+    "type": "drug",
+    "margin": -2.92,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -6.381291093304753,
+    "fam_ctr": -0.20234396775684527
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0079",
+    "e2": "Padeliporfin",
+    "type": "drug",
+    "margin": -1.5993,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -7.508837604522705,
+    "fam_ctr": -1.3298904789747974
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0081",
+    "e2": "Avelumab",
+    "type": "drug",
+    "margin": -0.8422,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -6.2327090026810765,
+    "fam_ctr": -0.05376187713316849
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0082",
+    "e2": "Sulbentine",
+    "type": "drug",
+    "margin": -2.6137,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -7.46437394618988,
+    "fam_ctr": -1.2854268206419723
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0083",
+    "e2": "Menatetrenone",
+    "type": "drug",
+    "margin": -1.2412,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.877924516797066,
+    "fam_ctr": 0.3010226087508423
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0084",
+    "e2": "Trabectedin",
+    "type": "drug",
+    "margin": -0.3241,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.52650473639369,
+    "fam_ctr": 0.6524423891542179
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0085",
+    "e2": "Roxadustat",
+    "type": "drug",
+    "margin": -0.5626,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -3.911909922142513,
+    "fam_ctr": 2.267037203405395
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0087",
+    "e2": "Temoporfin",
+    "type": "drug",
+    "margin": -3.6843,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -9.54188326994578,
+    "fam_ctr": -3.362936144397872
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0089",
+    "e2": "Benperidol",
+    "type": "drug",
+    "margin": -2.1614,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 1.0,
+    "fam_type": -6.3637500231852755,
+    "fam_ctr": -0.18480289763736746
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0092",
+    "e2": "Catridecacog",
+    "type": "drug",
+    "margin": -8.1066,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -13.646705508232117,
+    "fam_ctr": -7.467758382684209
+  },
+  {
+    "task_id": "disease|indication|contraindication|disease|0094",
+    "e2": "Succinimide",
+    "type": "drug",
+    "margin": -1.598,
+    "template": "disease|indication|drug|contraindication|disease",
+    "correct": 0.0,
+    "fam_type": -5.523104451131076,
+    "fam_ctr": 0.6558426744168324
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0000",
+    "e2": "Mendelian disease",
+    "type": "disease",
+    "margin": -0.1296,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.238474454730749,
+    "fam_ctr": 2.07801696633761
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0002",
+    "e2": "eye disease",
+    "type": "disease",
+    "margin": -0.8475,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -7.43821619823575,
+    "fam_ctr": -2.1217247771673913
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0006",
+    "e2": "neural tube closure defect",
+    "type": "disease",
+    "margin": -1.2216,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.033848574757576,
+    "fam_ctr": 1.2826428463107833
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0007",
+    "e2": "phosphorus metabolism disease",
+    "type": "disease",
+    "margin": -0.4573,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -5.8187765121459964,
+    "fam_ctr": -0.5022850910776375
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0008",
+    "e2": "iris disease",
+    "type": "disease",
+    "margin": -1.1179,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -10.175326943397522,
+    "fam_ctr": -4.858835522329163
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0010",
+    "e2": "syndromic disease",
+    "type": "disease",
+    "margin": -1.0163,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.074726992845536,
+    "fam_ctr": 0.2417644282228233
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0012",
+    "e2": "systemic mycosis",
+    "type": "disease",
+    "margin": -1.1964,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.064948372542858,
+    "fam_ctr": 0.2515430485255008
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0013",
+    "e2": "hydrocephalus",
+    "type": "disease",
+    "margin": -1.4438,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.382831036747423,
+    "fam_ctr": -0.06633961567906432
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0014",
+    "e2": "chronic orbital inflammation",
+    "type": "disease",
+    "margin": -0.5464,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -5.985031449643429,
+    "fam_ctr": -0.6685400285750704
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0016",
+    "e2": "choroidal sclerosis",
+    "type": "disease",
+    "margin": -3.762,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -9.793469587961832,
+    "fam_ctr": -4.476978166893473
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0017",
+    "e2": "aortic arch defects",
+    "type": "disease",
+    "margin": -1.8937,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -7.206898927688599,
+    "fam_ctr": -1.8904075066202397
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0019",
+    "e2": "genetic cardiac rhythm disease",
+    "type": "disease",
+    "margin": -0.1042,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -5.640469331666827,
+    "fam_ctr": -0.3239779105984679
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0021",
+    "e2": "visceral heterotaxy",
+    "type": "disease",
+    "margin": -1.6342,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.936929977809389,
+    "fam_ctr": 0.3795614432589698
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0022",
+    "e2": "post-infectious disorder",
+    "type": "disease",
+    "margin": -0.5066,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.982124631665647,
+    "fam_ctr": 0.33436678940271225
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0023",
+    "e2": "thiamine-responsive dysfunction syndrome",
+    "type": "disease",
+    "margin": -2.1754,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -8.061370671998398,
+    "fam_ctr": -2.7448792509300395
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0026",
+    "e2": "infectious disease",
+    "type": "disease",
+    "margin": -1.6369,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -1.7606561143984436,
+    "fam_ctr": 3.5558353066699153
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0027",
+    "e2": "hereditary predisposition to infections",
+    "type": "disease",
+    "margin": -1.5488,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.110403204802424,
+    "fam_ctr": 0.2060882162659352
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0028",
+    "e2": "syndromic cataract",
+    "type": "disease",
+    "margin": -1.077,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -3.6494303047657013,
+    "fam_ctr": 1.6670611163026576
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0035",
+    "e2": "lung disease",
+    "type": "disease",
+    "margin": -3.7206,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -10.24990725517273,
+    "fam_ctr": -4.933415834104371
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0038",
+    "e2": "balanitis",
+    "type": "disease",
+    "margin": -2.6619,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -6.717782080173492,
+    "fam_ctr": -1.4012906591051335
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0039",
+    "e2": "skin disease",
+    "type": "disease",
+    "margin": -1.5948,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -7.707636713981628,
+    "fam_ctr": -2.3911452929132695
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0040",
+    "e2": "auditory agnosia",
+    "type": "disease",
+    "margin": -0.0542,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.877352799753135,
+    "fam_ctr": -0.560861378684776
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0042",
+    "e2": "corneal deposit",
+    "type": "disease",
+    "margin": -0.3803,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -6.7439964813238475,
+    "fam_ctr": -1.4275050602554886
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0043",
+    "e2": "vascular disease",
+    "type": "disease",
+    "margin": -2.9416,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.886542975902557,
+    "fam_ctr": -0.5700515548341984
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0045",
+    "e2": "neoplastic syndrome",
+    "type": "disease",
+    "margin": -2.3141,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.6650868356227875,
+    "fam_ctr": 0.6514045854455714
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0046",
+    "e2": "inherited disease susceptibility",
+    "type": "disease",
+    "margin": -3.0556,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -9.361768037080765,
+    "fam_ctr": -4.045276616012406
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0048",
+    "e2": "larynx anomaly",
+    "type": "disease",
+    "margin": -0.4104,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -8.328455746173859,
+    "fam_ctr": -3.0119643251054997
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0053",
+    "e2": "dysostosis of genetic origin",
+    "type": "disease",
+    "margin": -0.5675,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.799486856822374,
+    "fam_ctr": -0.48299543575401493
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0054",
+    "e2": "nasolacrimal duct disease",
+    "type": "disease",
+    "margin": -0.1979,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -4.590705804640796,
+    "fam_ctr": 0.7257856164275633
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0056",
+    "e2": "breast tumor luminal A or B",
+    "type": "disease",
+    "margin": -1.5047,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.865940820018295,
+    "fam_ctr": -1.5494493989499363
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0063",
+    "e2": "atrial appendage anomaly",
+    "type": "disease",
+    "margin": -0.648,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -7.461884435964748,
+    "fam_ctr": -2.1453930148963893
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0069",
+    "e2": "cerebellar malformation",
+    "type": "disease",
+    "margin": -0.6586,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.850018480947862,
+    "fam_ctr": 0.46647294012049656
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0073",
+    "e2": "primary avascular",
+    "type": "disease",
+    "margin": -3.7348,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -8.946169942617416,
+    "fam_ctr": -3.6296785215490575
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0077",
+    "e2": "osteochondrosis of genetic origin",
+    "type": "disease",
+    "margin": -1.6255,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.719901603957017,
+    "fam_ctr": -1.403410182888658
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0080",
+    "e2": "non-severe combined immunodeficiency",
+    "type": "disease",
+    "margin": -0.7573,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.087536877557535,
+    "fam_ctr": 1.2289545435108238
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0081",
+    "e2": "intestinal disease",
+    "type": "disease",
+    "margin": -1.8353,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -9.718154430389404,
+    "fam_ctr": -4.401663009321045
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0082",
+    "e2": "lagophthalmos",
+    "type": "disease",
+    "margin": -0.9738,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -6.511375772766769,
+    "fam_ctr": -1.19488435169841
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0084",
+    "e2": "congenital limb malformation",
+    "type": "disease",
+    "margin": -0.7431,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.4477110702409846,
+    "fam_ctr": 0.8687803508273744
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0085",
+    "e2": "inherited blood coagulation disorder",
+    "type": "disease",
+    "margin": -0.4107,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.333691855643077,
+    "fam_ctr": 0.9827995654252817
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0089",
+    "e2": "inner ear disease",
+    "type": "disease",
+    "margin": -1.5289,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -6.655150179440777,
+    "fam_ctr": -1.3386587583724179
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0091",
+    "e2": "primary bacterial infectious disease",
+    "type": "disease",
+    "margin": -2.6611,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -7.403196714818478,
+    "fam_ctr": -2.0867052937501187
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0092",
+    "e2": "allergic disease",
+    "type": "disease",
+    "margin": -2.1036,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.987050215403239,
+    "fam_ctr": -1.6705587943348803
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0093",
+    "e2": "nervous system disorder",
+    "type": "disease",
+    "margin": -0.1141,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -2.7335146561264994,
+    "fam_ctr": 2.5829767649418596
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0098",
+    "e2": "breast disease",
+    "type": "disease",
+    "margin": -1.2703,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -7.355064178196092,
+    "fam_ctr": -2.0385727571277332
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0102",
+    "e2": "systemic disease",
+    "type": "disease",
+    "margin": -2.5366,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.055732548236847,
+    "fam_ctr": -0.739241127168488
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0105",
+    "e2": "childhood-onset epilepsy syndrome",
+    "type": "disease",
+    "margin": -0.0615,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -4.688027870550286,
+    "fam_ctr": 0.6284635505180729
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0109",
+    "e2": "ovarian disease",
+    "type": "disease",
+    "margin": -0.3935,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -8.224329492542893,
+    "fam_ctr": -2.9078380714745338
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0111",
+    "e2": "liver failure",
+    "type": "disease",
+    "margin": -1.1547,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -5.03687979777654,
+    "fam_ctr": 0.2796116232918191
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0112",
+    "e2": "acute kidney failure",
+    "type": "disease",
+    "margin": -0.4708,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.846205472946167,
+    "fam_ctr": -1.529714051877808
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0115",
+    "e2": "Crohn ileitis and jejunitis",
+    "type": "disease",
+    "margin": -0.0561,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -6.310383422169252,
+    "fam_ctr": -0.9938920011008934
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0116",
+    "e2": "uterine disease",
+    "type": "disease",
+    "margin": -0.7847,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -7.445721721276641,
+    "fam_ctr": -2.129230300208282
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0117",
+    "e2": "isolated encephalocele",
+    "type": "disease",
+    "margin": -2.1691,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -5.5641324774672585,
+    "fam_ctr": -0.24764105639889955
+  },
+  {
+    "task_id": "disease|parent-child|phenotype present|effect/phenotype|0119",
+    "e2": "tracheal anomaly",
+    "type": "disease",
+    "margin": -2.1852,
+    "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+    "correct": 1.0,
+    "fam_type": -7.115389883518219,
+    "fam_ctr": -1.79889846244986
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0000",
+    "e2": "Ferric maltol",
+    "type": "drug",
+    "margin": -3.8756,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.50487539768219,
+    "fam_ctr": -0.32592827213428155
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0001",
+    "e2": "Sodium citrate",
+    "type": "drug",
+    "margin": -0.1492,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.401167307747528,
+    "fam_ctr": -0.22222018219961992
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0002",
+    "e2": "Magnesium carbonate",
+    "type": "drug",
+    "margin": -4.4341,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -7.523424871188278,
+    "fam_ctr": -1.3444777456403703
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0003",
+    "e2": "D-glucose",
+    "type": "drug",
+    "margin": -1.9343,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -8.618895014127096,
+    "fam_ctr": -2.439947888579188
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0004",
+    "e2": "Iodine",
+    "type": "drug",
+    "margin": -2.0691,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.470315522203843,
+    "fam_ctr": 0.7086316033440649
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0005",
+    "e2": "Ozanimod",
+    "type": "drug",
+    "margin": -0.1213,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.273443281650543,
+    "fam_ctr": -0.09449615610263518
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0006",
+    "e2": "Thimerosal",
+    "type": "drug",
+    "margin": -2.4201,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.062216615925233,
+    "fam_ctr": 0.11673050962267517
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0007",
+    "e2": "Urea",
+    "type": "drug",
+    "margin": -2.709,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -9.385871410369873,
+    "fam_ctr": -3.206924284821965
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0008",
+    "e2": "Potassium nitrate",
+    "type": "drug",
+    "margin": -4.0535,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.760636991006322,
+    "fam_ctr": -0.5816898654584142
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0010",
+    "e2": "Betrixaban",
+    "type": "drug",
+    "margin": -2.6594,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.714875875661771,
+    "fam_ctr": -0.5359287501138628
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0011",
+    "e2": "Agalsidase beta",
+    "type": "drug",
+    "margin": -1.1302,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.727907970396336,
+    "fam_ctr": -0.5489608448484278
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0012",
+    "e2": "Potassium gluconate",
+    "type": "drug",
+    "margin": -2.5914,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.015946710190837,
+    "fam_ctr": 1.1630004153570708
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0014",
+    "e2": "Ammonia N-13",
+    "type": "drug",
+    "margin": -3.931,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -5.883215716906956,
+    "fam_ctr": 0.29573140864095215
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0015",
+    "e2": "Choline",
+    "type": "drug",
+    "margin": -5.3939,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -10.152695178985596,
+    "fam_ctr": -3.9737480534376877
+  },
+  {
+    "task_id": "gene/protein|transporter|side effect|effect/phenotype|0019",
+    "e2": "Inositol",
+    "type": "drug",
+    "margin": -1.3399,
+    "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+    "correct": 0.0,
+    "fam_type": -6.689172039429347,
+    "fam_ctr": -0.510224913881439
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0002",
+    "e2": "SLC22A6",
+    "type": "gene/protein",
+    "margin": -0.2708,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.7625408813667796,
+    "fam_ctr": 2.928813987851678
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0003",
+    "e2": "ABCC1",
+    "type": "gene/protein",
+    "margin": -0.209,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -4.304077764352162,
+    "fam_ctr": 2.3872771048662953
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0004",
+    "e2": "TRPM3",
+    "type": "gene/protein",
+    "margin": -1.5895,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -5.541856288909912,
+    "fam_ctr": 1.1494985803085456
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0005",
+    "e2": "ABCC4",
+    "type": "gene/protein",
+    "margin": -1.8384,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -5.778036117553711,
+    "fam_ctr": 0.9133187516647467
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0006",
+    "e2": "SLC22A5",
+    "type": "gene/protein",
+    "margin": -0.5651,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.6062908813667796,
+    "fam_ctr": 3.085063987851678
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0007",
+    "e2": "SLC16A10",
+    "type": "gene/protein",
+    "margin": -0.2141,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.8209695709603175,
+    "fam_ctr": 2.87038529825814
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0010",
+    "e2": "ABCC2",
+    "type": "gene/protein",
+    "margin": -2.1213,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -5.251994450887044,
+    "fam_ctr": 1.4393604183314137
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0011",
+    "e2": "SLC36A1",
+    "type": "gene/protein",
+    "margin": -1.8952,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.877301657649999,
+    "fam_ctr": 2.8140532115684587
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0012",
+    "e2": "ABCB5",
+    "type": "gene/protein",
+    "margin": -1.9299,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -5.6627583503723145,
+    "fam_ctr": 1.0285965188461432
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0013",
+    "e2": "ABCB11",
+    "type": "gene/protein",
+    "margin": -1.8677,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -6.773082384839654,
+    "fam_ctr": -0.08172751562119629
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0015",
+    "e2": "SLC6A3",
+    "type": "gene/protein",
+    "margin": -0.202,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -4.278241863660514,
+    "fam_ctr": 2.4131130055579435
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0016",
+    "e2": "SLCO1B1",
+    "type": "gene/protein",
+    "margin": -0.5558,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.8664668172597887,
+    "fam_ctr": 2.824888051958669
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0017",
+    "e2": "SLC2A1",
+    "type": "gene/protein",
+    "margin": -1.5005,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.9131400898098945,
+    "fam_ctr": 2.778214779408563
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0018",
+    "e2": "SLC36A2",
+    "type": "gene/protein",
+    "margin": -1.5978,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.952822490983332,
+    "fam_ctr": 2.7385323782351256
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0019",
+    "e2": "SLC7A5",
+    "type": "gene/protein",
+    "margin": -0.1704,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.963605111092329,
+    "fam_ctr": 2.7277497581261287
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0020",
+    "e2": "SLCO1B3",
+    "type": "gene/protein",
+    "margin": -2.6893,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -4.222716811299324,
+    "fam_ctr": 2.468638057919134
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0021",
+    "e2": "ALPL",
+    "type": "gene/protein",
+    "margin": -5.0155,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -8.715471982955933,
+    "fam_ctr": -2.024117113737475
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0023",
+    "e2": "SLC18A2",
+    "type": "gene/protein",
+    "margin": -0.4855,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.6586359411788485,
+    "fam_ctr": 3.032718928039609
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0024",
+    "e2": "SLC22A7",
+    "type": "gene/protein",
+    "margin": -0.1536,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.9396242147001126,
+    "fam_ctr": 2.751730654518345
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0025",
+    "e2": "SLC6A2",
+    "type": "gene/protein",
+    "margin": -1.5975,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -4.528241863660514,
+    "fam_ctr": 2.1631130055579435
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0026",
+    "e2": "SLC15A1",
+    "type": "gene/protein",
+    "margin": -0.8219,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.557471246148149,
+    "fam_ctr": 3.1338836230703087
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0027",
+    "e2": "ABCC3",
+    "type": "gene/protein",
+    "margin": -2.922,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -5.298869450887044,
+    "fam_ctr": 1.3924854183314137
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0028",
+    "e2": "STRA6",
+    "type": "gene/protein",
+    "margin": -6.3201,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -7.9926784833272295,
+    "fam_ctr": -1.3013236141087718
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0029",
+    "e2": "SLC5A8",
+    "type": "gene/protein",
+    "margin": -0.1069,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -4.2245928078889845,
+    "fam_ctr": 2.466762061329473
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0030",
+    "e2": "SLCO2A1",
+    "type": "gene/protein",
+    "margin": -0.0164,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -4.468050110340118,
+    "fam_ctr": 2.2233047588783394
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0032",
+    "e2": "SLCO1A2",
+    "type": "gene/protein",
+    "margin": -3.3639,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -5.060469710826874,
+    "fam_ctr": 1.6308851583915835
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0033",
+    "e2": "SLCO2B1",
+    "type": "gene/protein",
+    "margin": -1.2734,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -4.4621062524616715,
+    "fam_ctr": 2.229248616756786
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0035",
+    "e2": "SLC28A1",
+    "type": "gene/protein",
+    "margin": -1.7252,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.8863096740096807,
+    "fam_ctr": 2.805045195208777
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0036",
+    "e2": "SLC10A6",
+    "type": "gene/protein",
+    "margin": -1.2411,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -4.458269723923877,
+    "fam_ctr": 2.233085145294581
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0038",
+    "e2": "SLC22A12",
+    "type": "gene/protein",
+    "margin": -1.0284,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -4.004029502959123,
+    "fam_ctr": 2.6873253662593344
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0040",
+    "e2": "SLC29A1",
+    "type": "gene/protein",
+    "margin": -0.7681,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.9045902211219072,
+    "fam_ctr": 2.7867646480965504
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0041",
+    "e2": "SLC22A3",
+    "type": "gene/protein",
+    "margin": -1.1304,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.4812908813667796,
+    "fam_ctr": 3.210063987851678
+  },
+  {
+    "task_id": "drug|transporter|interacts with|exposure|0042",
+    "e2": "SLC15A2",
+    "type": "gene/protein",
+    "margin": -0.3542,
+    "template": "drug|transporter|gene/protein|interacts with|exposure",
+    "correct": 0.0,
+    "fam_type": -3.849137912814816,
+    "fam_ctr": 2.8422169564036417
+  }
+]

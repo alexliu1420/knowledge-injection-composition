@@ -1,0 +1,96 @@
+{
+  "anatomy -expression present-> gene/protein": {
+    "n": 4,
+    "accuracy": null,
+    "discrimination": null
+  },
+  "gene/protein -target-> drug": {
+    "n": 60,
+    "accuracy": 0.0167,
+    "discrimination": 0.6458,
+    "delta_logprob": 0.7154
+  },
+  "gene/protein -enzyme-> drug": {
+    "n": 60,
+    "accuracy": 0.0,
+    "discrimination": 0.5542,
+    "delta_logprob": 0.2658
+  },
+  "cellular_component -interacts with-> gene/protein": {
+    "n": 60,
+    "accuracy": 0.05,
+    "discrimination": 0.6792,
+    "delta_logprob": 1.3746
+  },
+  "gene/protein -carrier-> drug": {
+    "n": 49,
+    "accuracy": 0.0,
+    "discrimination": 0.4388,
+    "delta_logprob": -0.2919
+  },
+  "molecular_function -interacts with-> gene/protein": {
+    "n": 60,
+    "accuracy": 0.0167,
+    "discrimination": 0.7167,
+    "delta_logprob": 2.0419
+  },
+  "effect/phenotype -side effect-> drug": {
+    "n": 60,
+    "accuracy": 0.0167,
+    "discrimination": 0.5958,
+    "delta_logprob": 0.4748
+  },
+  "drug -synergistic interaction-> drug": {
+    "n": 60,
+    "accuracy": 0.0,
+    "discrimination": 0.5625,
+    "delta_logprob": 0.3058
+  },
+  "disease -indication-> drug": {
+    "n": 60,
+    "accuracy": 0.1,
+    "discrimination": 0.7333,
+    "delta_logprob": 1.3945
+  },
+  "drug -contraindication-> disease": {
+    "n": 37,
+    "accuracy": 0.027,
+    "discrimination": 0.6689,
+    "delta_logprob": 0.9765
+  },
+  "disease -parent-child-> disease": {
+    "n": 60,
+    "accuracy": 0.0167,
+    "discrimination": 0.8333,
+    "delta_logprob": 1.7724
+  },
+  "disease -phenotype present-> effect/phenotype": {
+    "n": 60,
+    "accuracy": 0.0333,
+    "discrimination": 0.8,
+    "delta_logprob": 1.7974
+  },
+  "gene/protein -transporter-> drug": {
+    "n": 60,
+    "accuracy": 0.0,
+    "discrimination": 0.5833,
+    "delta_logprob": 0.538
+  },
+  "drug -side effect-> effect/phenotype": {
+    "n": 4,
+    "accuracy": null,
+    "discrimination": null
+  },
+  "drug -transporter-> gene/protein": {
+    "n": 60,
+    "accuracy": 0.05,
+    "discrimination": 0.7167,
+    "delta_logprob": 0.8113
+  },
+  "gene/protein -interacts with-> exposure": {
+    "n": 60,
+    "accuracy": 0.0167,
+    "discrimination": 0.5083,
+    "delta_logprob": -0.0203
+  }
+}

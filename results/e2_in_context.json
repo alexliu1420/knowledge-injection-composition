@@ -1,0 +1,4668 @@
+{
+  "anchored": [
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0000",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 2.7243,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0006",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 2.888,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0011",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 0.8573,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0012",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 3.9122,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0017",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 3.9277,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0023",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 3.1531,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0026",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 0.3042,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0031",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 2.9638,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0032",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 2.7348,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0034",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 3.2139,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0035",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.1886,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0036",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 3.8617,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0037",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.3673,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0038",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.622,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0039",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 0.2154,
+      "chain": 1.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0046",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 2.9006,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0047",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 0.9913,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0048",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 0.7256,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0049",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.4061,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0052",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.5476,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0053",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 0.6418,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0058",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 0.8452,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0059",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.0057,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0061",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.6909,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0062",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 4.2186,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0063",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 4.7506,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0065",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.006,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0066",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 0.7053,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0067",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 0.1684,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0068",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.1107,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0070",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 3.7554,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0076",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 3.0811,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0077",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.4335,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0078",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.1565,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0079",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 0.8775,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0084",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 2.3314,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0086",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 2.5348,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0087",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 0.8959,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0088",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.2512,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0090",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.1868,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0093",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 2.6453,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0101",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 0.4484,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0103",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 2.6494,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0104",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.7238,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0107",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 2.3612,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0109",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 1.2015,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0113",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 2.6392,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0115",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 2.612,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0116",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 0.4858,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0117",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": 2.7834,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0000",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 0.4083,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0002",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.1099,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0005",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.693,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0007",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.7683,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0013",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.1295,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0014",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 4.1011,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0016",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 2.6841,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0018",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 0.9998,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0023",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 2.1564,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0024",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.4667,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0026",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.9593,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0027",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 2.2891,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0029",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.4045,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0031",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 0.1544,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0038",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.8279,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0041",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 0.1821,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0043",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 3.4712,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0050",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.4724,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0053",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 0.0317,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0054",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 2.1251,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0056",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 4.7896,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0059",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 0.1416,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0060",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.6472,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0063",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 3.1043,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0064",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.1577,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0070",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.1208,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0072",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 5.3445,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0074",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 0.8485,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0075",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 2.1272,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0077",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.0311,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0078",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.0523,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0080",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.8028,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0081",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 2.7394,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0083",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 3.4632,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0084",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.4629,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0085",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 0.7841,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0087",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.874,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0088",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 4.3598,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0090",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.3563,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0091",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.7763,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0092",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.4883,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0094",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 0.3081,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0095",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 3.9413,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0096",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.5442,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0108",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 2.0152,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0110",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 4.2753,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0111",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 3.0616,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0112",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.3692,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0114",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 1.8036,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0115",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": 0.5508,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0003",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 2.9147,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0007",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 1.0618,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0009",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.5395,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0010",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 1.2067,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0012",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.3458,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0013",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 1.9225,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0015",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 3.8291,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0016",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 2.1437,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0020",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 2.5011,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0021",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 2.2526,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0022",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.1182,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0025",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 1.0072,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0026",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 2.2238,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0027",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.86,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0029",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 1.4999,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0032",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 2.7804,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0033",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 1.1977,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0038",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 1.9426,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0039",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.206,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0040",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 1.6284,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0041",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 1.3222,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0042",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.7213,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0044",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 1.0412,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0049",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.1886,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0052",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.4492,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0053",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.1218,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0054",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 2.4976,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0057",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 2.1639,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0060",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.257,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0066",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.0745,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0068",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.5716,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0070",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.1034,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0072",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.2096,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0075",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 1.0469,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0077",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 1.235,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0080",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.5163,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0086",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.3432,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0088",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.6331,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0090",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 2.7202,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0091",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 1.2205,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0093",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": 0.5375,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0001",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.1509,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0003",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.763,
+      "chain": 1.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0004",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.2083,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0005",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.4171,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0009",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.3498,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0011",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.2276,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0015",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.7464,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0018",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.733,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0020",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.9154,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0024",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 4.7696,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0025",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.248,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0029",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.0322,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0030",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.0886,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0031",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.0387,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0032",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.4783,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0033",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.2822,
+      "chain": 1.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0034",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.2871,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0036",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 3.068,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0037",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.27,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0041",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.0765,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0044",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.9737,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0047",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.3253,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0049",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.0536,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0050",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.0601,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0051",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.1916,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0052",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.8006,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0055",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 3.0178,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0057",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.2597,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0058",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.2156,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0059",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.0848,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0060",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.2308,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0061",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.8063,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0062",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.0587,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0064",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.2921,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0065",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 3.1418,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0066",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.0983,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0067",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.6124,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0068",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 3.8034,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0070",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.9516,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0071",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.4248,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0072",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.8903,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0074",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.0269,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0075",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.7838,
+      "chain": 1.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0076",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 3.3506,
+      "chain": 1.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0078",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.0434,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0079",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.1234,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0083",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.5403,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0086",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.2912,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0087",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.1109,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0088",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.1316,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0090",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.0511,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0094",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.5458,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0095",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 3.2292,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0096",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.3545,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0097",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.0406,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0099",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 3.5962,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0100",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.9692,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0101",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 0.7689,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0103",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.1816,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0104",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.5611,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0106",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.8662,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0107",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.9019,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0108",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 2.0535,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0110",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.251,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0113",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.8892,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0114",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.3188,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0118",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": 1.9054,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0009",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": 0.4017,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0013",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": 1.0234,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0016",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": 0.2715,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0017",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": 3.2639,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0018",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": 0.4331,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0000",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": 0.1076,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0001",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": 1.0413,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0008",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": 0.9818,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0009",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": 0.114,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0014",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": 0.1886,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0022",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": 0.7957,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0031",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": 0.0977,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0034",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": 0.647,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0037",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": 0.1562,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0039",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": 0.0795,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    }
+  ],
+  "control": [
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0001",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -5.8959,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0002",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -4.595,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0003",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.847,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0004",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -2.2727,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0005",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.7988,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0007",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -4.5424,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0008",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.2162,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0009",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.1059,
+      "chain": 1.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0010",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -4.5955,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0013",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.6835,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0014",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.7057,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0015",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -2.5437,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0016",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -2.4375,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0018",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -2.0424,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0019",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.5184,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0020",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -3.103,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0021",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.4646,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0022",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.4518,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0024",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -2.49,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0025",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -2.3274,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0027",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -2.8415,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0028",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -2.4747,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0029",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -5.521,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0030",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.7963,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0033",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -4.324,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0040",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.1746,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0041",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -6.2446,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0042",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.5617,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0043",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -4.5532,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0044",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.3156,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0045",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.5251,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0050",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.6493,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0051",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.8016,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0054",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.6349,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0055",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -2.8317,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0056",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.4014,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0057",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.5842,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0060",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.119,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0064",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.3064,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0069",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.2861,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0071",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.3689,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0072",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.2977,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0073",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.2275,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0074",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.3417,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0075",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.7155,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0080",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -3.0392,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0081",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -5.159,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0082",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.2179,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0083",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -4.9007,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0085",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.0514,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0089",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.8655,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0091",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.9553,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0092",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.1896,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0094",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -2.3146,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0095",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.3465,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0096",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -2.0045,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0097",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.3706,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0098",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.3399,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0099",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.4613,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0100",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -5.1038,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0102",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.7171,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0105",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -3.2387,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0106",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.8835,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0108",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -2.2849,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0110",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -2.2523,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0111",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.6033,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0112",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.076,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0114",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.3821,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0118",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -0.0372,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "cellular_component|interacts with|carrier|drug|0119",
+      "r1": "interacts with",
+      "template": "cellular_component|interacts with|gene/protein|carrier|drug",
+      "margin": -1.9437,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0001",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.2884,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0003",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -1.0457,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0004",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -1.5228,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0006",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.71,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0008",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -3.6848,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0009",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -6.3851,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0010",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -2.8978,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0011",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -4.3937,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0012",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.9909,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0015",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -4.0159,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0017",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -1.3947,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0019",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -10.0892,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0020",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -3.72,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0021",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.2692,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0022",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.0179,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0025",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -5.294,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0028",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -5.1024,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0030",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -2.3765,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0032",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -4.4803,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0033",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -2.3139,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0034",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -3.9523,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0035",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -1.304,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0036",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.5199,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0037",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -5.2793,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0039",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.4467,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0040",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -2.0292,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0042",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -4.469,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0044",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -3.6538,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0045",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -2.5116,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0046",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -1.2088,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0047",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -3.3081,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0048",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -2.8478,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0049",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -3.3154,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0051",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.3081,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0052",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -1.9449,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0055",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -3.0845,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0057",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -1.4574,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0058",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.8951,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0061",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -5.1553,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0062",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -3.5115,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0065",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.4173,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0066",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.0742,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0067",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -3.0498,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0068",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -5.0956,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0069",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -3.6712,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0071",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -1.9953,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0073",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -4.0316,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0076",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.4085,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0079",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.5298,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0082",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -2.0167,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0086",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -4.6773,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0089",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -2.7053,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0093",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -1.2028,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0097",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.1925,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0098",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -2.7462,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0099",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.8729,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0100",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -3.0221,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0101",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -1.7526,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0102",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -4.6565,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0103",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -2.7568,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0104",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -2.4619,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0105",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -8.4768,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0106",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -4.8915,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0107",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.7902,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0109",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -3.401,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0113",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -0.9306,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0116",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -9.439,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0117",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -1.6662,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0118",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -1.0041,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "molecular_function|interacts with|target|drug|0119",
+      "r1": "interacts with",
+      "template": "molecular_function|interacts with|gene/protein|target|drug",
+      "margin": -2.4495,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0000",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.9989,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0001",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -2.3381,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0002",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -5.1599,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0004",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.2674,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0005",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -1.6446,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0006",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.4763,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0008",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -1.3359,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0011",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -5.2236,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0014",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -2.7428,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0017",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -1.9311,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0018",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -2.591,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0019",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.8798,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0023",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.4976,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0024",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.9205,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0028",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -3.2982,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0030",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -2.2824,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0031",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.043,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0034",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -1.1793,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0035",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -7.0636,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0036",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.7216,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0037",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -1.8274,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0043",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -3.9121,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0045",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -4.4917,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0046",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -1.4184,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0047",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.1824,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0048",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -2.7311,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0050",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -3.3344,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0051",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.995,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0055",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -6.8092,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0056",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -1.6296,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0058",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -4.4479,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0059",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -1.4665,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0061",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.6948,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0062",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.6143,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0063",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.1098,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0064",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.6165,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0065",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -2.4517,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0067",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -4.5232,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0069",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.657,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0071",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.9225,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0073",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.3077,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0074",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -1.6877,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0076",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -1.5868,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0078",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -2.92,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0079",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -1.5993,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0081",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.8422,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0082",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -2.6137,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0083",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -1.2412,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0084",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.3241,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0085",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -0.5626,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0087",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -3.6843,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0089",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -2.1614,
+      "chain": 1.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0092",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -8.1066,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|indication|contraindication|disease|0094",
+      "r1": "indication",
+      "template": "disease|indication|drug|contraindication|disease",
+      "margin": -1.598,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0000",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.1296,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0002",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.8475,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0006",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.2216,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0007",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.4573,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0008",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.1179,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0010",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.0163,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0012",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.1964,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0013",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.4438,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0014",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.5464,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0016",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -3.762,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0017",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.8937,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0019",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.1042,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0021",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.6342,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0022",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.5066,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0023",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -2.1754,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0026",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.6369,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0027",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.5488,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0028",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.077,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0035",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -3.7206,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0038",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -2.6619,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0039",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.5948,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0040",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.0542,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0042",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.3803,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0043",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -2.9416,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0045",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -2.3141,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0046",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -3.0556,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0048",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.4104,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0053",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.5675,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0054",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.1979,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0056",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.5047,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0063",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.648,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0069",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.6586,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0073",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -3.7348,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0077",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.6255,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0080",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.7573,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0081",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.8353,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0082",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.9738,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0084",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.7431,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0085",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.4107,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0089",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.5289,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0091",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -2.6611,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0092",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -2.1036,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0093",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.1141,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0098",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.2703,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0102",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -2.5366,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0105",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.0615,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0109",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.3935,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0111",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -1.1547,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0112",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.4708,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0115",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.0561,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0116",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -0.7847,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0117",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -2.1691,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "disease|parent-child|phenotype present|effect/phenotype|0119",
+      "r1": "parent-child",
+      "template": "disease|parent-child|disease|phenotype present|effect/phenotype",
+      "margin": -2.1852,
+      "chain": 1.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0000",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -3.8756,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0001",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -0.1492,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0002",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -4.4341,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0003",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -1.9343,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0004",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -2.0691,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0005",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -0.1213,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0006",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -2.4201,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0007",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -2.709,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0008",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -4.0535,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0010",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -2.6594,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0011",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -1.1302,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0012",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -2.5914,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 0.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0014",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -3.931,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0015",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -5.3939,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "gene/protein|transporter|side effect|effect/phenotype|0019",
+      "r1": "transporter",
+      "template": "gene/protein|transporter|drug|side effect|effect/phenotype",
+      "margin": -1.3399,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0002",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.2708,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0003",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.209,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0004",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -1.5895,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0005",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -1.8384,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0006",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.5651,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0007",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.2141,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0010",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -2.1213,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0011",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -1.8952,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0012",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -1.9299,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0013",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -1.8677,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0015",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.202,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0016",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.5558,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0017",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -1.5005,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0018",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -1.5978,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0019",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.1704,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0020",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -2.6893,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0021",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -5.0155,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0023",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.4855,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0024",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.1536,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0025",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -1.5975,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0026",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.8219,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0027",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -2.922,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0028",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -6.3201,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0029",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.1069,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0030",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.0164,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0032",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -3.3639,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0033",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -1.2734,
+      "chain": 0.0,
+      "chain+E2": 1.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0035",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -1.7252,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0036",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -1.2411,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0038",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -1.0284,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0040",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.7681,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0041",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -1.1304,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    },
+    {
+      "task_id": "drug|transporter|interacts with|exposure|0042",
+      "r1": "transporter",
+      "template": "drug|transporter|gene/protein|interacts with|exposure",
+      "margin": -0.3542,
+      "chain": 0.0,
+      "chain+E2": 0.0,
+      "direct": 1.0
+    }
+  ]
+}
