@@ -17,7 +17,7 @@ Fine-tuning stores new facts almost perfectly and leaves them unusable: in our s
 
 We then decompose the failure and find that two of its four candidate causes are not where the problem is. Storage is not the constraint: recall of the injected fact is 1.000 in its training form and 0.71–0.81 when rephrased. **Training explicit first-hop generation did not improve chaining**: raising bridge-entity generation from 0.000 to 1.000 yields no gain over a control that trains an unrelated fact. Supplying the bridge in context does help (0.220 → 0.498), but a false-bridge control shows **a quantity equal to ≈68% of that gain is followed regardless of whether the bridge is correct**. A residual compositional cost survives all three interventions.
 
-Two interventions returned negative results: training the anchor link did not outperform a control that trains an unrelated fact, and the group contrast did not generalise across templates. We also re-examine a published self-patching oracle diagnostic, which selects the best layer pair per instance against a baseline of zero; applying the same per-instance selection to an uninjected model yields a per-item maximum of +0.80.
+Two results are negative: training the anchor link did not outperform a control that trains an unrelated fact, and the group contrast did not generalise across templates. We also re-examine a published self-patching oracle diagnostic, which selects the best layer pair per instance against a baseline of zero; applying the same per-instance selection to an uninjected model yields a per-item maximum of +0.80.
 
 ---
 
@@ -44,9 +44,7 @@ This gap is measured independently in at least three literatures that mostly do 
 
 ## 2 · Related work
 
-**Four literatures, one phenomenon.** Knowledge-editing reports ripple-effect failures where edits do not propagate to logically entailed consequences [Cohen et al., 2024]. Latent multi-hop reasoning reports chance-level composition of finetuned facts [Yang et al., 2025]. Continual knowledge injection reports knowing-using gaps of 81–92 percentage points — memorisation 99.8% against generalisation 7.8–18.2% [Dai et al., 2026]. Agent memory builds systems whose central failure mode is that stored knowledge goes unused, and is **disconnected from all three in both directions** — verified by a two-directional bibliography check.
-
-*(Checked in both directions: three of the four literatures do cross-cite; agent memory is the disconnected one.)*
+**Four literatures, one phenomenon.** Knowledge-editing reports ripple-effect failures where edits do not propagate to logically entailed consequences [Cohen et al., 2024]. Latent multi-hop reasoning reports chance-level composition of finetuned facts [Yang et al., 2025]. Continual knowledge injection reports knowing-using gaps of 81–92 percentage points — memorisation 99.8% against generalisation 7.8–18.2% [Dai et al., 2026]. Agent memory builds systems whose central failure mode is that stored knowledge goes unused. A two-directional bibliography check found that three of these literatures do cross-cite; agent memory is **disconnected from all three in both directions**.
 
 **Prior exposure bounds composition.** [Karmim et al., 2026] manipulate compositional exposure during synthetic pretraining and find composition transfers only to entities seen in compositional contexts (0.83 vs 0.01). Their predictor is binary and manipulated during pretraining; the one used here is continuous and measured on a model we did not train.
 
@@ -73,9 +71,9 @@ A task is a triple E1 —r1→ E2 —r2→ E3. We inject `fact2` (E2 —r2→ E3
 
 **Edge direction is type-directed, not stored-direction.** PrimeKG's stored edge orientation does not reliably match a template's semantic direction, and the mismatch differs per relation (`expression present` is stored gene→anatomy while the template needs anatomy→gene; `indication` is stored both ways). Using stored direction would have produced semantically reversed questions for a subset of relations, silently.
 
-![Distribution of `anchor_margin` across items, with the split into the two groups. The arms are a partition of one continuous pre-treatment variable, not two separately sampled populations.](figures/figA2_margin_split.png)
-
 **Anchor recoverability is verified per item, on the base model, before injection.** For each item we score the first-hop question against four same-template distractors and record `anchor_margin` = logprob(correct) − max(logprob(distractor)). Items where the base model ranks the correct bridge above every distractor form the **anchored** arm; the rejected items form the **matched control**, built from rejections rather than by separate sampling so that the two groups are matched on template, entity type and one-fact injection at the point of item selection. The split is observational, not assigned: the groups differ in whether hop 1 is recoverable, and may also differ in entity identity and in other item properties we did not measure. Matching constrains those differences; it does not eliminate them.
+
+![Distribution of `anchor_margin` across items, with the split into the two groups. The arms are a partition of one continuous pre-treatment variable, not two separately sampled populations.](figures/figA2_margin_split.png)
 
 **It does not match them on training environment.** The arms were trained as separate adapters containing 223 and 295 facts, so any comparison that pools them confounds anchor strength with both the adapter and the fact count. The direct fix is to put both margin signs in one adapter, and §5.1 reports that single-adapter replication as its primary analysis. The separate-adapter dataset is retained for the experiments in §5.3–§5.6, each of which is a within-condition comparison that does not pool across the two groups.
 
@@ -93,11 +91,10 @@ In this setting **the choice of measure decides the answer**.
 
 **The distractor control resolves it.** Scoring the correct answer against same-type distractors under the same prompt absorbs the format gain, because format learning helps all candidates equally. On the base model, composition discrimination is **0.4972** — exactly chance, as it must be.
 
-**Positive control.**
 ![The same checkpoints support three different conclusions depending only on the measure. Only the third survives its control.](figures/fig8_measure_decides.png)
- On trained checkpoints, memorisation discrimination is **1.0000**. A low composition number is therefore a fact about the model, not a broken metric.
 
-> **Figure 8** shows the same checkpoints supporting three different results — 0.0111 accuracy, +0.88 nats log-probability, chance-level controlled discrimination — depending only on the measure. Every other number in this paper is reported with its control for this reason.
+**Positive control.** On trained checkpoints, memorisation discrimination is **1.0000**. A low composition number is therefore a fact about the model, not a broken metric. The same checkpoints support three different conclusions depending only on the measure, which is why every number in this paper is reported with its control.
+
 
 **Matched recall.** Every integration comparison is taken at a checkpoint where single-fact recall is equal across conditions; otherwise the comparison measures how much was learned rather than how well it integrated. For the arm experiment (§5.5) the matched point is end-of-training, where compute is identical by construction and recall spread across arms is 0.0000; using the "all facts memorised" checkpoint there would have given the treatment arms *more* training.
 
@@ -120,10 +117,10 @@ The unit of analysis is the **item**: each contributes one outcome, averaged ove
 | design | scope | n items | ρ | 95% CI (template bootstrap) |
 |---|---|---:|---:|---|
 | **single adapter** | **all items** | **518** | **+0.362** | **[+0.204, +0.435]** |
-| single adapter | high-margin subset | 223 | +0.235 | [+0.090, +0.437] |
-| single adapter | low-margin subset | 295 | +0.229 | [+0.088, +0.325] |
-| separate adapters | high-margin arm | 223 | +0.213 | [+0.082, +0.426] |
-| separate adapters | low-margin arm | 295 | +0.105 | [−0.058, +0.207] |
+| single adapter | high margin | 223 | +0.235 | [+0.090, +0.437] |
+| single adapter | low margin | 295 | +0.229 | [+0.088, +0.325] |
+| separate adapters | high margin | 223 | +0.213 | [+0.082, +0.426] |
+| separate adapters | low margin | 295 | +0.105 | [−0.058, +0.207] |
 
 `anchor_margin` is measured on the base model *before* injection, so it cannot have been influenced by the treatment.
 
@@ -147,16 +144,14 @@ The unit of analysis is the **item**: each contributes one outcome, averaged ove
 |---|---:|---|
 | anchor margin | **+0.362** | [+0.204, +0.435] |
 | entity familiarity | +0.080 | — |
-| margin, **controlling entity familiarity** | **+0.219** | **[+0.044, +0.410]** |
-| familiarity, **controlling margin** | −0.164 | — |
+| margin \| familiarity | **+0.219** | **[+0.044, +0.410]** |
+| familiarity \| margin | −0.164 | — |
 
 Inference here uses the same standard as §5.1, not the item-level normal approximation: the interval is a template bootstrap and the p-value comes from a template-stratified permutation test, which puts the controlled association outside all 10,000 shuffles (p = 0.0001). The interval is wide and its lower bound is close to zero.
 
 Controlling for familiarity **attenuates the margin effect but does not remove it**, from +0.362 to +0.219. Within template the controlled association is +0.246, positive in five of five testable templates. This rules out one specific alternative — that the margin is a proxy for how well the model already knows the bridge entity — using one operationalisation of familiarity. It does not establish that the dependence is relational in general; other properties correlated with the margin remain untested, and the attenuation shows the two are not independent.
 
-Familiarity's raw and controlled associations have opposite signs (+0.080 and −0.164). We report this without an account of it.
-
-Entity familiarity has a small *negative* independent effect (−0.164 across all items, −0.201 within-template). We tested the obvious account — a well-known bridge has more competing associations — using PrimeKG degree as a model-independent proxy. Across all items it looked convergent (ρ = −0.252, p = 9.9 × 10⁻⁹ controlling margin, and near-zero correlation with familiarity, so apparently independent evidence). **It largely collapses within template** (mean −0.047, negative in four of five): most of the effect was a bridge-type contrast, since degree differs systematically between drugs, genes and diseases. We report the negative effect as an observation with no supported mechanism.
+Familiarity's raw and controlled associations have opposite signs (+0.080 and −0.164), and the controlled effect is negative within template as well (−0.201). We report this without an account of it, and tested the obvious one — a well-known bridge has more competing associations — using PrimeKG degree as a model-independent proxy. Across all items it looked convergent (ρ = −0.252, p = 9.9 × 10⁻⁹ controlling margin, and near-zero correlation with familiarity, so apparently independent evidence). **It largely collapses within template** (mean −0.047, negative in four of five): most of the effect was a bridge-type contrast, since degree differs systematically between drugs, genes and diseases. We report the negative effect as an observation with no supported mechanism.
 
 ### 5.3 Training explicit first-hop generation did not improve chaining
 
@@ -178,7 +173,7 @@ This agrees with [Johnston & Belrose, 2025]'s probing result and strengthens it:
 
 ### 5.4 A false-intermediate control: ≈68% of the "supply the bridge" gain is truth-insensitive
 
-![False-bridge control. A decoy bridge is followed 0.202 of the time against a base rate of 0.014, while the model's own path survives the contradiction.](figures/fig5_false_bridge.png)
+![False-bridge control. A decoy bridge is followed 0.202 of the time against a base rate of 0.013, while the model's own path survives the contradiction.](figures/fig5_false_bridge.png)
 
 Supplying the intermediate is a standard way to argue that composition is bottlenecked on retrieval. We test what that argument is worth by supplying a **false** bridge — drawn from another item of the same template, whose own `fact2` was also injected, so the model has a stored answer for it.
 
@@ -253,7 +248,7 @@ The divergence is not timed relative to memorisation saturation. Isolating the i
 
 ## 6 · Re-examining a published self-patching result
 
-![Self-patching against an appropriate null. A per-item maximum of +0.80 is what noise looks like on a model with nothing injected to relocate.](figures/fig6_patching_null.png)
+![Self-patching against an appropriate null. Applying the same per-instance maximum to a model with nothing injected to relocate still yields +0.80 at the 95th percentile.](figures/fig6_patching_null.png)
 
 Self-patching relocates a representation from one layer to another at entity-anchor positions and asks whether the answer improves. [Dai et al., 2026] report two things: an **oracle diagnostic**, which scans all layer pairs per instance and reports the best-performing pair as an upper bound, and a **fixed heuristic** using two predetermined layer pairs applied uniformly, which recovers 58–75% of the oracle headroom. Our analysis concerns the first of these, not the second. **A maximum over many null comparisons is positive by construction.** We ran the identical sweep on an uninjected and an injected model — 60 items, 42-pair grid, same items, same selection procedure — so the same post-hoc maximum is taken on both sides. The uninjected model controls for *injection-specific* relocation; patching can affect a base model, so this is not a measurement of noise alone, and baseline MRR and headroom differ between conditions.
 
@@ -360,24 +355,24 @@ All entries were checked against the primary source (arXiv abstract page, ACL An
 - Miles Turpin, Julian Michael, Ethan Perez, Samuel R. Bowman. *Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting.* NeurIPS 2023. arXiv:2305.04388.
 - Jian Wu, Linyi Yang, Zhen Wang, Manabu Okumura, Yue Zhang. *COFCA: A Step-Wise Counterfactual Multi-Hop QA Benchmark.* arXiv:2402.11924, 2024.
 - Jiayu Yang, Yuxuan Fan, Songning Lai, Shengen Wu, Jiaqi Tang, Chun Kang, Zhijiang Guo, Yutao Yue. *ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall.* ICLR 2026. arXiv:2510.07896.
-- Zhuoran Zhang, Yongxiang Li, Zijian Kan, Keyuan Cheng, Lijie Hu, Di Wang. *Locate-then-edit for Multi-hop Factual Recall under Knowledge Editing.* ICML 2025, PMLR v267.
 - Sohee Yang, Nora Kassner, Elena Gribovskaya, Sebastian Riedel, Mor Geva. *Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts?* Findings of ACL 2025. arXiv:2411.16679.
+- Zhuoran Zhang, Yongxiang Li, Zijian Kan, Keyuan Cheng, Lijie Hu, Di Wang. *Locate-then-edit for Multi-hop Factual Recall under Knowledge Editing.* ICML 2025, PMLR v267.
 
 ---
 
 ## Figures
 
-All generated by `src/make_figures.py` from `results/*.json`. Figures 1–8 are main text; A2–A3 are appendix.
+All generated by `src/make_figures.py` from `results/*.json`, in the order they appear.
 
-| # | figure | supports |
+| # | figure | section |
 |---|---|---|
-| 1 | Composition: base / both-injected, then high- vs low-margin subsets of one adapter | §5.1 |
-| 2 | Dose-response — composition by anchor-margin quintile, with within-template panels | §5.1 |
-| 3 | Trajectory — the anchored arm separates from the control while memorising; the control never does | §5.7 |
-| 4 | Four-way decomposition bar chart: storage / trained first-hop generation / supplied bridge / direct | §5.3 |
-| 5 | False-bridge 2×2 — true vs false answer under true vs false bridge | §5.4 |
-| 6 | Patch-delta null distribution vs injected, per-item maxima | §6 |
-| 7 | Four arms with seed ranges, showing B ≈ C ≈ D | §5.5 |
-| **8** | **Accuracy vs logprob vs controlled discrimination on identical checkpoints** (main text) | §4 |
-| A2 | Anchor-margin distribution, anchored vs control split | §3 |
-| A3 | Cluster-bootstrap intervals at 5 vs 6 templates | §5.6 |
+| 1 | Composition by condition: base and both-hops-injected at chance; high- vs low-margin subsets of one adapter | §1 |
+| 2 | Anchor-margin distribution, with the split into the two groups | §3 |
+| 3 | Accuracy vs raw log-probability vs controlled discrimination on identical checkpoints | §4 |
+| 4 | Dose-response: composition by anchor-margin quintile, with within-template correlations | §5.1 |
+| 5 | Four-way decomposition: storage / trained first-hop generation / supplied bridge / direct | §5.3 |
+| 6 | False-bridge control: true vs decoy answer under a true vs false bridge | §5.4 |
+| 7 | Four token-matched arms with seed ranges | §5.5 |
+| 8 | Template-level cluster-bootstrap intervals, at five and six clusters | §5.6 |
+| 9 | Composition trajectory: anchored arm vs matched control during memorisation | §5.7 |
+| 10 | Self-patching per-item maxima, injected vs uninjected null | §6 |

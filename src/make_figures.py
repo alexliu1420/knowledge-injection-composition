@@ -413,8 +413,11 @@ def figA2() -> None:
     ax.hist(c, bins=bins, color=CTRL, alpha=.75, label=f"matched control (n={len(c)})")
     ax.hist(a, bins=bins, color=ANCH, alpha=.65, label=f"anchored (n={len(a)})")
     ax.axvline(0, color="k", lw=1.2)
-    ax.text(.03, ax.get_ylim()[1] * .9, " split at margin 0\n (base model ranks the\n bridge above every distractor)",
-            fontsize=7, va="top")
+    # The annotation sat at the top of the axes, where the upper-right legend covered it.
+    # Put it in the empty lower-left region and let the legend keep its corner.
+    ax.text(.03, .30, "split at margin 0\n(base model ranks the bridge\nabove every distractor)",
+            transform=ax.transAxes, fontsize=7, va="top", ha="left",
+            bbox={"facecolor": "white", "edgecolor": "none", "alpha": .8, "pad": 2})
     ax.set_xlabel("anchor margin, measured on the BASE model before injection")
     ax.set_ylabel("items"); ax.legend(fontsize=7.5, loc="upper right")
     ax.set_title("The arms are a split of one continuous pre-treatment variable,\n"
