@@ -4,7 +4,7 @@ One script, no manual steps, so a figure can never drift from the number it depi
 each panel recomputes its values from `results/*.json` rather than from anything typed
 into the draft. Run it after any rerun and the figures follow.
 
-Figures 1-9 are main text, A2-A3 appendix. Figure 9 is the one that must not be
+Figures 1-8 are main text, A2-A3 appendix. Figure 8 is the one that must not be
 relegated -- the same checkpoints support three different conclusions depending on the
 measure, and it is why every other number here is reported with its control.
 """
@@ -26,6 +26,7 @@ sys.path.insert(0, "src")
 from analyze_anchor_dose import spearman  # noqa: E402
 
 OUT = Path("paper/figures")
+S1 = "."
 OUT.mkdir(parents=True, exist_ok=True)
 
 # colour-blind safe, print-safe
@@ -38,8 +39,30 @@ plt.rcParams.update({
 })
 
 
+_INPUTS: set[str] = set()
+
+
 def J(p: str):
+    """Load a result file, recording it as an input to the figures."""
+    _INPUTS.add(Path(p).as_posix())
     return json.loads(Path(p).read_text(encoding="utf-8"))
+
+
+def write_lock() -> None:
+    """Record the sha256 of every result file the figures were built from.
+
+    An mtime comparison cannot answer "are these figures current?" in a copied tree,
+    where every file carries the same fresh timestamp. Hashing the inputs can.
+    """
+    import hashlib
+    lock = {}
+    for rel in sorted(_INPUTS):
+        p = Path(rel)
+        if p.exists():
+            lock[rel] = hashlib.sha256(p.read_bytes()).hexdigest()
+    (OUT / "figure_inputs.lock.json").write_text(
+        json.dumps({"inputs": lock}, indent=2), encoding="utf-8", newline="\n")
+    print(f"  recorded {len(lock)} figure inputs for freshness checking")
 
 
 def per_item(p: str) -> dict[str, dict]:
@@ -60,6 +83,11 @@ ctrl = [per_item(f"results/tmpl7/control_s{s}/eval_final.json") for s in SEEDS]
 meta_a = {it["task_id"]: it for it in J("data/tasks/anchored7.json")["items"]}
 meta_c = {it["task_id"]: it for it in J("data/tasks/anchored7_control.json")["items"]}
 
+# single-adapter replication: all 518 facts in one training run, so the predictor's value
+# cannot identify which model answered. Section 5.1 leads with this design.
+pooled = [per_item(f"results/pooled7/s{s}/eval_final.json") for s in SEEDS]
+meta_p = {it["task_id"]: it for it in J("data/tasks/pooled7.json")["items"]}
+
 
 def arm_mean(d: dict[str, dict], key="chain_strict") -> float:
     return st.mean(r[key] for r in d.values())
@@ -67,10 +95,24 @@ def arm_mean(d: dict[str, dict], key="chain_strict") -> float:
 
 # --------------------------------------------------------- Fig 1 · conditions
 def fig1() -> None:
-    a = [arm_mean(d) for d in anch]
-    c = [arm_mean(d) for d in ctrl]
-    labels = ["base\n(chance)", "both hops\ninjected", "matched\ncontrol", "one hop\nanchored"]
-    vals = [0.4972, 0.5296, st.mean(c), st.mean(a)]
+    # Single-adapter design, matching section 5.1: high- and low-margin facts are split
+    # out of ONE training run, so the contrast is not between two different models.
+    def split(d):
+        hi = [float(r["chain_strict"]) for tid, r in d.items()
+              if meta_p.get(tid, {}).get("arm") == "anchored"]
+        lo = [float(r["chain_strict"]) for tid, r in d.items()
+              if tid in meta_p and meta_p[tid].get("arm") != "anchored"]
+        return st.mean(hi), st.mean(lo)
+
+    a = [split(d)[0] for d in pooled]
+    c = [split(d)[1] for d in pooled]
+    labels = ["base\n(chance)", "both hops\ninjected", "low margin\n(subset)", "high margin\n(subset)"]
+    # both were hand-entered; they are computable from the deposited gate check, and a
+    # hand-entered figure value is exactly what Fig 9 exists to warn about
+    gc = J("results/gate_check.json")
+    vals = [gc["base"]["chain"]["discrimination"],
+            gc["inject_dense/checkpoint-mem100"]["chain"]["discrimination"],
+            st.mean(c), st.mean(a)]
     errs = [[0, 0, st.mean(c) - min(c), st.mean(a) - min(a)],
             [0, 0, max(c) - st.mean(c), max(a) - st.mean(a)]]
     cols = [NEUT, BAD, CTRL, ANCH]
@@ -84,23 +126,26 @@ def fig1() -> None:
 
     ax2.bar(labels[2:], vals[2:], yerr=[errs[0][2:], errs[1][2:]],
             color=cols[2:], width=.55, capsize=4, error_kw={"lw": 1.1})
-    for i, v in enumerate(vals[2:]):
-        ax2.text(i, v + .022, f"{v:.3f}", ha="center", fontsize=8.5, fontweight="bold")
+    # clear the error-bar cap, not just the bar top, or the label lands on the whisker
+    for i, (v, up) in enumerate(zip(vals[2:], errs[1][2:])):
+        ax2.text(i, v + up + .014, f"{v:.3f}", ha="center", fontsize=8.5, fontweight="bold")
     ax2.set_ylim(0, 0.33); ax2.set_ylabel("composition (accuracy)")
-    ax2.set_title(f"One hop anchored, 3 seeds\nratio {st.mean(a)/st.mean(c):.2f}$\\times$", fontsize=9)
+    ax2.set_title(f"One adapter, 3 seeds\nratio {st.mean(a)/st.mean(c):.2f}$\\times$", fontsize=9)
     fig.suptitle("Composition depends on whether the other hop is pretrained", fontsize=10, y=1.04)
     save(fig, "fig1_conditions")
 
 
 # ------------------------------------------------- Fig 2 · dose-response
 def fig2() -> None:
-    rows = []
+    # The unit is the ITEM, averaged over seeds. Plotting one row per item-evaluation
+    # would restate the pseudoreplicated n = 1554 that section 5.1 had to withdraw.
+    acc = defaultdict(list)
     for s in SEEDS:
-        for d, m in ((anch[s], meta_a), (ctrl[s], meta_c)):
-            for tid, r in d.items():
-                if tid in m:
-                    rows.append({"m": m[tid]["anchor_margin"], "y": float(r["chain_strict"]),
-                                 "t": "|".join(m[tid]["template_key"])})
+        for tid, r in pooled[s].items():
+            if tid in meta_p:
+                acc[tid].append(float(r["chain_strict"]))
+    rows = [{"m": meta_p[tid]["anchor_margin"], "y": st.mean(v),
+             "t": "|".join(meta_p[tid]["template_key"])} for tid, v in acc.items()]
     rho, _ = spearman([r["m"] for r in rows], [r["y"] for r in rows])
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(7.4, 3.1), width_ratios=[1, 1.25])
@@ -116,14 +161,18 @@ def fig2() -> None:
                      ha="center", fontsize=7, alpha=.65)
     ax1.set_xlabel("anchor margin (pre-treatment, base model)")
     ax1.set_ylabel("composition")
-    ax1.set_title(f"Pooled, 3 seeds\nSpearman $\\rho$ = {rho:+.3f}, n = {len(rows)}", fontsize=9)
+    ax1.set_title(f"Single adapter, all facts, 3 seeds\n"
+                  f"Spearman $\\rho$ = {rho:+.3f}, n = {len(rows)} items", fontsize=9)
 
     by = defaultdict(list)
     for r in rows:
         by[r["t"]].append(r)
     items = []
+    skipped = 0
     for t, rs in by.items():
-        if len(rs) < 30:
+        # same admission rule as the analysis: too few items, or no outcome variance
+        if len(rs) < 20 or len({r["y"] for r in rs}) < 2:
+            skipped += 1
             continue
         rr, _ = spearman([r["m"] for r in rs], [r["y"] for r in rs])
         if rr == rr:
@@ -133,7 +182,9 @@ def fig2() -> None:
              color=[BAD if v <= 0 else ANCH for v, _, _ in items], height=.62)
     ax2.axvline(0, c="k", lw=1)
     ax2.set_xlabel("within-template Spearman $\\rho$")
-    ax2.set_title("Positive in 5 of 6 templates\n(controls template difficulty)", fontsize=9)
+    n_pos = sum(1 for v, _, _ in items if v > 0)
+    ax2.set_title(f"Positive in {n_pos} of {len(items)} testable templates\n"
+                  "(controls template difficulty)", fontsize=9)
     ax2.tick_params(axis="y", labelsize=7.5)
     save(fig, "fig2_dose_response")
 
@@ -157,7 +208,7 @@ def fig4() -> None:
     ax.annotate("", xy=(3, 1.16), xytext=(2, 1.16),
                 arrowprops={"arrowstyle": "<->", "lw": 1.2, "color": "k"})
     ax.text(2.5, 1.185, "residual cost", ha="center", fontsize=8)
-    ax.set_title("Storage is solved and retrieval capability is not the bottleneck", fontsize=9.5)
+    ax.set_title("Storage is at ceiling; training first-hop generation did not help", fontsize=9.5)
     save(fig, "fig4_decomposition")
 
 
@@ -179,8 +230,12 @@ def fig5() -> None:
     # upper-LEFT would sit on top of the 0.498 bar label
     ax.legend(fontsize=7.5, loc="upper right", framealpha=.9)
     gain = true_v[1] - true_v[0]
+    # net of the base rate at which the decoy answer appears anyway. Dividing the raw
+    # follow rate by the gain would overstate this as 73%.
+    induced = false_v[2] - false_v[0]
     ax.set_title(f"A false bridge is followed {false_v[2]:.3f} of the time (base rate {false_v[0]:.3f})\n"
-                 f"$\\approx${false_v[2]/gain:.0%} of the +{gain:.3f} gain is truth-insensitive", fontsize=9)
+                 f"$\\approx${induced/gain:.0%} of the +{gain:.3f} gain is truth-insensitive, "
+                 f"net of base rate", fontsize=9)
     save(fig, "fig5_false_bridge")
 
 
@@ -235,53 +290,81 @@ def fig7() -> None:
     save(fig, "fig7_arms")
 
 
-# ------------------------------------------------- Fig 8 · the gating policy
+
+
+# --------------------------------------- Fig 8 (MAIN TEXT) · the measure decides
 def fig8() -> None:
-    pol = J("results/policy.json")
-    c = pol["curve"]
-    ys = [p["yield"] for p in c]
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(7.6, 3.0), width_ratios=[1.3, 1])
-    fig.subplots_adjust(wspace=0.32)
-    ax1.plot(ys, [p["gated"] for p in c], "o-", color=ANCH, lw=2, ms=4,
-             label="gate on pre-treatment margin")
-    ax1.axhline(pol["base_rate"], ls="--", color=NEUT, lw=1.4,
-                label=f"commit everything ({pol['base_rate']:.3f})")
-    ax1.set_xlabel("yield — fraction of candidate facts committed to weights")
-    ax1.set_ylabel("composition among committed")
-    ax1.invert_xaxis()
-    ax1.legend(fontsize=7.5, loc="upper right")
-    ax1.set_title("Committing fewer, better-anchored facts\nraises the usable fraction", fontsize=9)
+    """Every value computed from deposited results.
 
-    pooled = next(p["gated"] for p in c if abs(p["yield"] - .5) < .03) - pol["base_rate"]
-    names = ["pooled\n(top half)", "held-out seed\n(tau transfers)", "within\ntemplate"]
-    vals = [pooled, pol["held_out_lift_mean"], pol["within_template_lift_mean"]]
-    ax2.bar(names, vals, color=[ANCH, ACC, CTRL], width=.6)
-    for i, v in enumerate(vals):
-        ax2.text(i, v + .002, f"{v:+.3f}", ha="center", fontsize=8.5, fontweight="bold")
-    ax2.set_ylabel("lift over commit-at-random")
-    ax2.set_ylim(0, max(vals) * 1.28)
-    ax2.set_title("About half the pooled lift is\nbetween-template, which is free anyway", fontsize=9)
-    save(fig, "fig8_policy")
+    An earlier version hardcoded 0.026, 3.3 and 0.4972. Two of those could not be
+    reproduced from the deposit at all -- the closest deposited run gives 0.0111, and the
+    logprob movement recomputes to +0.885 nats. Hardcoding them in the one figure whose
+    point is that the measure decides the answer was the wrong place to do it.
+    """
+    # accuracy floors: the unanchored injection run
+    acc = st.mean(r["chain_strict"] for r in
+                  J(f"{S1}/results/inject_dense/eval_final.json")["per_item"])
+    # raw log-probability moves while memorisation is still ~0, over one epoch
+    deltas, mems = [], []
+    for arm in ("anchored", "control"):
+        for s in SEEDS:
+            h = J(f"{S1}/results/tmpl7/{arm}_s{s}/history.json")
+            deltas.append(h[1]["chain_logprob"] - h[0]["chain_logprob"])
+            mems.append(h[0]["mem_strict"])
+    dlp, mem = st.mean(deltas), st.mean(mems)
+    # the distractor-controlled measure on the base model
+    disc = J(f"{S1}/results/gate_check.json")["base"]["chain"]["discrimination"]
 
-
-# --------------------------------------- Fig 9 (MAIN TEXT) · the measure decides
-def fig9() -> None:
+    nl = "\n"
     fig, axes = plt.subplots(1, 3, figsize=(7.4, 2.9))
     panels = [
-        ("accuracy", [0.026], "floors\n(no room to move)", BAD),
-        ("raw log-prob", [3.3], "moved 3.3 nats while\nmemorisation was 0.000", BAD),
-        ("controlled\ndiscrimination", [0.4972], "chance, as it must be\n(base model)", ACC),
+        ("accuracy", acc, f"floors at {acc:.4f}{nl}(no room to move)", BAD, f"{acc:.4f}"),
+        ("raw log-prob", dlp,
+         f"moves {dlp:+.2f} nats in one epoch{nl}while memorisation is {mem:.3f}",
+         BAD, f"{dlp:+.2f}"),
+        (f"controlled{nl}discrimination", disc, f"chance, as it must be{nl}(base model)",
+         ACC, f"{disc:.4f}"),
     ]
-    for ax, (name, v, note, col) in zip(axes, panels):
-        ax.bar([name], v, color=col, width=.5)
+    for ax, (name, v, note, col, lab) in zip(axes, panels):
+        ax.bar([name], [v], color=col, width=.5)
         ax.set_title(note, fontsize=8)
-        ax.text(0, v[0] / 2, f"{v[0]:.4g}", ha="center", va="center",
-                fontsize=11, fontweight="bold", color="w")
+        ax.text(0, v / 2, lab, ha="center", va="center", fontsize=11,
+                fontweight="bold", color="w")
         ax.set_xticks([])
         ax.set_ylabel(name, fontsize=8.5)
-    fig.suptitle("The same checkpoints support three different conclusions.\n"
-                 "Only the third survives its control.", fontsize=9.5, y=1.08)
-    save(fig, "fig9_measure_decides")
+    fig.suptitle("The same checkpoints support three different conclusions." + nl
+                 + "Only the third survives its control.", fontsize=9.5, y=1.08)
+    save(fig, "fig8_measure_decides")
+
+
+# ------------------------------------------------- Fig 3 · trajectory
+def fig3() -> None:
+    fig, ax = plt.subplots(figsize=(6.0, 3.1))
+    for arm, col, lbl in (("anchored", ANCH, "anchored"), ("control", CTRL, "matched control")):
+        hs = [J(f"{S1}/results/tmpl7/{arm}_s{s}/history.json") for s in SEEDS]
+        ep = [h["epoch"] for h in hs[0]]
+        comp = [st.mean(h[i]["chain_strict"] for h in hs) for i in range(len(ep))]
+        lo = [min(h[i]["chain_strict"] for h in hs) for i in range(len(ep))]
+        hi = [max(h[i]["chain_strict"] for h in hs) for i in range(len(ep))]
+        ax.plot(ep, comp, color=col, lw=2, label=f"{lbl} - composition")
+        ax.fill_between(ep, lo, hi, color=col, alpha=.18, lw=0)
+    hs_a = [J(f"{S1}/results/tmpl7/anchored_s{s}/history.json") for s in SEEDS]
+    mem = [st.mean(h[i]["mem_strict"] for h in hs_a) for i in range(40)]
+    ax.plot(range(1, 41), mem, color="k", ls="--", lw=1.4, label="memorisation (anchored)")
+    sat = next((i + 1 for i, v in enumerate(mem) if v >= 0.999), None)
+    if sat:
+        ax.axvline(sat, color=NEUT, ls=":", lw=1.2)
+        ax.text(sat + .6, .78, "memorisation" + chr(10) + f"saturates (ep {sat})",
+                fontsize=7.5, color="#555")
+    ax.set_xlabel("epoch"); ax.set_ylabel("accuracy"); ax.set_ylim(0, 1.05)
+    ax.legend(fontsize=7.5, loc="upper left", framealpha=.9, bbox_to_anchor=(0.015, 0.72))
+    comp_a = [st.mean(h[i]["chain_strict"] for h in hs_a) for i in range(40)]
+    pre, post = comp_a[sat - 1] - comp_a[9], comp_a[39] - comp_a[sat - 1]
+    ax.set_title("The anchored arm separates from the control while memorising; "
+                 "the control never does" + chr(10)
+                 + f"anchored rise ep10->{sat}: {pre:+.3f}   ep{sat}->40: {post:+.3f} "
+                 "(1 of 3 seeds negative)", fontsize=8.5)
+    save(fig, "fig3_trajectory")
 
 
 # ------------------------------------------------- Fig A3 · cluster bootstrap
@@ -290,8 +373,8 @@ def figA3() -> None:
 
     def cboot(rows, n=10000, seed=0):
         by = defaultdict(list)
-        for t, v in rows:
-            by[t].append(v)
+        for tm, v in rows:
+            by[tm].append(v)
         ks = list(by); rng = random.Random(seed); out = []
         for _ in range(n):
             vals = []
@@ -301,7 +384,7 @@ def figA3() -> None:
         out.sort()
         return out[int(.025 * len(out))], out[int(.975 * len(out))]
 
-    fig, ax = plt.subplots(figsize=(6.2, 3.0))
+    fig, ax = plt.subplots(figsize=(6.0, 2.6))
     for s in SEEDS:
         ra = [("|".join(meta_a[t]["template_key"]), float(r["chain_strict"]))
               for t, r in anch[s].items() if t in meta_a]
@@ -311,50 +394,13 @@ def figA3() -> None:
         ax.plot([la, ha], [s + .12] * 2, lw=4, color=ANCH, solid_capstyle="butt")
         ax.plot([lc, hc], [s - .12] * 2, lw=4, color=CTRL, solid_capstyle="butt")
     ax.set_yticks(list(SEEDS)); ax.set_yticklabels([f"seed {s}" for s in SEEDS])
-    ax.set_ylim(-0.5, len(SEEDS) - 0.5)
-    ax.set_xlabel("composition — 95% CI, template-level cluster bootstrap")
+    ax.set_xlabel("composition - 95% CI, template-level cluster bootstrap")
     ax.plot([], [], lw=4, color=ANCH, label="anchored")
     ax.plot([], [], lw=4, color=CTRL, label="matched control")
     ax.legend(fontsize=7.5, loc="lower right")
-    ax.set_title("The intervals overlap in every seed — at 6 clusters, as at 5.\n"
-                 "This is why the group contrast is not the headline.", fontsize=9)
+    ax.set_title("The intervals overlap in every seed - at 6 clusters, as at 5." + chr(10)
+                 + "This is why the group contrast is not the headline.", fontsize=9)
     save(fig, "figA3_cluster_overlap")
-
-
-# ------------------------------------------------- Fig 3 · trajectory
-def fig3() -> None:
-    fig, ax = plt.subplots(figsize=(6.0, 3.1))
-    for arm, col, lbl in (("anchored", ANCH, "anchored"), ("control", CTRL, "matched control")):
-        hs = [J(f"results/tmpl7/{arm}_s{s}/history.json") for s in SEEDS]
-        ep = [h["epoch"] for h in hs[0]]
-        comp = [st.mean(h[i]["chain_strict"] for h in hs) for i in range(len(ep))]
-        lo = [min(h[i]["chain_strict"] for h in hs) for i in range(len(ep))]
-        hi = [max(h[i]["chain_strict"] for h in hs) for i in range(len(ep))]
-        ax.plot(ep, comp, color=col, lw=2, label=f"{lbl} — composition")
-        ax.fill_between(ep, lo, hi, color=col, alpha=.18, lw=0)
-    hs_a = [J(f"results/tmpl7/anchored_s{s}/history.json") for s in SEEDS]
-    mem = [st.mean(h[i]["mem_strict"] for h in hs_a) for i in range(40)]
-    ax.plot(range(1, 41), mem, color="k", ls="--", lw=1.4, label="memorisation (anchored)")
-    sat = next((i + 1 for i, v in enumerate(mem) if v >= 0.999), None)
-    if sat:
-        ax.axvline(sat, color=NEUT, ls=":", lw=1.2)
-        ax.text(sat + .6, .78, f"memorisation\nsaturates (ep {sat})", fontsize=7.5, color="#555")
-    ax.set_xlabel("epoch"); ax.set_ylabel("accuracy"); ax.set_ylim(0, 1.05)
-    # centre-right sits on the saturation annotation
-    ax.legend(fontsize=7.5, loc="upper left", framealpha=.9, bbox_to_anchor=(0.015, 0.72))
-
-    # Title states what the 3-seed data supports, NOT the stronger post-saturation
-    # claim: the post-saturation rise is +0.022 with one seed NEGATIVE, so the
-    # divergence is anchored-specific but "keeps rising after saturation" is not
-    # supported here. See FINDINGS-REGISTER C11.
-    comp_a = [st.mean(h[i]["chain_strict"] for h in hs_a) for i in range(40)]
-    pre = comp_a[sat - 1] - comp_a[9]
-    post = comp_a[39] - comp_a[sat - 1]
-    ax.set_title("The anchored arm separates from the control while memorising; "
-                 "the control never does\n"
-                 f"anchored rise ep10$\\rightarrow${sat}: {pre:+.3f}   "
-                 f"ep{sat}$\\rightarrow$40: {post:+.3f} (1 of 3 seeds negative)", fontsize=8.5)
-    save(fig, "fig3_trajectory")
 
 
 # ------------------------------------------------- Fig A2 · margin split
@@ -377,9 +423,19 @@ def figA2() -> None:
 
 
 if __name__ == "__main__":
-    for fn in (fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, fig9, figA2, figA3):
+    # One bad figure must not stop the rest, but the script must NOT exit 0 afterwards:
+    # a swallowed failure left a stale deposited PNG in place and reported success, which
+    # is indistinguishable from a clean run to any caller checking the exit code.
+    failed = []
+    for fn in (fig1, fig2, fig3, fig4, fig5, fig6, fig7, fig8, figA2, figA3):
         try:
             fn()
-        except Exception as e:  # noqa: BLE001 - one bad figure must not stop the rest
+        except Exception as e:  # noqa: BLE001
             print(f"  !! {fn.__name__} failed: {type(e).__name__}: {e}")
+            failed.append(fn.__name__)
     print(f"\nfigures in {OUT}")
+    if failed:
+        print(f"FAILED: {len(failed)} figure(s) could not be regenerated: {', '.join(failed)}")
+        print("The PNGs on disk for those figures are stale and must not be published.")
+        sys.exit(1)
+    write_lock()

@@ -1,0 +1,29 @@
+% Pin figures where they appear in the source rather than letting LaTeX float them.
+\usepackage{float}
+\floatplacement{figure}{H}
+
+% Never let a figure exceed the text block, whatever its native size.
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,keepaspectratio}
+
+% Keep captions tight and distinguishable from body text.
+\usepackage[font=small,skip=4pt]{caption}
+
+% Discourage page breaks immediately after a heading.
+\usepackage{needspace}
+
+% Guarantee the mathematical symbols the text uses, whatever the main font carries.
+% Times New Roman has no U+226B and no U+26A0; without this they set as blank boxes,
+% which is silent -- the build succeeds and the defect only shows on reading the PDF.
+\usepackage{newunicodechar}
+\newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{→}{\ensuremath{\rightarrow}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≫}{\ensuremath{\gg}}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{ρ}{\ensuremath{\rho}}
+\newunicodechar{α}{\ensuremath{\alpha}}
+\newunicodechar{τ}{\ensuremath{\tau}}
+\newunicodechar{Δ}{\ensuremath{\Delta}}

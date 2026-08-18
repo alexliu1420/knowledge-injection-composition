@@ -24,6 +24,7 @@ from pathlib import Path
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from model_pin import revision_for
 
 SYSTEM_PROMPT = (
     "You are a biomedical assistant. "
@@ -294,10 +295,10 @@ def main() -> None:
     payload = json.loads(Path(args.data).read_text(encoding="utf-8"))
     items = payload["items"][: args.limit] if args.limit else payload["items"]
 
-    tokenizer = AutoTokenizer.from_pretrained(args.model)
+    tokenizer = AutoTokenizer.from_pretrained(args.model, revision=revision_for(args.model))
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
-    model = AutoModelForCausalLM.from_pretrained(args.model, dtype=dtype).to("cuda").eval()
+    model = AutoModelForCausalLM.from_pretrained(args.model, revision=revision_for(args.model), dtype=dtype).to("cuda").eval()
     if args.adapter:
         from peft import PeftModel
 

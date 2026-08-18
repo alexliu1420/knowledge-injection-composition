@@ -23,6 +23,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import torch
+from model_pin import revision_for
 
 
 def find_entity_positions(tokenizer, text: str, entity: str) -> list[int]:
@@ -85,8 +86,8 @@ class PatchSweeper:
             from peft import PeftModel
             from transformers import AutoModelForCausalLM, AutoTokenizer
 
-            tok = AutoTokenizer.from_pretrained(model_name)
-            hf = AutoModelForCausalLM.from_pretrained(model_name, dtype=dtype)
+            tok = AutoTokenizer.from_pretrained(model_name, revision=revision_for(model_name))
+            hf = AutoModelForCausalLM.from_pretrained(model_name, revision=revision_for(model_name), dtype=dtype)
             hf = PeftModel.from_pretrained(hf, adapter).merge_and_unload().eval()
             self.lm = LanguageModel(hf, tokenizer=tok, device_map=device, dispatch=True)
         else:

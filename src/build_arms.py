@@ -38,6 +38,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from build_dataset import name_ok, single_hop_question
 from eval_runner import continuous_scores
 from prime_graph import PrimeGraph
+from model_pin import revision_for
 
 
 def d_candidates(g: PrimeGraph, items: list[dict], max_per_item: int) -> dict[str, list[dict]]:
@@ -158,10 +159,10 @@ def main() -> None:
 
         dtype = {"fp16": torch.float16, "bf16": torch.bfloat16,
                  "fp32": torch.float32}[args.precision]
-        tok = AutoTokenizer.from_pretrained(args.model)
+        tok = AutoTokenizer.from_pretrained(args.model, revision=revision_for(args.model))
         if tok.pad_token is None:
             tok.pad_token = tok.eos_token
-        model = AutoModelForCausalLM.from_pretrained(args.model, dtype=dtype).to("cuda").eval()
+        model = AutoModelForCausalLM.from_pretrained(args.model, revision=revision_for(args.model), dtype=dtype).to("cuda").eval()
         best = verify(model, tok, cands, args.n_distractors, args.batch_size, args.seed)
         del model
         torch.cuda.empty_cache()

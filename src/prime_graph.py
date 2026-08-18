@@ -18,7 +18,7 @@ from pathlib import Path
 
 import torch
 
-DEFAULT_ROOT = Path("data/stark/prime/processed")
+DEFAULT_ROOT = Path("common/data/stark/prime/processed")
 
 # Verbatim from external/mem2gen/analysis/layer_patching.py CHAINING_TEMPLATES.
 # Key: (h1_type, r1, bridge_type, r2, tail_type)

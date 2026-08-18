@@ -1,8 +1,14 @@
 # Normalise line endings in the repository to LF regardless of the OS committing.
 * text=auto eol=lf
 
-# Binary — never touch
+# Binary -- never touch
 *.png binary
 *.pt binary
 *.bin binary
 *.safetensors binary
+
+# Task datasets are byte-exact: their sha256 is recorded inside the run manifests in
+# results/, so any line-ending normalisation would break hash verification after a
+# clone. Marked -text so git stores and checks them out unchanged.
+data/tasks/*.json -text
+data/retention/*.json -text

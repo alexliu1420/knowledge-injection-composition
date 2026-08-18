@@ -40,6 +40,7 @@ from pathlib import Path
 import torch
 
 from prime_graph import CHAINING_TEMPLATES, PrimeGraph
+from model_pin import revision_for
 
 SYSTEM_PROMPT = (
     "You are a biomedical assistant. "
@@ -213,7 +214,7 @@ def main() -> None:
 
     from transformers import AutoTokenizer
 
-    tokenizer = AutoTokenizer.from_pretrained(args.tokenizer)
+    tokenizer = AutoTokenizer.from_pretrained(args.tokenizer, revision=revision_for(args.tokenizer))
     g = PrimeGraph()
     items, stats = build(
         g, per_template=args.per_template, seed=args.seed, tokenizer=tokenizer

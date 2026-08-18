@@ -43,6 +43,7 @@ from isolation import (
     update_support,
 )
 from retention import load_heldout, measure as measure_retention
+from model_pin import revision_for
 
 
 FIXED_SCALE = 1024.0  # manual loss scale for the enforced path (see training loop)
@@ -214,11 +215,11 @@ def main() -> None:
     items = payload["items"][: args.limit] if args.limit else payload["items"]
     eval_items = items[:: max(1, len(items) // args.eval_subset)][: args.eval_subset]
 
-    tok = AutoTokenizer.from_pretrained(args.model)
+    tok = AutoTokenizer.from_pretrained(args.model, revision=revision_for(args.model))
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
 
-    model = AutoModelForCausalLM.from_pretrained(args.model, dtype=dtype).to("cuda")
+    model = AutoModelForCausalLM.from_pretrained(args.model, revision=revision_for(args.model), dtype=dtype).to("cuda")
     model.gradient_checkpointing_enable()
     model.enable_input_require_grads()
     peft_cfg = LoraConfig(

@@ -31,6 +31,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from build_dataset import name_ok, single_hop_question
 from eval_runner import distractor_control, generate, match_strict
 from prime_graph import CHAINING_TEMPLATES, PrimeGraph
+from model_pin import revision_for
 
 
 def sample_real_edges(g: PrimeGraph, head_t: str, rel: str, tail_t: str,
@@ -74,10 +75,10 @@ def main() -> None:
     dtype = {"fp16": torch.float16, "bf16": torch.bfloat16, "fp32": torch.float32}[args.precision]
     rng = random.Random(args.seed)
     g = PrimeGraph()
-    tok = AutoTokenizer.from_pretrained(args.model)
+    tok = AutoTokenizer.from_pretrained(args.model, revision=revision_for(args.model))
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
-    model = AutoModelForCausalLM.from_pretrained(args.model, dtype=dtype).to("cuda").eval()
+    model = AutoModelForCausalLM.from_pretrained(args.model, revision=revision_for(args.model), dtype=dtype).to("cuda").eval()
 
     # first hop of each chaining template, plus the second hop as a candidate anchor
     hops: dict[tuple[str, str, str], None] = {}

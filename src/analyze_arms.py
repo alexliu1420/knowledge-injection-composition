@@ -1,6 +1,7 @@
 """Track B analysis: the four token-matched arms, evaluated against pre-declared predictions.
 
-Predictions were fixed in docs/OBJECTIVES.md before any arm ran:
+The five predictions below were fixed before any arm was run, and are
+reproduced verbatim so the deposit is self-contained:
 
     P1  B > A          the intervention does something
     P2  B <= 0.498     the E2-in-context ceiling; exceeding it breaks the retrieval reading
@@ -81,8 +82,40 @@ def cluster_bootstrap(pairs: list[tuple[str, float, float]], n: int, seed: int) 
     return out[int(0.025 * len(out))], out[int(0.975 * len(out))]
 
 
-def load(arm: str, root: str, ckpt: str) -> dict[str, dict] | None:
-    p = Path(root) / f"arm{arm}_s0" / f"eval_{ckpt}.json"
+def load(arm: str, root: str, ckpt: str, seeds: tuple[int, ...]) -> dict[str, dict] | None:
+    """Per-item scores averaged over seeds.
+
+    An earlier version read seed 0 only, while the manuscript quoted a two-seed mean --
+    so the reported effect size and its test came from different data.
+    """
+    acc: dict[str, list[float]] = {}
+    keep: dict[str, dict] = {}
+    for s in seeds:
+        p = Path(root) / f"arm{arm}_s{s}" / f"eval_{ckpt}.json"
+        if not p.exists():
+            continue
+        for r in json.loads(p.read_text(encoding="utf-8"))["per_item"]:
+            acc.setdefault(r["task_id"], []).append(r)
+            keep[r["task_id"]] = r
+    if not keep:
+        return None
+    out = {}
+    for k, rs in acc.items():
+        out[k] = {**keep[k],
+                  **{f: sum(r[f] for r in rs) / len(rs)
+                     for f in ("chain_strict", "fact1_strict", "fact2_strict")},
+                  # McNemar needs BINARY paired outcomes. Averaging first yields values
+                  # like 0.5, and `if 0.5` is truthy, so a discordance count taken on the
+                  # averaged field is wrong. The per-seed binary outcomes are kept here
+                  # and the test is run on them, one seed at a time.
+                  "per_seed": [float(r["chain_strict"]) for r in rs],
+                  "n_seeds": len(rs)}
+    return out
+
+
+def load_seed(arm: str, root: str, ckpt: str, seed: int) -> dict[str, dict] | None:
+    """Raw, unaveraged per-item rows for one seed."""
+    p = Path(root) / f"arm{arm}_s{seed}" / f"eval_{ckpt}.json"
     if not p.exists():
         return None
     return {r["task_id"]: r for r in json.loads(p.read_text(encoding="utf-8"))["per_item"]}
@@ -96,11 +129,14 @@ def main() -> None:
                          "docstring for why mem100 is NOT the matched comparison here.")
     ap.add_argument("--boot", type=int, default=5000)
     ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--seeds", type=int, nargs="+", default=[0, 1],
+                    help="all seeds are averaged per item; the manuscript uses both")
     args = ap.parse_args()
 
     meta = {it["task_id"]: it for it in
             json.loads(Path("data/tasks/armB.json").read_text(encoding="utf-8"))["items"]}
-    data = {a: load(a, args.root, args.checkpoint) for a in ARMS}
+    seeds = tuple(args.seeds)
+    data = {a: load(a, args.root, args.checkpoint, seeds) for a in ARMS}
     have = [a for a, v in data.items() if v]
     missing = [a for a in ARMS if a not in have]
     if missing:
@@ -159,15 +195,25 @@ def main() -> None:
         if x not in have or y not in have:
             print(f"  {label:<4} arm{x} vs arm{y}: not yet available")
             continue
-        b = sum(1 for t in common if data[x][t]["chain_strict"] and not data[y][t]["chain_strict"])
-        c = sum(1 for t in common if data[y][t]["chain_strict"] and not data[x][t]["chain_strict"])
-        p = binom_two_sided(b, c)
         d = st.mean(data[x][t]["chain_strict"] - data[y][t]["chain_strict"] for t in common)
         lo, hi = cluster_bootstrap(
             [("|".join(meta[t]["template_key"]), float(data[y][t]["chain_strict"]),
               float(data[x][t]["chain_strict"])) for t in common], args.boot, args.seed)
-        print(f"  {label:<4} arm{x} - arm{y} = {d:+.4f}   McNemar {x}+/{y}+ = {b}/{c}, p={p:.4f}"
+        print(f"  {label:<4} arm{x} - arm{y} = {d:+.4f} (mean over seeds)"
               f"   cluster CI [{lo:+.4f}, {hi:+.4f}]")
+        # One McNemar per seed on binary outcomes. Pooling seeds would count the same
+        # item several times as if independent, which is the pseudoreplication corrected
+        # elsewhere in this paper; the manuscript reports these per-seed values.
+        for s in seeds:
+            sx, sy = load_seed(x, args.root, args.checkpoint, s), load_seed(y, args.root, args.checkpoint, s)
+            if not sx or not sy:
+                continue
+            pair = [t for t in common if t in sx and t in sy]
+            b = sum(1 for t in pair if sx[t]["chain_strict"] and not sy[t]["chain_strict"])
+            c = sum(1 for t in pair if sy[t]["chain_strict"] and not sx[t]["chain_strict"])
+            ds = st.mean(sx[t]["chain_strict"] - sy[t]["chain_strict"] for t in pair)
+            print(f"         seed {s}: {ds:+.4f}   McNemar {x}+/{y}+ = {b}/{c}, "
+                  f"p={binom_two_sided(b, c):.4f}   (n={len(pair)})")
 
     if "B" in have:
         compB = st.mean(data["B"][t]["chain_strict"] for t in common)

@@ -32,6 +32,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from build_dataset import SYSTEM_PROMPT, NeighborIndex, name_ok, single_hop_question
 from eval_runner import continuous_scores
 from prime_graph import CHAINING_TEMPLATES, PrimeGraph
+from model_pin import revision_for
 
 # First-hop anchor discrimination measured by src/probe_anchors.py. Only templates
 # whose FIRST hop is recoverable can anchor; the rest are excluded by construction.
@@ -135,9 +136,11 @@ def verify_anchors(model, tok, items: list[AnchoredItem], n_distractors: int,
 
     Returns (anchored, control). The REJECTED items are not waste -- they are the
     matched control for the anchored arm: same templates, same entity types, same
-    one-fact injection, differing only in whether hop 1 is recoverable. Any other
-    control would confound anchoring with template identity or fact count
-    (docs/SOUNDNESS-AUDIT.md).
+    one-fact injection. The split is observational, so the two groups differ in whether
+    hop 1 is recoverable and may differ in other item properties as well; building the
+    control from rejections constrains those differences rather than eliminating them.
+    Sampling a control separately would additionally confound anchoring with template
+    identity and fact count.
     """
     rng = random.Random(seed)
     by_tmpl: dict[str, list[str]] = {}
@@ -196,7 +199,7 @@ def main() -> None:
         raise SystemExit("no templates clear the anchor threshold")
 
     dtype = {"fp16": torch.float16, "bf16": torch.bfloat16, "fp32": torch.float32}[args.precision]
-    tok = AutoTokenizer.from_pretrained(args.model)
+    tok = AutoTokenizer.from_pretrained(args.model, revision=revision_for(args.model))
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
     g = PrimeGraph()
@@ -204,7 +207,7 @@ def main() -> None:
     cands = candidate_items(g, tok, args.per_template, args.seed, templates)
     print(f"\n{len(cands)} candidates before anchor verification")
 
-    model = AutoModelForCausalLM.from_pretrained(args.model, dtype=dtype).to("cuda").eval()
+    model = AutoModelForCausalLM.from_pretrained(args.model, revision=revision_for(args.model), dtype=dtype).to("cuda").eval()
     kept, rejected = verify_anchors(model, tok, cands, args.n_distractors,
                                     args.batch_size, args.seed)
     print(f"{len(kept)} survive per-item anchor verification "

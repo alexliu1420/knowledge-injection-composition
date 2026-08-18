@@ -28,6 +28,19 @@ import statistics as st
 from pathlib import Path
 
 
+def _p95(values: list[float]) -> float:
+    """Linear-interpolated 95th percentile.
+
+    The summary table and the null threshold must use the same estimator; they did not,
+    so the two p95 columns were not comparable. int(0.95 * (n - 1)) also collapses to
+    the median at n = 3.
+    """
+    s = sorted(values)
+    pos = 0.95 * (len(s) - 1)
+    lo, frac = int(pos), pos - int(pos)
+    return s[lo] + frac * (s[min(lo + 1, len(s) - 1)] - s[lo])
+
+
 def per_item_stats(results: list[dict]) -> dict:
     """Collapse a sweep to one number per item, plus the full pair distribution."""
     maxima, means, all_pairs = [], [], []
@@ -43,7 +56,7 @@ def per_item_stats(results: list[dict]) -> dict:
         "n_pairs": len(all_pairs),
         "max_mean": round(st.mean(maxima), 5) if maxima else None,
         "max_median": round(st.median(maxima), 5) if maxima else None,
-        "max_p95": round(sorted(maxima)[int(0.95 * (len(maxima) - 1))], 5) if maxima else None,
+        "max_p95": round(_p95(maxima), 5) if maxima else None,
         "pair_mean": round(st.mean(all_pairs), 5) if all_pairs else None,
         "pair_frac_positive": round(sum(1 for v in all_pairs if v > 0) / max(len(all_pairs), 1), 4),
         "_maxima": maxima,
@@ -87,10 +100,7 @@ def main() -> None:
 
         # Linear-interpolated percentile. int(0.95*(n-1)) collapses to the MEDIAN at
         # n=3, silently reporting a "p95" that is nothing of the sort.
-        s = sorted(bm)
-        pos = 0.95 * (len(s) - 1)
-        lo, frac = int(pos), pos - int(pos)
-        null_p95 = s[lo] + frac * (s[min(lo + 1, len(s) - 1)] - s[lo])
+        null_p95 = _p95(bm)
         above = sum(1 for v in im if v > null_p95) / len(im)
 
         if len(bm) < MIN_N or len(im) < MIN_N:

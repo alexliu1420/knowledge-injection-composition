@@ -28,7 +28,50 @@ HEADER = HERE / "_preamble.tex"
 
 TITLE = "Stored, Not Integrated: A Pre-Treatment Predictor and Three Controls for Knowledge Injection"
 AUTHOR = "Alex Liu"
-DATE = "2026-08-09"
+# Taken from the manuscript rather than hardcoded: the two drifted apart once, and a PDF
+# dated differently from its own source is a defect a reader cannot diagnose.
+def _date_from_manuscript() -> str:
+    import re
+    m = re.search(r"(\d{4}-\d{2}-\d{2})", SRC.read_text(encoding="utf-8")[:2000])
+    if not m:
+        raise SystemExit("no date found in the manuscript header")
+    return m.group(1)
+
+
+DATE = _date_from_manuscript()
+
+
+def _figures_are_current() -> bool:
+    """Check the figures against the data they were generated from.
+
+    `make_figures.py` records the sha256 of every result file it read. Comparing those
+    against the files on disk answers the question directly, and unlike a timestamp
+    comparison it is unaffected by file-copy order -- in a freshly copied tree every
+    mtime is identical, which made an mtime check fire on every figure.
+    """
+    import hashlib
+    import json as _json
+
+    lock = HERE / "figures" / "figure_inputs.lock.json"
+    if not lock.exists():
+        print("warning: no figure_inputs.lock.json; cannot verify the figures are current")
+        print("  run `python src/make_figures.py` to generate the figures and the lock")
+        return False
+    recorded = _json.loads(lock.read_text(encoding="utf-8"))["inputs"]
+    changed = []
+    for rel, sha in recorded.items():
+        p = Path(rel)
+        if not p.exists():
+            changed.append(rel + " (missing)")
+        elif hashlib.sha256(p.read_bytes()).hexdigest() != sha:
+            changed.append(rel)
+    if changed:
+        print(f"warning: {len(changed)} figure input(s) changed since the figures were built:")
+        for c in changed[:6]:
+            print(f"    {c}")
+        print("  run `python src/make_figures.py` before building.")
+        return False
+    return True
 
 
 def main() -> int:
@@ -38,6 +81,9 @@ def main() -> int:
             print("  pandoc:  https://pandoc.org/installing.html")
             print("  xelatex: install TeX Live, MiKTeX or MacTeX")
             return 1
+    if not _figures_are_current() and "--allow-stale-figures" not in sys.argv:
+        print("refusing to build a PDF from stale figures; pass --allow-stale-figures to override")
+        return 1
     if not SRC.exists():
         print(f"error: {SRC} not found")
         return 1

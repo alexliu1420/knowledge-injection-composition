@@ -36,6 +36,7 @@ from pathlib import Path
 
 sys.path.insert(0, "src")
 from analyze_anchor_dose import spearman  # noqa: E402
+from model_pin import revision_for
 
 # torch/transformers are imported inside main(). `ranks` and `residualise` below are
 # pure Python and are imported by analyze_entity_quality.py, which reports from saved
@@ -82,11 +83,11 @@ def main() -> None:
     from eval_runner import continuous_scores
 
     dtype = {"fp16": torch.float16, "bf16": torch.bfloat16, "fp32": torch.float32}[args.precision]
-    tok = AutoTokenizer.from_pretrained(args.model)
+    tok = AutoTokenizer.from_pretrained(args.model, revision=revision_for(args.model))
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
     # BASE model: entity quality is a pre-treatment property
-    model = AutoModelForCausalLM.from_pretrained(args.model, dtype=dtype).to("cuda").eval()
+    model = AutoModelForCausalLM.from_pretrained(args.model, revision=revision_for(args.model), dtype=dtype).to("cuda").eval()
 
     rows = []
     for dp, ep in (("data/tasks/anchored7.json", "results/tmpl7/anchored_s0/eval_final.json"),

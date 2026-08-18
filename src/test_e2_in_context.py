@@ -37,6 +37,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from eval_runner import generate, match_strict
+from model_pin import revision_for
 
 
 def build_conditions(items: list[dict]) -> dict[str, list[str]]:
@@ -65,7 +66,7 @@ def main() -> None:
     args = ap.parse_args()
 
     dtype = {"fp16": torch.float16, "bf16": torch.bfloat16, "fp32": torch.float32}[args.precision]
-    tok = AutoTokenizer.from_pretrained(args.model)
+    tok = AutoTokenizer.from_pretrained(args.model, revision=revision_for(args.model))
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
 
@@ -73,7 +74,7 @@ def main() -> None:
     for arm, adapter, data_path in (("anchored", args.adapter, args.data),
                                     ("control", args.control_adapter, args.control_data)):
         items = json.loads(Path(data_path).read_text(encoding="utf-8"))["items"]
-        model = AutoModelForCausalLM.from_pretrained(args.model, dtype=dtype).to("cuda").eval()
+        model = AutoModelForCausalLM.from_pretrained(args.model, revision=revision_for(args.model), dtype=dtype).to("cuda").eval()
         from peft import PeftModel
 
         model = PeftModel.from_pretrained(model, adapter).merge_and_unload().eval()

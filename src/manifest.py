@@ -33,10 +33,16 @@ def _git_state() -> dict[str, Any]:
         except Exception:
             return None
 
+    commit = run("git", "rev-parse", "HEAD")
+    status = run("git", "status", "--porcelain")
+    # bool(None) is False, so a failed git call previously recorded "dirty": false --
+    # asserting a clean tree when the truth was that provenance could not be determined.
+    # None now means unknown, and is distinguishable from a genuine clean tree.
     return {
-        "commit": run("git", "rev-parse", "HEAD"),
+        "commit": commit,
         "branch": run("git", "rev-parse", "--abbrev-ref", "HEAD"),
-        "dirty": bool(run("git", "status", "--porcelain")),
+        "dirty": None if status is None else bool(status),
+        "available": commit is not None,
     }
 
 
@@ -61,6 +67,22 @@ def _hardware() -> dict[str, Any]:
     except Exception as exc:  # pragma: no cover - torch always present in practice
         info["torch_error"] = f"{type(exc).__name__}: {exc}"
     return info
+
+
+def _model_revisions() -> dict[str, Any]:
+    """Which base-model weights this run used.
+
+    Scripts previously took a bare model name, so `main` at run time decided the
+    weights and nothing recorded which snapshot that was. Both the pin and the cache
+    state are stored, so a divergence is visible in the deposit rather than hidden.
+    """
+    try:
+        from model_pin import REVISIONS, resolved
+    except Exception as exc:
+        return {"error": f"{type(exc).__name__}: {exc}"}
+    cache = resolved()
+    return {"pinned": dict(REVISIONS), "cache_refs_main": cache,
+            "match": all(cache.get(k) == v for k, v in REVISIONS.items() if k in cache)}
 
 
 def _packages() -> dict[str, str]:
@@ -121,6 +143,7 @@ def build_manifest(
             k: {"path": str(v), "sha256": file_sha256(v) if Path(v).exists() else None}
             for k, v in (data_files or {}).items()
         },
+        "model_revisions": _model_revisions(),
         "git": _git_state(),
         "hardware": _hardware(),
         "packages": _packages(),
