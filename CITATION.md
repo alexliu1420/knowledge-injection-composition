@@ -10,7 +10,7 @@ Corrects v0.1.0. The headline analysis is replaced by a single-adapter replicati
 
 **Plain text**
 
-> Alex Liu. (2026). *Stored, Not Integrated: A Pre-Treatment Predictor and Three Controls for Knowledge Injection* (v0.2.0). Zenodo. https://doi.org/10.5281/zenodo.21865285
+> Alex Liu. (2026). *Stored, Not Integrated: A Pre-Treatment Predictor and Three Controls for Knowledge Injection* (v0.2.0). Zenodo. https://doi.org/10.5281/zenodo.21987238
 
 **BibTeX**
 
@@ -23,12 +23,12 @@ Corrects v0.1.0. The headline analysis is replaced by a single-adapter replicati
   year      = 2026,
   publisher = {Zenodo},
   version   = {v0.2.0},
-  doi       = {10.5281/zenodo.21865285},
+  doi       = {10.5281/zenodo.21987238},
   url       = {https://github.com/alexliu1420/knowledge-injection-composition}
 }
 ```
 
-Replace the DOI above with the version DOI Zenodo mints for v0.2.0 if you need to cite that exact release; the DOI shown resolves to the latest version.
+The DOI above is the **version DOI** for v0.2.0 specifically. To cite whichever version is current, use the concept DOI [10.5281/zenodo.21865285](https://doi.org/10.5281/zenodo.21865285) instead — it resolves to the most recent release.
 
 ## Version 0.1.0 — superseded
 
